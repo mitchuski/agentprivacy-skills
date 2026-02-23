@@ -93,7 +93,7 @@ Domain knowledge loaded by persona on demand.
 
 ---
 
-## Persona Skills (21)
+## Persona Skills (22)
 
 Behavioural configurations. Each persona folder contains:
 - `SKILL.md` — Identity, operational patterns, skill guidance
