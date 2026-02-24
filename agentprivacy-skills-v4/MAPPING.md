@@ -4,7 +4,7 @@ name: "Agent Skills Migration Mapping"
 version: "5.0"
 date: 2026-02-23
 origin: 0xagentprivacy
-total_skills: 58
+total_skills: 72
 ---
 
 # Agent Skills Migration Mapping
@@ -20,7 +20,7 @@ Use this document to update webapp routing, imports, and skill discovery.
 agentprivacy-skills/
 ├── .claude-plugin/plugin.json
 ├── privacy-layer/     (9 foundational skills)
-├── role/              (26 domain skills)
+├── role/              (40 domain skills)
 ├── meta/              (1 philosophical skill)
 └── persona/           (22 persona skills)
 ```
@@ -50,7 +50,7 @@ Always loaded as ground state. Every term of V(π,t) covered.
 
 ---
 
-## Role Skills (26)
+## Role Skills (40)
 
 Domain knowledge loaded by persona on demand.
 
@@ -82,6 +82,20 @@ Domain knowledge loaded by persona on demand.
 | `threat_adversarial.skills.md` | `agentprivacy-threat-adversarial` | `role/agentprivacy-threat-adversarial/` | 123 |
 | `trust_spanning.skills.md` | `agentprivacy-trust-spanning` | `role/agentprivacy-trust-spanning/` | 105 |
 | `understanding_as_key.skills.md` | `agentprivacy-understanding-as-key` | `role/agentprivacy-understanding-as-key/` | 172 |
+| `boundary_enforcement.skills.md` | `agentprivacy-boundary-enforcement` | `role/agentprivacy-boundary-enforcement/` | ~120 |
+| `enclave_operations.skills.md` | `agentprivacy-enclave-operations` | `role/agentprivacy-enclave-operations/` | ~115 |
+| `forensic_defense.skills.md` | `agentprivacy-forensic-defense` | `role/agentprivacy-forensic-defense/` | ~110 |
+| `grimoire_navigation.skills.md` | `agentprivacy-grimoire-navigation` | `role/agentprivacy-grimoire-navigation/` | ~125 |
+| `inscription_mechanics.skills.md` | `agentprivacy-inscription-mechanics` | `role/agentprivacy-inscription-mechanics/` | ~130 |
+| `intel_pooling.skills.md` | `agentprivacy-intel-pooling` | `role/agentprivacy-intel-pooling/` | ~115 |
+| `key_ceremony.skills.md` | `agentprivacy-key-ceremony` | `role/agentprivacy-key-ceremony/` | ~120 |
+| `metadata_resistance.skills.md` | `agentprivacy-metadata-resistance` | `role/agentprivacy-metadata-resistance/` | ~110 |
+| `nullifier_design.skills.md` | `agentprivacy-nullifier-design` | `role/agentprivacy-nullifier-design/` | ~105 |
+| `perimeter_hardening.skills.md` | `agentprivacy-perimeter-hardening` | `role/agentprivacy-perimeter-hardening/` | ~115 |
+| `revocation_mechanics.skills.md` | `agentprivacy-revocation-mechanics` | `role/agentprivacy-revocation-mechanics/` | ~120 |
+| `separation_enforcement.skills.md` | `agentprivacy-separation-enforcement` | `role/agentprivacy-separation-enforcement/` | ~125 |
+| `spell_encoding.skills.md` | `agentprivacy-spell-encoding` | `role/agentprivacy-spell-encoding/` | ~130 |
+| `story_diffusion.skills.md` | `agentprivacy-story-diffusion` | `role/agentprivacy-story-diffusion/` | ~115 |
 
 ---
 

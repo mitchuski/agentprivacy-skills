@@ -2,7 +2,7 @@
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-58 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
+72 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
 
 Built on the [Privacy Value Model V4](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
 
@@ -15,7 +15,7 @@ Built on the [Privacy Value Model V4](https://agentprivacy.ai) and the [0xagentp
 | Category | Count | Purpose |
 |----------|-------|---------|
 | **[persona/](persona/)** | 22 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
-| **[role/](role/)** | 26 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, and more. |
+| **[role/](role/)** | 40 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, and more. |
 | **[privacy-layer/](privacy-layer/)** | 9 | Foundational skills covering every term of the V(π,t) privacy value equation. |
 | **[meta/](meta/)** | 1 | Drake/Dragon philosophical duality. |
 
@@ -62,7 +62,7 @@ response = client.messages.create(
 - **7 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony)
 - **7 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability)
 
-**The 36 knowledge skills** provide the mathematical, economic, and governance foundations these personas draw from.
+**The 50 knowledge skills** (40 role + 9 privacy-layer + 1 meta) provide the mathematical, economic, and governance foundations these personas draw from.
 
 ---
 
@@ -99,7 +99,7 @@ This project engages with:
 - [BGIN](https://bgin-global.org/) — Identity, Key Management & Privacy Working Group (co-chair)
 - [Internet Identity Workshop](https://internetidentityworkshop.com/)
 - [Trust Over IP Foundation](https://trustoverip.org/)
-- [MyTerms Alliance](https://me2ba.org/) — IEEE 7012 standard
+- [MyTerms Alliance](https://myterms.info/) — IEEE 7012 standard
 - [First Person Network](https://firstperson.network/)
 - [Kwaai AI](https://kwaai.ai/)
 
