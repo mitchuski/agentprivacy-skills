@@ -90,6 +90,11 @@ The model explicitly states four breaking conditions: (B1) UOR structural incomp
 
 The model values privacy-preserving agent architectures. It does not: provide a general theory of data valuation, address privacy in non-agent contexts, model adversaries with quantum computational capabilities, or account for regulatory arbitrage across jurisdictions. The golden ratio conjecture, UOR correspondence, and ZKP efficiency claims are speculative and should not be treated as established results.
 
+## Key external references
+
+- Amcalar, A. & Cinar, E. "BRAID: Bounded Reasoning for Autonomous Inference and Decisions." arXiv:2512.15959 (2025). [Structured prompting economics, PPD metric, Generator/Solver split architecture, Numerical Masking Protocol]
+- Gershfield, M. "Holonic Architecture: Identity-Independent Data Structures for Cross-Environment Interoperability." OASIS / NextGen Software Whitepaper v1.2 (2026). [Holon model, HyperDrive runtime, multi-provider persistence, shared-parent patterns, Holonic BRAID]
+
 ## Suggested review criteria
 
 Reviewers may wish to evaluate: (1) whether the multiplicative gating assumption is empirically justified or overly restrictive; (2) whether the reconstruction ceiling proof in the companion paper (v3.8) is sound under the stated assumptions; (3) whether the 64-vertex lattice adds explanatory power beyond simpler network models; (4) whether the open conjectures are well-posed and falsifiable; and (5) whether the surveillance gap claims are robust to reasonable alternative parameterisations.

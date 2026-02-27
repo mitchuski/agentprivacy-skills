@@ -1,10 +1,12 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.0"
-date: 2026-02-23
+version: "5.2"
+date: 2026-02-26
 origin: 0xagentprivacy
-total_skills: 72
+total_skills: 78
+includes_holonic: true
+includes_braid: true
 ---
 
 # Agent Skills Migration Mapping
@@ -20,9 +22,9 @@ Use this document to update webapp routing, imports, and skill discovery.
 agentprivacy-skills/
 ├── .claude-plugin/plugin.json
 ├── privacy-layer/     (9 foundational skills)
-├── role/              (40 domain skills)
+├── role/              (45 domain skills)  ← includes holonic (4) + braid (1)
 ├── meta/              (1 philosophical skill)
-└── persona/           (22 persona skills)
+└── persona/           (23 persona skills)  ← includes holonic-architect
 ```
 
 Each skill folder contains:
@@ -50,9 +52,9 @@ Always loaded as ground state. Every term of V(π,t) covered.
 
 ---
 
-## Role Skills (40)
+## Role Skills (45)
 
-Domain knowledge loaded by persona on demand.
+Domain knowledge loaded by persona on demand. Includes 4 holonic integration skills + 1 BRAID reasoning skill.
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
@@ -96,6 +98,11 @@ Domain knowledge loaded by persona on demand.
 | `separation_enforcement.skills.md` | `agentprivacy-separation-enforcement` | `role/agentprivacy-separation-enforcement/` | ~125 |
 | `spell_encoding.skills.md` | `agentprivacy-spell-encoding` | `role/agentprivacy-spell-encoding/` | ~130 |
 | `story_diffusion.skills.md` | `agentprivacy-story-diffusion` | `role/agentprivacy-story-diffusion/` | ~115 |
+| *(holonic integration)* | `agentprivacy-holonic-persistence` | `role/agentprivacy-holonic-persistence/` | ~120 |
+| *(holonic integration)* | `agentprivacy-holonic-identity` | `role/agentprivacy-holonic-identity/` | ~130 |
+| *(holonic integration)* | `agentprivacy-holonic-reasoning` | `role/agentprivacy-holonic-reasoning/` | ~125 |
+| *(holonic integration)* | `agentprivacy-shared-parent-patterns` | `role/agentprivacy-shared-parent-patterns/` | ~115 |
+| *(BRAID integration)* | `agentprivacy-braid-reasoning` | `role/agentprivacy-braid-reasoning/` | ~200 |
 
 ---
 
@@ -107,9 +114,9 @@ Domain knowledge loaded by persona on demand.
 
 ---
 
-## Persona Skills (22)
+## Persona Skills (23)
 
-Behavioural configurations. Each persona folder contains:
+Behavioural configurations. Includes 1 holonic integration persona. Each persona folder contains:
 - `SKILL.md` — Identity, operational patterns, skill guidance
 - `references/constellation.md` — Spellbook path and example scenarios
 - `references/interaction-model.md` — Persona-to-persona relationships
@@ -139,6 +146,7 @@ Behavioural configurations. Each persona folder contains:
 | `agentprivacy_pedagogue.skills.md` | `agentprivacy-pedagogue` | balanced | `persona/agentprivacy-pedagogue/` | 199 |
 | `agentprivacy_person.skills.md` | `agentprivacy-person` | balanced | `persona/agentprivacy-person/` | 195 |
 | `agentprivacy_witness.skills.md` | `agentprivacy-witness` | balanced | `persona/agentprivacy-witness/` | 194 |
+| *(holonic integration)* | `agentprivacy-holonic-architect` | balanced | `persona/agentprivacy-holonic-architect/` | ~200 |
 
 ---
 

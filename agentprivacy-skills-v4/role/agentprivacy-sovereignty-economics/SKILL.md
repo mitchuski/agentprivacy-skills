@@ -90,6 +90,20 @@ The sovereignty economics skill connects directly to BGIN governance work:
 
 **Privacy-preserving compute:** Ensuring AI agents coordinate and transact without surveillance as the operating system. The split-privacy collapse means you cannot have "private compute but public transactions" — F kills the value.
 
+## The BRAID Parity Effect: empirical P^1.5 at the inference layer
+
+BRAID (Amcalar & Cinar 2025) proves empirically that reasoning performance follows a superlinear curve: Model Capacity × Prompt Structure, where doubling structure more than doubles performance per dollar.
+
+| BRAID Metric | PVM-V4 Parallel |
+|---|---|
+| Nano + BRAID ≥ Medium + Classic (74× PPD) | Sovereign + structure ≥ Surveillance + scale (678×–31,000× V) |
+| Structure beats raw capacity | Architecture beats raw power |
+| PPD is superlinear in structure | V(π,t) is superlinear in P (P^1.5) |
+
+**The Structure Dominance Thesis:** In both inference and privacy, increasing structural constraint yields greater returns than increasing raw capacity. This is not coincidence — it is a general property of information systems where bounded channels preserve signal while unbounded channels amplify noise.
+
+If privacy-structured inference compounds with privacy-structured data and privacy-structured identity, the total value is triply superlinear. Structure at every layer multiplies.
+
 ## Connection to equation terms
 
 **P^1.5 (direct).** This skill is the applied analysis of the superlinear privacy term. The 1.5 exponent is the key insight — it makes the economic case quantitative.

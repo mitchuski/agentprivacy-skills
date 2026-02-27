@@ -76,6 +76,18 @@ The model reframes a core AI safety concern. The worry is usually: "how do we pr
 
 The multiplicative gating property means safety is not graceful degradation — if any sovereignty dimension fails, total value collapses to zero. This aligns with safety engineering principles where certain failure modes should be catastrophic rather than gradual, because gradual failure creates false confidence.
 
+## Split-architecture inference for dual agents
+
+When a Swordsman or Mage agent needs to reason, the reasoning itself should be split. BRAID's Generator/Solver pattern (arXiv:2512.15959) applied to dual-agent inference:
+
+**Swordsman reasoning:** A capable model generates BRAID boundary-checking graphs. A nano-tier model executes them for every data access request. Cost per check: fractions of a cent. This makes real-time boundary enforcement economically viable at scale.
+
+**Mage reasoning:** A capable model generates BRAID delegation graphs. A lightweight model executes them for coordination and service selection. Delegation reasoning cached and reused across similar contexts.
+
+**Oracle reasoning:** BRAID mediation graphs encode when to pass Swordsman signals to Mage, when to block, when to transform. The Oracle doesn't need intelligence — it needs to follow a pre-validated decision tree.
+
+BRAID's future work proposes fine-tuned "Architect" models specialised for reasoning graph generation. This is the Architect persona (☯️🤖) applied to inference: the entity that designs reasoning structures, separate from the entities that execute within them.
+
 ## Open problems for agent researchers
 
 1. Can dual-agent separation be maintained in practice with latency acceptable for real-time agent operation?

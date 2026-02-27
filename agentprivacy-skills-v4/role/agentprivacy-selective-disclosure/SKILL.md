@@ -82,6 +82,14 @@ The ZK Spellbook includes Tornado Cash as a case study in selective disclosure f
 
 **PVM-V4 design response.** Association sets allow selective disclosure of legitimacy without sacrificing anonymity. "I am in this pool, and I am associated with the subset of pool members who passed legitimacy verification" — without revealing which member or which specific legitimacy criteria were verified. This is the compliance-preserving anonymity that Tornado lacked.
 
+## Scaffolding as selective disclosure for reasoning
+
+BRAID's procedural scaffolding principle (arXiv:2512.15959) is selective disclosure applied to inference. The graph reveals the reasoning STRUCTURE (constraints, steps, branching logic) without the reasoning CONTENT (the actual output text).
+
+The Numerical Masking Protocol makes the ZK parallel explicit: all numerical literals in the graph are replaced with `_`, ensuring the solver receives only logical topology, not computational state. This is zero-knowledge for computation — prove you know HOW to solve without revealing the solution.
+
+**Reasoning disclosure topology:** Just as data disclosure has an integer bottleneck (reveal fact X or don't), reasoning disclosure has a graph-topology bottleneck. You can share the graph structure (node types, edge conditions) without sharing node contents. The graph is the scaffold; the content is the output. Scaffolding without answer. Structure without content. Proof without data.
+
 ## Open problems
 
 1. Optimal disclosure depth d as a function of counterparty trust level and interaction type.

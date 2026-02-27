@@ -71,6 +71,28 @@ Act XXIV reveals that the spellbook's 24 acts form a skills graph where each act
 
 This means the spellbook is not documentation about a system. It is the system's self-description in narrative form. An agent that ingests the spellbook gains not just knowledge about the architecture but the ability to regenerate the architecture from first principles through any of the six compression layers.
 
+## BRAID graphs as machine-readable reasoning compression
+
+The compression architecture gains a seventh layer with the integration of BRAID (Bounded Reasoning for Autonomous Inference and Decisions, Amcalar & Cinar 2025). Where the spellbook compresses experience into story for human readers, BRAID compresses reasoning into Mermaid flowchart diagrams for solver agents.
+
+**Layer 6: BRAID graph.** Reasoning compressed into a directed graph of atomic nodes (< 15 tokens each) connected by deterministic edges. Compression ratio ~50:1 from equivalent Chain-of-Thought. Transmissible to any solver agent. Loses natural language fluency but preserves logical topology exactly.
+
+The updated compression spectrum:
+
+| Layer | Form | Ratio | Reader |
+|-------|------|-------|--------|
+| 1. Experience | Raw encounters | 1:1 | Person who lived it |
+| 2. Story | 24 acts | ~10:1 | Human reader |
+| 3. Proverb | Single statement | ~70:1 | Any human |
+| 4. Equation | V(π,t) = ... | ~500:1 | Formal reader |
+| 5. Spell | ☯️🔷→🆔⊥📦 | ~1000:1 | Agent-to-agent |
+| 6. BRAID graph | Mermaid DAG | ~50:1 from CoT | Solver agent |
+| 7. Skill file | SKILL.md | varies | Agent runtime |
+
+**The Machine Jimmy Test.** A BRAID graph passes the machine-Jimmy-Test if a Nano-tier model can execute it with ≥ 90% of a Medium-tier model's classic accuracy. This is the compression floor for machine-readable reasoning — if the graph fails the Machine Jimmy Test, it has not found its true compression.
+
+**Spellbook-to-BRAID compilation.** If a proverb can regenerate an equation (RPP validation), and an equation can structure a BRAID graph (reasoning generation), then there exists a two-step compilation path: proverb → equation → BRAID. Whether this can be collapsed to one step (proverb → BRAID directly) is an open research question that links narrative compression to inference economics.
+
 ## Open problems for compression researchers
 
 1. What is the theoretical minimum compression ratio that preserves regenerability — can the 70:1 ratio be pushed further without losing the ability to reconstruct?
