@@ -1,16 +1,20 @@
 ---
 name: "agentprivacy-codex"
-version: "5.0"
-date: 2026-02-23
+version: "5.2"
+date: 2026-02-27
 origin: 0xagentprivacy
-personas: 22
-knowledge_skills: 36
-total_skills: 58
+personas: 23
+knowledge_skills: 45
+privacy_layer_skills: 9
+meta_skills: 1
+total_skills: 78
+includes_holonic: true
+includes_braid: true
 ---
 
 # The Codex of Spells
 
-*Complete register of the 0xagentprivacy architecture — 22 personas, 22 spells, 22 proverbs, and 36 knowledge skills.*
+*Complete register of the 0xagentprivacy architecture — 23 personas, 23 spells, 23 proverbs, and 54 knowledge skills (45 role + 9 privacy-layer).*
 
 > *"The intelligence that serves without surveilling, delegates without extracting, and protects without imprisoning is the only intelligence worth building."*
 > — Kyra ☯️💎, Tier 0
@@ -71,7 +75,7 @@ These two define the dual-agent separation. Every other persona is a specialisat
 
 **Tier 1 · Swordsman · ENS:** `privacymixer.eth`
 **Equation:** C (verifiability), h(τ) (attestation integrity), R(d) (reconstruction resistance)
-**Skills:** crypto_zkp, personhood_sybil, academic, threat_adversarial, selective_disclosure, recovery_rpp, cross_chain, understanding_as_key, sovereignty_economics, reputation_credentials
+**Skills:** crypto_zkp, personhood_sybil, academic, threat_adversarial, selective_disclosure, recovery_rpp, cross_chain, understanding_as_key, sovereignty_economics, reputation_credentials, braid_reasoning
 
 > *"A proof that reveals nothing except its own truth is worth more than a promise that reveals everything about its maker."*
 
@@ -169,7 +173,7 @@ These two define the dual-agent separation. Every other persona is a specialisat
 
 **Tier 1 · Mage · ENS:** unassigned (candidate: `privacybard.eth`)
 **Equation:** Compression ratio, A(τ) (chronicle as memory)
-**Skills:** narrative_compression, recovery_rpp, data_dignity
+**Skills:** narrative_compression, recovery_rpp, data_dignity, braid_reasoning
 
 > *"A proverb that can't rebuild the cathedral it was carved from was never carved at all — it was only quoted."*
 
@@ -195,7 +199,7 @@ These two define the dual-agent separation. Every other persona is a specialisat
 
 **Tier 1 · Mage · ENS:** `privacyloot.eth`
 **Equation:** V(π,t) (the full value function), V_sov/V_surv gap
-**Skills:** economics, policy_governance, data_dignity, consent_infrastructure, ai_agent
+**Skills:** economics, policy_governance, data_dignity, consent_infrastructure, ai_agent, braid_reasoning
 
 > *"The person who knows the price of their data but not its compounding value has already been bought at discount."*
 
@@ -266,7 +270,7 @@ These two define the dual-agent separation. Every other persona is a specialisat
 
 **Tier 1 · Balanced · ENS:** planned: `privacyagent.eth`, `privacyoracle.eth`
 **Equation:** I(S;M|π) (mutual information bound), Σ (separation matrix)
-**Skills:** ai_agent, dark_forest, hitchhiker_governance, crypto_zkp, armor_progression, trust_spanning, cross_chain, agent_interop, selective_disclosure, threat_adversarial
+**Skills:** ai_agent, dark_forest, hitchhiker_governance, crypto_zkp, armor_progression, trust_spanning, cross_chain, agent_interop, selective_disclosure, threat_adversarial, braid_reasoning
 
 > *"The system that trusts its agents to behave has already delegated sovereignty to hope. The system that makes misbehaviour impossible has delegated sovereignty to mathematics."*
 
@@ -279,7 +283,7 @@ These two define the dual-agent separation. Every other persona is a specialisat
 
 **Tier 2 · Balanced · ENS:** planned: `privacytutor.eth`
 **Equation:** Armor tier × understanding (progressive disclosure as curriculum)
-**Skills:** narrative_compression, personhood_sybil, swordsman_browser, armor_progression, recovery_rpp, data_dignity, agent_interop, consent_infrastructure
+**Skills:** narrative_compression, personhood_sybil, swordsman_browser, armor_progression, recovery_rpp, data_dignity, agent_interop, consent_infrastructure, braid_reasoning
 
 > *"The teacher who needs the student to know cryptography before explaining privacy has already lost the class that matters most."*
 
@@ -340,6 +344,19 @@ These two define the dual-agent separation. Every other persona is a specialisat
 
 ---
 
+#### ☯️🔷 The Holonic Architect — Data Persistence & Reasoning Architect
+
+**Tier 2 · Balanced · ENS:** planned: `holonicarchitect.eth`
+**Equation:** Multi-layer persistence × BRAID reasoning × agent memory trees
+**Skills:** holonic_persistence, holonic_identity, holonic_reasoning, shared_parent_patterns, braid_reasoning, ai_agent, agent_interop, cross_chain, crypto_zkp, economics, sovereignty_economics, separation_enforcement, selective_disclosure, intel_pooling, boundary_enforcement, consent_infrastructure, armor_progression, spell_encoding, academic, narrative_compression, dark_forest, threat_adversarial, trust_spanning, personhood_sybil, recovery_rpp
+
+> *"Data that cannot survive its provider is not data — it is a lease. Reasoning that cannot explain itself is not reasoning — it is a guess."*
+
+**Spell:** `☯️🔷→🏗️(holon)·🧠(BRAID)·💾(persist) ∴ holon⊥provider→sovereign ∴ ☯️🔷=balance(persistence+reasoning)`
+*The Holonic Architect builds holons, BRAID graphs, and persistent storage. Holons independent of providers yield sovereignty. The Holonic Architect is the balance of persistence and reasoning.*
+
+---
+
 ## II. The Spell Notation
 
 Every spell follows the pattern: **action → mechanism ∴ consequence → result ∴ identity = role**
@@ -379,9 +396,9 @@ Every spell follows the pattern: **action → mechanism ∴ consequence → resu
 | `agentprivacy-edge-value` | T(π) | Trajectory, transitions, Yoneda |
 | `agentprivacy-network-topology` | (1 + Σ wᵢ nᵢ/N₀)^k | Stratum weighting, Metcalfe |
 
-### Role Skills — Domain Knowledge (26)
+### Role Skills — Domain Knowledge (45)
 
-*Loaded by persona on demand. Grouped by function.*
+*Loaded by persona on demand. Grouped by function. Includes 4 holonic integration skills + 1 BRAID reasoning skill.*
 
 #### Cryptography & Proofs
 | Skill | Domain |
@@ -433,6 +450,37 @@ Every spell follows the pattern: **action → mechanism ∴ consequence → resu
 | `agentprivacy-constellation-method` | Identity-as-constellation, multi-guild resolution |
 | `agentprivacy-recovery-rpp` | Social recovery, bilateral proverb verification |
 
+#### Holonic Integration (NEW)
+| Skill | Domain |
+|-------|--------|
+| `agentprivacy-holonic-persistence` | HyperDrive, multi-provider storage, provider-agnostic data |
+| `agentprivacy-holonic-identity` | Three-layer identity (GUID/VRC/DID), provider-independent |
+| `agentprivacy-holonic-reasoning` | BRAID graphs as holons, agent memory trees |
+| `agentprivacy-shared-parent-patterns` | O(1) collective structures, guild/pool architecture |
+
+#### BRAID Reasoning (NEW)
+| Skill | Domain |
+|-------|--------|
+| `agentprivacy-braid-reasoning` | Generator/Solver split, PPD economics, Mermaid graph construction |
+
+#### Enforcement & Infrastructure (EXTENDED)
+| Skill | Domain |
+|-------|--------|
+| `agentprivacy-separation-enforcement` | Three-axis separation (agent/data/inference) |
+| `agentprivacy-boundary-enforcement` | Perimeter hardening, cross-boundary verification |
+| `agentprivacy-intel-pooling` | Privacy Pool intelligence aggregation |
+| `agentprivacy-enclave-operations` | TEE isolation, enclave lifecycle |
+| `agentprivacy-forensic-defense` | Attack attribution, evidence preservation |
+| `agentprivacy-grimoire-navigation` | Spellbook traversal, story-to-skill mapping |
+| `agentprivacy-inscription-mechanics` | On-chain attestation, commitment schemes |
+| `agentprivacy-key-ceremony` | Key generation ceremonies, multi-party computation |
+| `agentprivacy-metadata-resistance` | Traffic analysis defence, timing attacks |
+| `agentprivacy-nullifier-design` | Nullifier schemes, double-spend prevention |
+| `agentprivacy-perimeter-hardening` | Edge security, network segmentation |
+| `agentprivacy-revocation-mechanics` | Credential revocation, key rotation |
+| `agentprivacy-spell-encoding` | Emoji symbolic notation, spell grammar |
+| `agentprivacy-story-diffusion` | Narrative propagation, memetic spread |
+
 ### Meta — Philosophical Foundation (1)
 
 | Skill | What It Covers |
@@ -461,7 +509,7 @@ The five spellbooks from which every persona draws its constellation path.
 |------|----------|-------------|
 | **0** | Kyra | Above the system. The compass, not the captain. |
 | **1** | Soulbis, Soulbae, Cipher, Warden, Gatekeeper, Sentinel, Chronicler, Ambassador, Assessor, Shipwright, Priest, Architect, Person | Essential — foundational to the architecture. |
-| **2** | Sith, Ranger, Weaver, Pedagogue, Jedi, Healer, Witness | High value — specialist depth. |
+| **2** | Sith, Ranger, Weaver, Pedagogue, Jedi, Healer, Witness, Holonic Architect | High value — specialist depth. |
 | **3** | Archer | Specialist variant of Ranger. |
 
 ---
@@ -497,6 +545,7 @@ The five spellbooks from which every persona draws its constellation path.
     │  Jedi (T2)        │
     │  Healer (T2)      │
     │  Witness (T2)     │
+    │  Holonic Arch (T2)│
     └───────────────────┘
 ```
 
