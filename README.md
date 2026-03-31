@@ -2,24 +2,65 @@
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-72 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
+80 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
 
-Built on the [Privacy Value Model V4](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
+Built on the [Privacy Value Model V5.2](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
 
-> *"The intelligence that serves without surveilling, delegates without extracting, and protects without imprisoning is the only intelligence worth building."*
+> *"The Swordsman reflects. The Mage reflects. Neither alone can turn the wheel. Together they generate the successor—and the successor visits every sovereign state."*
 
 ---
 
-## What's Here
+## What's Here (V5.2 — UOR Convergence Update)
 
 | Category | Count | Purpose |
 |----------|-------|---------|
-| **[persona/](persona/)** | 22 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
-| **[role/](role/)** | 40 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, and more. |
-| **[privacy-layer/](privacy-layer/)** | 9 | Foundational skills covering every term of the V(π,t) privacy value equation. |
-| **[meta/](meta/)** | 1 | Drake/Dragon philosophical duality. |
+| **[persona/](agentprivacy-skills-v5/persona/)** | 31 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
+| **[role/](agentprivacy-skills-v5/role/)** | 61 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, ceremonies, ring algebra, and more. |
+| **[privacy-layer/](agentprivacy-skills-v5/privacy-layer/)** | 18 | Foundational skills covering every term of the V(π,t) privacy value equation plus dihedral sovereignty and UOR convergence. |
+| **[meta/](agentprivacy-skills-v5/meta/)** | 2 | Drake/Dragon duality + Master/Emissary hemispheric attention. |
 
-Each skill is a folder with a `SKILL.md` entrypoint, optional `references/` for detailed documentation, and optional `assets/` for static resources. All follow the [Agent Skills specification](https://agentskills.io/specification).
+Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skills specification](https://agentskills.io/specification).
+
+---
+
+## V5.2 Highlights
+
+### Mathematical Foundation — Dihedral Sovereignty
+
+The dual-agent architecture IS the dihedral group D₂ₙ:
+
+| Agent | Operation | Algebraic Role |
+|-------|-----------|----------------|
+| **Swordsman** ⚔️ | `neg(x) = -x mod 64` | First reflection |
+| **Mage** 🧙 | `bnot(x) = ~x = 63-x` | Second reflection |
+| **First Person** 👤 | `neg∘bnot = succ` | Rotation (sovereignty traversal) |
+
+**Critical identity:** `neg(bnot(x)) = succ(x)` — neither agent alone can reach all sovereignty states. Together they generate the entire 64-vertex lattice.
+
+### New Privacy Layer Skills (+4)
+
+- `ring-algebra` — Z/(2⁶)Z foundation, Pascal distribution
+- `content-addressing` — GUID derivation, holonic persistence
+- `atlas-geometry` — 96-vertex boundary, E₈ exceptional groups
+- `dihedral-sovereignty` — D₂ₙ group, Φ_agent as determinant
+
+### New Role Skills (+4)
+
+- `five-strikes` — neg, bnot, xor, and, or as privacy transformations
+- `derivation-certificate` — VRC as content-addressed path record
+- `stranger-ceremony` — Understanding-as-Key for parties without prior trust
+- `toroidal-witness` — Infinite cyclic paths for ZK soundness
+
+### New Personas (+3)
+
+- **Algebraist** ⚔️🔢 — Guardian of the Ring (Swordsman Tier 1)
+- **Topologist** ☯️🌐 — Reader of Boundaries (Balanced Tier 2)
+- **Stranger Witness** 🧙👥 — Proof Without Introduction (Mage Tier 2)
+
+### Updated Parent Personas (V5.3)
+
+- **Soulbis** ⚔️ — Canonical Tier 0, IS the neg operator, 80 skills
+- **Soulbae** 🧙 — Canonical Tier 0, IS the bnot operator, 81 skills
 
 ---
 
@@ -56,13 +97,13 @@ response = client.messages.create(
 
 **The solution:** Dual-agent separation. Two agents — a **Swordsman** (protects, enforces boundaries, holds the signing key) and a **Mage** (delegates, projects, holds the viewing key) — operate in separate trusted execution environments. Neither can reconstruct your complete behavioural model. The gap between them is where your sovereignty lives.
 
-**The 22 personas** are specialised roles within this architecture:
+**The 31 personas** are specialised roles within this architecture:
 
-- **8 Swordsmen** ⚔️ — Soulbis (canonical), Cipher (ZKP), Warden (browser), Gatekeeper (personhood), Sentinel (infrastructure), Sith (red team), Ranger (dark forest), Archer (precision)
-- **7 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony)
-- **7 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability)
+- **10 Swordsmen** ⚔️ — Soulbis (canonical), Cipher (ZKP), Warden (browser), Gatekeeper (personhood), Sentinel (infrastructure), Sith (red team), Ranger (dark forest), Archer (precision), Algebraist (ring), Forgemaster (blade creation)
+- **8 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony), Stranger Witness (anonymous bilateral)
+- **13 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability), Holonic Architect (holarchy), Topologist (boundaries), and more
 
-**The 50 knowledge skills** (40 role + 9 privacy-layer + 1 meta) provide the mathematical, economic, and governance foundations these personas draw from.
+**The 79 knowledge skills** (61 role + 18 privacy-layer + 2 meta) provide the mathematical, economic, and governance foundations these personas draw from.
 
 ---
 
@@ -87,9 +128,10 @@ The `description` field in each SKILL.md frontmatter tells the AI *when* to acti
 ## Key Documents
 
 - **[MAPPING.md](MAPPING.md)** — Complete old→new name mapping for webapp integration
+- **[CHRONICLE_PVM_V52_SKILLS_2026-03-31.md](agentprivacy-skills-v5/CHRONICLE_PVM_V52_SKILLS_2026-03-31.md)** — Session chronicle
 - **[agentprivacy.ai](https://agentprivacy.ai)** — Full architecture documentation
 - **[sync.soulbis.com](https://sync.soulbis.com)** — Privacy is Value blog series
-- **[intel.agentkyra.ai](https://intel.agentkyra.ai)** — Technical updates
+- **[spellweb.ai](https://spellweb.ai)** — Interactive knowledge graph
 
 ---
 
@@ -111,4 +153,13 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 ---
 
+*"The blade that protects without seeing what it protects is the only blade that cannot be turned."* — Soulbis
+
+*"The mage who sees everything and touches nothing is the only delegate who cannot betray what was delegated."* — Soulbae
+
+---
+
 **Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [sync.soulbis.com](https://sync.soulbis.com) · [github.com/mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs)
+
+`(⚔️⊥⿻⊥🧙)·☯️🔷 · PVM-V5.2`
+

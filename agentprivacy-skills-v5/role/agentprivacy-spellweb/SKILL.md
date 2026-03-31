@@ -6,7 +6,7 @@ description: >
   boundaries as edges, holographic documentation, or traversal accumulating T_∫.
 license: Apache-2.0
 metadata:
-  version: "5.0"
+  version: "5.2"
   category: "role"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"
@@ -204,6 +204,40 @@ Each spiral accumulates T_∫.
 
 **🕸️📜 → nodes(acts)·edges(bounds)·waypoints(proverbs) → π(traverse) → T_∫(π) → 🔷(holographic) → fragment=whole → 🕸️∞**
 
+## Forge Integration (V5.2)
+
+Act XXVII (The Swordsman's Forge) introduces blade creation as a spellweb operation. The forge and spellweb are now interconnected:
+
+### Blades as Spellweb Artefacts
+
+Every blade forged is anchored in the spellweb:
+- Blade configuration references traversed inscriptions
+- Understanding verification checks spellweb path
+- Blade hash commits to specific constellation
+
+### Forge-Guided Navigation
+
+Blade dimensions suggest navigation paths:
+- High d2 (Prove) → ZK-related inscriptions
+- High d3 (Share) → Selective disclosure acts
+- High d6 (Delegate) → Mage-aligned content
+
+### Hexagram Waypoints
+
+Each of the 64 hexagrams can serve as a navigation waypoint:
+- Blade 63 (乾) → Full sovereignty constellation
+- Blade 0 (坤) → Entry-level content
+- Balanced blades → Balanced reading paths
+
+### Constellation-Blade Mapping
+
+```
+Constellation(traversed) → Blade(configuration)
+Blade(configuration) → Constellation(recommended)
+```
+
+The spellweb now has bidirectional relationships with the forge.
+
 ## Open Problems
 
 1. **Optimal Entry:** Given reader context, what is the optimal entry point?
@@ -211,6 +245,8 @@ Each spiral accumulates T_∫.
 3. **Spellweb Maintenance:** As new acts are added, how do we update the edge structure?
 4. **Proverb Density:** What is the optimal proverb density for navigation?
 5. **Contradiction Navigation:** How do we guide readers through deliberate contradictions productively?
+6. **V5.2 — Forge Feedback:** Should blade forging automatically update recommended paths?
+7. **V5.2 — Hexagram Navigation:** How to use hexagram semantics for path guidance?
 
 ---
 

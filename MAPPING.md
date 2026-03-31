@@ -1,12 +1,13 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.2"
-date: 2026-02-26
+version: "5.2.1"
+date: 2026-03-31
 origin: 0xagentprivacy
-total_skills: 78
+total_skills: 89
 includes_holonic: true
 includes_braid: true
+includes_dragon_anatomy: true
 ---
 
 # Agent Skills Migration Mapping
@@ -21,10 +22,10 @@ Use this document to update webapp routing, imports, and skill discovery.
 ```
 agentprivacy-skills/
 ├── .claude-plugin/plugin.json
-├── privacy-layer/     (9 foundational skills)
-├── role/              (45 domain skills)  ← includes holonic (4) + braid (1)
-├── meta/              (1 philosophical skill)
-└── persona/           (23 persona skills)  ← includes holonic-architect
+├── privacy-layer/     (10 foundational skills)  ← +1 dragon-flight (V5.2)
+├── role/              (52 domain skills)  ← includes holonic (4) + braid (1) + dragon anatomy (7)
+├── meta/              (2 philosophical skills)  ← +1 master-emissary (V5.0)
+└── persona/           (28 persona skills)  ← includes holonic-architect + V5.2 personas (3)
 ```
 
 Each skill folder contains:
@@ -34,9 +35,9 @@ Each skill folder contains:
 
 ---
 
-## Privacy Layer Skills (9)
+## Privacy Layer Skills (10)
 
-Always loaded as ground state. Every term of V(π,t) covered.
+Always loaded as ground state. Every term of V(π,t) covered. Includes dragon-flight threshold mechanics (V5.2).
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
@@ -49,12 +50,13 @@ Always loaded as ground state. Every term of V(π,t) covered.
 | `tetrahedral_sovereignty.skills.md` | `agentprivacy-tetrahedral-sovereignty` | `privacy-layer/agentprivacy-tetrahedral-sovereignty/` | 97 |
 | `uor_toroidal.skills.md` | `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | 91 |
 | `vrc_identity.skills.md` | `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | 83 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-dragon-flight` | `privacy-layer/agentprivacy-dragon-flight/` | ~180 |
 
 ---
 
-## Role Skills (45)
+## Role Skills (52)
 
-Domain knowledge loaded by persona on demand. Includes 4 holonic integration skills + 1 BRAID reasoning skill.
+Domain knowledge loaded by persona on demand. Includes 4 holonic integration skills + 1 BRAID reasoning skill + 7 dragon anatomy skills (V5.2).
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
@@ -103,20 +105,28 @@ Domain knowledge loaded by persona on demand. Includes 4 holonic integration ski
 | *(holonic integration)* | `agentprivacy-holonic-reasoning` | `role/agentprivacy-holonic-reasoning/` | ~125 |
 | *(holonic integration)* | `agentprivacy-shared-parent-patterns` | `role/agentprivacy-shared-parent-patterns/` | ~115 |
 | *(BRAID integration)* | `agentprivacy-braid-reasoning` | `role/agentprivacy-braid-reasoning/` | ~200 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-blade-forge` | `role/agentprivacy-blade-forge/` | ~220 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-hexagram-convergence` | `role/agentprivacy-hexagram-convergence/` | ~200 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-ceremony-engine` | `role/agentprivacy-ceremony-engine/` | ~230 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-pretext-measurement` | `role/agentprivacy-pretext-measurement/` | ~180 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-mana-economy` | `role/agentprivacy-mana-economy/` | ~210 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-quantum-defence` | `role/agentprivacy-quantum-defence/` | ~240 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-dual-territory` | `role/agentprivacy-dual-territory/` | ~250 |
 
 ---
 
-## Meta Skill (1)
+## Meta Skills (2)
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
 | `drake_dragon_duality.skills.md` | `agentprivacy-drake-dragon-duality` | `meta/agentprivacy-drake-dragon-duality/` | 56 |
+| *(V5.0 McGilchrist)* | `agentprivacy-master-emissary` | `meta/agentprivacy-master-emissary/` | ~120 |
 
 ---
 
-## Persona Skills (23)
+## Persona Skills (28)
 
-Behavioural configurations. Includes 1 holonic integration persona. Each persona folder contains:
+Behavioural configurations. Includes 1 holonic integration persona + 3 V5.2 dragon anatomy personas. Each persona folder contains:
 - `SKILL.md` — Identity, operational patterns, skill guidance
 - `references/constellation.md` — Spellbook path and example scenarios
 - `references/interaction-model.md` — Persona-to-persona relationships
@@ -147,6 +157,35 @@ Behavioural configurations. Includes 1 holonic integration persona. Each persona
 | `agentprivacy_person.skills.md` | `agentprivacy-person` | balanced | `persona/agentprivacy-person/` | 195 |
 | `agentprivacy_witness.skills.md` | `agentprivacy-witness` | balanced | `persona/agentprivacy-witness/` | 194 |
 | *(holonic integration)* | `agentprivacy-holonic-architect` | balanced | `persona/agentprivacy-holonic-architect/` | ~200 |
+| *(V5.0)* | `agentprivacy-netkeeper` | swordsman | `persona/agentprivacy-netkeeper/` | ~180 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-forgemaster` | swordsman | `persona/agentprivacy-forgemaster/` | ~200 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-ceremonist` | balanced | `persona/agentprivacy-ceremonist/` | ~200 |
+| *(V5.2 dragon anatomy)* | `agentprivacy-quantum-sentinel` | swordsman | `persona/agentprivacy-quantum-sentinel/` | ~200 |
+
+---
+
+## V5.2 Dragon Anatomy Sequence (Acts XXVII-XXIX)
+
+New skills from the Dragon Anatomy sequence:
+
+| Component | Skill | Category | Act |
+|-----------|-------|----------|-----|
+| Forge | `agentprivacy-blade-forge` | role | XXVII |
+| Forge | `agentprivacy-hexagram-convergence` | role | XXVII |
+| Ceremony | `agentprivacy-ceremony-engine` | role | XXVIII |
+| Ceremony | `agentprivacy-pretext-measurement` | role | XXVIII |
+| Ceremony | `agentprivacy-mana-economy` | role | XXVIII |
+| Flight | `agentprivacy-quantum-defence` | role | XXIX |
+| Architecture | `agentprivacy-dual-territory` | role | Spec |
+| Threshold | `agentprivacy-dragon-flight` | privacy-layer | XXIX |
+
+New personas:
+
+| Persona | Wing | Focus |
+|---------|------|-------|
+| `agentprivacy-forgemaster` | swordsman | Blade creation, hexagram mapping |
+| `agentprivacy-ceremonist` | balanced | Ceremony facilitation, mana economy |
+| `agentprivacy-quantum-sentinel` | swordsman | Quantum threat, temporal thesis |
 
 ---
 
