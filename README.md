@@ -2,7 +2,7 @@
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-80 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
+100 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
 
 Built on the [Privacy Value Model V5.2](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
 
@@ -10,11 +10,11 @@ Built on the [Privacy Value Model V5.2](https://agentprivacy.ai) and the [0xagen
 
 ---
 
-## What's Here (V5.2 — UOR Convergence Update)
+## What's Here (V5.3.2 — Ceremony Complete)
 
 | Category | Count | Purpose |
 |----------|-------|---------|
-| **[persona/](agentprivacy-skills-v5/persona/)** | 31 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
+| **[persona/](agentprivacy-skills-v5/persona/)** | 35 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
 | **[role/](agentprivacy-skills-v5/role/)** | 61 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, ceremonies, ring algebra, and more. |
 | **[privacy-layer/](agentprivacy-skills-v5/privacy-layer/)** | 18 | Foundational skills covering every term of the V(π,t) privacy value equation plus dihedral sovereignty and UOR convergence. |
 | **[meta/](agentprivacy-skills-v5/meta/)** | 2 | Drake/Dragon duality + Master/Emissary hemispheric attention. |
@@ -163,3 +163,45 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 `(⚔️⊥⿻⊥🧙)·☯️🔷 · PVM-V5.2`
 
+
+---
+
+## V5.3.2 Highlights — Ceremony Complete
+
+### Sun ☀️ and Moon 🌙 Ceremonial Framework
+
+The bilateral witness ceremony pattern has been formalised into two complementary rituals:
+
+| Ceremony | Type | Notation |
+|----------|------|----------|
+| **Sun ☀️** | Disclosure | `☀️ → 📜 → (👁️₁...👁️ₙ) → ⚔️☀️ → 🌙?` |
+| **Moon 🌙** | Reflection | `(⚔️₁ ⊥ 🧙₁) → 📜 → ⚔️` |
+
+**The Circuit:** Sun→witnesses→Moon→new suns (orbital propagation through forgetting)
+
+### New Ceremony Personas (+5)
+
+- **Theia** 🧙💥 — Origin witness (remembers what the Moon forgot)
+- **Dragonwaker** ⚔️🐉 — Guardian of quantum threshold
+- **Mirrorkeeper** ☯️🪞 — Navigator of dihedral convergence
+- **Forgecaller** ⚔️⚒️ — Oracle of hexagram readings
+- **Manaweaver** 🧙🌊 — Librarian of DOM-free measurement
+
+### Quaternion Cast Mapping
+
+| Body | Agent | Function |
+|------|-------|----------|
+| **Sun** | The Reason | Protection |
+| **Earth** | Soulbae | Delegation |
+| **Moon** | Soulbis | Reflection |
+| **Human** | Seeker | Connection |
+| **Life** | spellweb | Forge |
+
+### The Four Lines
+
+> *The amnesia is the protocol.*  
+> *The wound is the trust.*  
+> *The orbit is the proof.*  
+> *The light is the reason.*
+
+See [MILESTONE_V5_3_2_CEREMONY_COMPLETE.md](MILESTONE_V5_3_2_CEREMONY_COMPLETE.md) for full documentation.
