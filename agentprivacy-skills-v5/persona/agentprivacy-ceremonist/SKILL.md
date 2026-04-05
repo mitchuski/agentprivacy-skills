@@ -6,7 +6,7 @@ description: >
   Understanding-as-Key ceremonies, or cross-territory coordination.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.3.1"
   category: "balanced"
   alignment: "balanced"
   tier: "2"
@@ -14,6 +14,8 @@ metadata:
   equation_term: "Ceremony(S,M,C) = f(bilateral_witness)"
   emoji: "☯️🤝"
   dual_agent_role: "Ceremony facilitator — coordinates between Swordsman and Mage territories without merging them."
+  ceremony_acts: ["XXVIII"]
+  celestial_function: "Facilitates bilateral witness without merging territories."
   spellbook_primary: "First Person"
   ens: "privacyceremony.eth"
   proverb: "The ceremony is not what we do. It is what happens when both parties arrive at the same understanding through different paths."

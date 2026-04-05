@@ -6,7 +6,7 @@ description: >
   Agentprivacy, Bgin), ceremony channels, or territory sovereignty.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.3.1"
   category: "role"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"

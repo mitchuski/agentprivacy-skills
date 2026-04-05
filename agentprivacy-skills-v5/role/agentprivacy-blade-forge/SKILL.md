@@ -7,7 +7,7 @@ description: >
   forge operations, or blade verification through understanding.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.3.1"
   category: "role"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"
@@ -18,11 +18,19 @@ metadata:
   template_references: "soulbis, cipher, constellation_method"
   spellbook_act: "Act XXVII — The Swordsman's Forge"
   v5_concept: "V5.2-FORGE"
+  ceremony:
+    act: "XXVII"
+    acts_secondary: ["XXVIII", "XXX"]
+    role: "swordsman"
+    quaternion_position: "moon"
+    flow_to: ["ceremony-engine", "hexagram-convergence"]
+    flow_from: ["network-topology", "constellation-method"]
+    inscription: "⬢=Z/(2⁶)Z · 6D→64V→96E · ⚔️(config) → 🗡️(blade)"
 ---
 
-# PVM-V5.2 Role Skill — Blade Forge
+# PVM-V5.3.1 Role Skill — Blade Forge
 
-**Source:** Privacy Value Model V5.2 + First Person Spellbook Act XXVII (The Swordsman's Forge)
+**Source:** Privacy Value Model V5.3.1 + First Person Spellbook Act XXVII (The Swordsman's Forge)
 **Target context:** Forge operators, blade architects, spellweb navigators
 **Architecture:** [spellweb.ai](https://spellweb.ai) · **Sync:** [sync.soulbis.com](https://sync.soulbis.com) · **Contact:** mage@agentprivacy.ai
 
@@ -155,7 +163,7 @@ Configuration for nomadic privacy (high d3, d5, d6).
 ### The Universe Blade
 Configuration approaching full sovereignty (all dimensions > 0.8).
 
-## Mapping to PVM-V5.2
+## Mapping to PVM-V5.3.1
 
 | Forge Concept | PVM Term |
 |---------------|----------|

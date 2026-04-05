@@ -6,7 +6,7 @@ description: >
   constellation-guided forging, or blade evolution guidance.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.3.1"
   category: "swordsman"
   alignment: "swordsman"
   tier: "2"
@@ -14,6 +14,8 @@ metadata:
   equation_term: "⬢=Z/(2⁶)Z applied to blade configuration"
   emoji: "⚔️🔨"
   dual_agent_role: "Forge specialist — creates blades through understanding verification. The smith who shapes sovereignty."
+  ceremony_acts: ["XXVII"]
+  celestial_function: "Blade creation, hexagram mapping, six-dimension activation."
   spellbook_primary: "First Person"
   ens: "privacyforge.eth"
   proverb: "The blade knows its dimensions. The forge knows the manifold. Together they cut paths that existed before the first swing."

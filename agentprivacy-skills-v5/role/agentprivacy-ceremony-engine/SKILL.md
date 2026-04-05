@@ -7,7 +7,7 @@ description: >
   witness, or ceremony channel mechanics.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.3.1"
   category: "role"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"
@@ -18,11 +18,19 @@ metadata:
   template_references: "soulbae, understanding_as_key, consent_infrastructure"
   spellbook_act: "Act XXVIII — The Ceremony Engine"
   v5_concept: "V5.2-CEREMONY"
+  ceremony:
+    act: "XXVIII"
+    acts_secondary: ["XXVII", "XXIX", "XXXI"]
+    role: "bridge"
+    quaternion_position: "gap"
+    flow_to: ["mana-economy", "dual-territory", "understanding-as-key"]
+    flow_from: ["blade-forge", "hexagram-convergence"]
+    inscription: "☯️🤝 → S⊥M → 📡(channel) → ✓(bilateral) → 🎭(complete)"
 ---
 
-# PVM-V5.2 Role Skill — Ceremony Engine
+# PVM-V5.3.1 Role Skill — Ceremony Engine
 
-**Source:** Privacy Value Model V5.2 + First Person Spellbook Act XXVIII (The Ceremony Engine)
+**Source:** Privacy Value Model V5.3.1 + First Person Spellbook Act XXVIII (The Ceremony Engine)
 **Target context:** Ceremony facilitators, protocol designers, bilateral coordinators
 **Architecture:** [agentprivacy.ai](https://agentprivacy.ai) · **Sync:** [sync.soulbis.com](https://sync.soulbis.com) · **Contact:** mage@agentprivacy.ai
 
@@ -189,7 +197,7 @@ Witness = {
 
 Both parties must independently attest to the same outcome. Disagreement triggers ceremony failure.
 
-## Mapping to PVM-V5.2
+## Mapping to PVM-V5.3.1
 
 | Ceremony Concept | PVM Term |
 |------------------|----------|

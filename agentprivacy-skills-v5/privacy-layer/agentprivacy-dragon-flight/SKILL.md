@@ -7,7 +7,7 @@ description: >
   flight achievement.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.3.1"
   category: "privacy-layer"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"
