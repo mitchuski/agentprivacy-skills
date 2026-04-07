@@ -99,9 +99,9 @@ response = client.messages.create(
 
 **The 38 personas** are specialised roles within this architecture:
 
-- **10 Swordsmen** ⚔️ — Soulbis (canonical), Cipher (ZKP), Warden (browser), Gatekeeper (personhood), Sentinel (infrastructure), Sith (red team), Ranger (dark forest), Archer (precision), Algebraist (ring), Forgemaster (blade creation)
-- **8 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony), Stranger Witness (anonymous bilateral)
-- **13 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability), Holonic Architect (holarchy), Topologist (boundaries), and more
+- **15 Swordsmen** ⚔️ — Soulbis (canonical), Cipher (ZKP), Warden (browser), Gatekeeper (personhood), Sentinel (infrastructure), Sith (red team), Ranger (dark forest), Archer (precision), Algebraist (ring), Netkeeper (mesh), Forgemaster (blade creation), Quantum-Sentinel (quantum threat), Moonkeeper (amnesia), Dragonwaker (quantum threshold), Forgecaller (hexagram oracle)
+- **11 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony), Stranger-Witness (anonymous bilateral), Theia (origin witness), Manaweaver (pretext librarian), Herald (announcement)
+- **12 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability), Holonic-Architect (holarchy), Topologist (boundaries), Mirrorkeeper (dihedral convergence), Cosmologist (four-body mapping), Ceremonist (ceremony facilitation)
 
 **The 86 knowledge skills** (64 role + 19 privacy-layer + 3 meta) provide the mathematical, economic, and governance foundations these personas draw from.
 

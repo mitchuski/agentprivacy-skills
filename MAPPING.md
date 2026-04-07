@@ -133,9 +133,9 @@ Domain knowledge loaded by persona on demand. Includes 4 holonic integration ski
 
 ---
 
-## Persona Skills (35)
+## Persona Skills (38)
 
-Behavioural configurations. Includes 1 holonic integration persona + 3 V5.2 dragon anatomy personas + 2 V5.3 cosmological personas. Each persona folder contains:
+Behavioural configurations: 15 swordsmen, 11 mages, 12 balanced. Includes holonic integration, dragon anatomy, and ceremony personas. Each persona folder contains:
 - `SKILL.md` — Identity, operational patterns, skill guidance
 - `references/constellation.md` — Spellbook path and example scenarios
 - `references/interaction-model.md` — Persona-to-persona relationships
@@ -172,6 +172,15 @@ Behavioural configurations. Includes 1 holonic integration persona + 3 V5.2 drag
 | *(V5.2 dragon anatomy)* | `agentprivacy-quantum-sentinel` | swordsman | `persona/agentprivacy-quantum-sentinel/` | ~200 |
 | *(V5.3 amnesia protocol)* | `agentprivacy-moonkeeper` | swordsman | `persona/agentprivacy-moonkeeper/` | ~200 |
 | *(V5.3 amnesia protocol)* | `agentprivacy-cosmologist` | balanced | `persona/agentprivacy-cosmologist/` | ~200 |
+| *(V5.2 ring algebra)* | `agentprivacy-algebraist` | swordsman | `persona/agentprivacy-algebraist/` | ~200 |
+| *(V5.2 boundaries)* | `agentprivacy-topologist` | balanced | `persona/agentprivacy-topologist/` | ~200 |
+| *(V5.2 bilateral)* | `agentprivacy-stranger-witness` | mage | `persona/agentprivacy-stranger-witness/` | ~200 |
+| *(V5.0 announcement)* | `agentprivacy-herald` | mage | `persona/agentprivacy-herald/` | ~200 |
+| *(V5.3.1 ceremony)* | `agentprivacy-theia` | mage | `persona/agentprivacy-theia/` | ~200 |
+| *(V5.3.1 ceremony)* | `agentprivacy-dragonwaker` | swordsman | `persona/agentprivacy-dragonwaker/` | ~200 |
+| *(V5.3.1 ceremony)* | `agentprivacy-mirrorkeeper` | balanced | `persona/agentprivacy-mirrorkeeper/` | ~200 |
+| *(V5.3.1 ceremony)* | `agentprivacy-forgecaller` | swordsman | `persona/agentprivacy-forgecaller/` | ~200 |
+| *(V5.3.1 ceremony)* | `agentprivacy-manaweaver` | mage | `persona/agentprivacy-manaweaver/` | ~200 |
 
 ---
 

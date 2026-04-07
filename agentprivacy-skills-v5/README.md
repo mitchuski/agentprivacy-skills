@@ -2,9 +2,9 @@
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-100 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
+86 skills + 38 personas across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
 
-**Version:** V5.3.2 "Ceremony Complete" | **Grimoire:** 9.4.1 "The Ceremonies"
+**Version:** V5.3.2 "Ceremony Complete" | **Grimoire:** V10.0.0 "The First Person Spellbook Closes"
 
 Built on the [Privacy Value Model V5.3](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
 
@@ -16,9 +16,9 @@ Built on the [Privacy Value Model V5.3](https://agentprivacy.ai) and the [0xagen
 
 | Category | Count | Purpose |
 |----------|-------|---------|
-| **[persona/](persona/)** | 35 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Includes 5 ceremony personas. |
-| **[role/](role/)** | 54 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, ceremonies, quaternion mapping. |
-| **[privacy-layer/](privacy-layer/)** | 11 | Foundational skills covering every term of the V(π,t) privacy value equation, plus dragon-flight and amnesia-protocol. |
+| **[persona/](persona/)** | 38 | Agent personas — 15 swordsmen, 11 mages, 12 balanced. Includes ceremony personas. |
+| **[role/](role/)** | 64 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, ceremonies, quaternion mapping. |
+| **[privacy-layer/](privacy-layer/)** | 19 | Foundational skills covering every term of the V(π,t) privacy value equation, plus dragon-flight and amnesia-protocol. |
 | **[meta/](meta/)** | 3 | Drake/Dragon duality, Master/Emissary hemispheric attention, cosmological bound. |
 
 Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skills specification](https://agentskills.io/specification).
@@ -58,10 +58,10 @@ Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skill
 
 **Dual-agent separation:** Two agents — a **Swordsman** (protects, enforces boundaries, holds the signing key) and a **Mage** (delegates, projects, holds the viewing key) — operate in separate trusted execution environments. Neither can reconstruct your complete behavioural model. The gap between them is where your sovereignty lives.
 
-**The 35 personas:**
-- **11 Swordsmen** ⚔️ — Soulbis, Cipher, Warden, Gatekeeper, Sentinel, Sith, Ranger, Archer, Algebraist, Forgemaster, Dragonwaker, Forgecaller
-- **9 Mages** 🧙 — Soulbae, Chronicler, Ambassador, Assessor, Shipwright, Weaver, Priest, Stranger Witness, Theia, Manaweaver
-- **9 Balanced** ☯️ — Person, Architect, Pedagogue, Kyra, Jedi, Healer, Witness, Holonic Architect, Topologist, Mirrorkeeper
+**The 38 personas:**
+- **15 Swordsmen** ⚔️ — Soulbis, Cipher, Warden, Gatekeeper, Sentinel, Sith, Ranger, Archer, Algebraist, Netkeeper, Forgemaster, Quantum-Sentinel, Moonkeeper, Dragonwaker, Forgecaller
+- **11 Mages** 🧙 — Soulbae, Chronicler, Ambassador, Assessor, Shipwright, Weaver, Priest, Stranger-Witness, Theia, Manaweaver, Herald
+- **12 Balanced** ☯️ — Person, Architect, Pedagogue, Kyra, Jedi, Healer, Witness, Holonic-Architect, Topologist, Mirrorkeeper, Cosmologist, Ceremonist
 
 ---
 

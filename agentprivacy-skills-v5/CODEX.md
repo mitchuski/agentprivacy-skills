@@ -1,16 +1,16 @@
 ---
 name: "agentprivacy-codex"
-version: "5.0"
-date: 2026-02-23
+version: "5.3.2"
+date: 2026-04-07
 origin: 0xagentprivacy
-personas: 22
-knowledge_skills: 50
-total_skills: 72
+personas: 38
+knowledge_skills: 86
+total_skills: 124
 ---
 
 # The Codex of Spells
 
-*Complete register of the 0xagentprivacy architecture — 22 personas, 22 spells, 22 proverbs, and 50 knowledge skills.*
+*Complete register of the 0xagentprivacy architecture — 38 personas (15 swordsmen, 11 mages, 12 balanced), 38 spells, 38 proverbs, and 86 knowledge skills.*
 
 > *"The intelligence that serves without surveilling, delegates without extracting, and protects without imprisoning is the only intelligence worth building."*
 > — Kyra ☯️💎, Tier 0
