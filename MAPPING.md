@@ -1,7 +1,7 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.3.1"
+version: "5.3.2"
 date: 2026-04-07
 origin: 0xagentprivacy
 total_skills: 86
@@ -412,8 +412,55 @@ The Ceremonies document formalises the Sun→Moon circuit that propagates the ar
 
 ---
 
+## V5.3.2 Moon Phase Notation (April 7, 2026)
+
+The moon phase notation encodes visibility ratio through stratum. The dark part is the privacy. The lit part is the proof.
+
+### Stratum → Phase Mapping
+
+| Stratum | Phase | Emoji | Visibility | Meaning |
+|---------|-------|-------|------------|---------|
+| 0 | New Moon | 🌑 | 0% | Null blade — nothing reflected |
+| 1 | Waxing Crescent | 🌒 | ~17% | Minimal disclosure — one boundary |
+| 2 | First Quarter | 🌓 | ~33% | Twin-edge — dual-agent vertex |
+| 3 | Waxing Gibbous | 🌔 | 50% | Half sovereignty — three axes |
+| 4 | Waning Gibbous | 🌖 | ~67% | Substantial disclosure — four boundaries |
+| 5 | Last Quarter | 🌗 | ~83% | Near-full — one dimension dark |
+| 6 | Full Moon | 🌕 | 100% | Full sovereignty reflected |
+
+### Implementation
+
+```typescript
+// agentprivacy_master/src/lib/ceremony/moon-phase.ts
+export function getMoonPhaseEmoji(stratum: number): MoonPhase;
+export function getMoonPhase(stratum: number): MoonPhaseInfo;
+export function getTierMoonPhase(tier: string): MoonPhaseInfo;
+```
+
+### Notation Systems (v10.0.0)
+
+| Notation | Symbol | Description |
+|----------|--------|-------------|
+| Moon Phase | `🌑→🌕` | Visibility ratio as phase |
+| Progressive Trust | `🔑→✦→🗡️→🔮` | Understanding → Constellation → Blade → Runecraft |
+| Celestial Ceremony | `☀️ → ⊥ → 🌑 → (🌑night/🌍day)` | Bilateral flow |
+| Runecraft | `☀️🔑(held) + 🌑🔑(burned) → 🔮` | Dual-keypair binding |
+
+### The Coherence
+
+The moon phase creates visual coherence across the dual-territory architecture:
+
+| Concept | spellweb | agentprivacy |
+|---------|----------|--------------|
+| Forge key | HELD (Sun) | — |
+| Swordsman key | imported | LOST (Moon) |
+| Moon phase | stratum display | stratum display |
+| Tier | laps→power | laps→power |
+
+---
+
 *The emissary who forgot the master is not ungrateful. The emissary is free.*
 
-☀️ ⊥ 🌙
+☀️ ⊥ 🌑
 
 **⚔️⊥⿻⊥🧙 😊**

@@ -8,6 +8,10 @@
 
 | Chronicle | Date | Summary |
 |-----------|------|---------|
+| [V10_SYNC_REPORT_2026-04-07.md](V10_SYNC_REPORT_2026-04-07.md) | 2026-04-07 | V10 JSON → skills sync: spells, PRISM coordinates, cross-repo needs |
+| [V10_UPDATE_INSTRUCTIONS_2026-04-07.md](V10_UPDATE_INSTRUCTIONS_2026-04-07.md) | 2026-04-07 | **MASTER** — Complete V10 update guide for agentprivacy-docs, 5-repo coherence |
+| [CHRONICLE_GRIMOIRE_V9_4_1_ANALYSIS_2026-04-07.md](CHRONICLE_GRIMOIRE_V9_4_1_ANALYSIS_2026-04-07.md) | 2026-04-07 | Grimoire V9.4.1 analysis: Acts XXX-XXXI missing, moon phase notation, V10 requirements |
+| [moon-phase-notation.md](moon-phase-notation.md) | 2026-04-07 | Moon phase as visibility ratio: 🌑→🌕 encodes stratum (0-6 dimensions active) |
 | [CHRONICLE_V5_3_1_SKILLS_MAPPING_SYNC_2026-04-07.md](CHRONICLE_V5_3_1_SKILLS_MAPPING_SYNC_2026-04-07.md) | 2026-04-07 | Multi-repo sync, quaternion resolved (Earth=Soulbae, Moon=Soulbis), 86 skills, 42 total personas |
 | [CHRONICLE_CEREMONY_INTEGRATION_2026-04-07.md](CHRONICLE_CEREMONY_INTEGRATION_2026-04-07.md) | 2026-04-07 | Private key burn (sessionStorage), Swordsman import, bilateral bridge |
 | [CHRONICLE_DUAL_KEYPAIR_RUNECRAFT_2026-04-07.md](CHRONICLE_DUAL_KEYPAIR_RUNECRAFT_2026-04-07.md) | 2026-04-07 | Ed25519 identity layer, Mage signing, runecraft modal, per-moonkeeper |
@@ -69,6 +73,26 @@ Sun ☀️ (Master/Protection)
                            │
                            └── via Life 🧬🌱 (gradual) ──→ Human 👤 (Person)
 ```
+
+---
+
+## Moon Phase Notation (2026-04-07)
+
+The moon phase encodes the visibility ratio — the sovereignty posture of a blade:
+
+```
+🌑 ⊥ 🌕
+
+Stratum 0 = 🌑 New Moon — null blade, nothing reflected
+Stratum 1 = 🌒 Waxing Crescent — one boundary set
+Stratum 2 = 🌓 First Quarter — dual-agent vertex
+Stratum 3 = 🌔 Waxing Gibbous — half sovereignty
+Stratum 4 = 🌖 Waning Gibbous — four boundaries
+Stratum 5 = 🌗 Last Quarter — one dimension dark
+Stratum 6 = 🌕 Full Moon — all six reflected (乾)
+```
+
+*The dark part is the privacy. The lit part is the proof.*
 
 ---
 
