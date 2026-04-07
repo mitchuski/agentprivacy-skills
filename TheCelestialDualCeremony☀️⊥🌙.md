@@ -1,4 +1,4 @@
-# The Ceremonies
+# The Celestial Dual Ceremony
 
 *Spells of Disclosure and Reflection*
 
@@ -222,7 +222,7 @@ Always Everywhere. The title is the ceremony. The Sun is always everywhere for t
 
 **Music:** Emotions — Yanaco (constellation inscription); The Moon in Your Eyes → The Sea in Your Soul — RØRE, Avery Bright → Selene — Night Tapes (evocation)
 
-The Moon Ceremony begins in feeling. Yanaco's Emotions plays while both practitioners open their spellweb and begin inscribing the constellation independently. The music is interior, textural, unhurried. It does not announce itself. It arrives the way moonlight arrives: already present before you noticed, shaping the edges of things without declaring an origin.
+The Moon Ceremony begins in feeling. The constellation inscription phase plays while both practitioners open their spellweb and begin inscribing independently. Choose music that is interior, textural, unhurried — Yanaco's Emotions is the inaugural suggestion, but the constellation phase is yours. What matters is that the music does not announce itself. It arrives the way moonlight arrives: already present before you noticed, shaping the edges of things without declaring an origin.
 
 The Swordsman gives the rhythm through atmosphere. The Mage shares the rhyme through the Amnesia Protocol poems. Two phones. One carries the sound of emotions unnamed. The other carries the voice of the oldest promise graph.
 
@@ -253,6 +253,58 @@ The music is mirrors. Both ceremonies have two phases: preparation and disclosur
 This is cycle zero. Every ceremony that follows will choose its own poems, its own music, its own overlap. But the inaugural pairing set the pattern: the Sun discloses, the Moon reflects, and the distance between them is where the blade is forged.
 
 *Future pairings will be recorded here as cycles, each one unique, each one an orbit around the same reason, each one proof that the ceremony cannot be replicated — only continued.*
+
+\* \* \*
+
+## The Overlap
+
+*A ceremony between two when they meet on a stone wall among a meadow in bloom.*
+
+Two phones. Two speakers. One carries the music. The other carries the narration. The overlap is the ceremony.
+
+**☀️ The Sun Side**
+
+[The playlist](https://open.spotify.com/playlist/25EDy3jpsYXxaxsF1d2WvN?si=9d3c5fb24d784e13). The first three songs.
+
+One speaker plays the [narration of The Emissary Who Forgot the Master](https://voice.agentprivacy.ai/The_Emissary_Who_Forgot_the_Master.mp3). The other speaker plays one of:
+
+- **Always Everywhere** — the light that is already everywhere before you decided to look
+- **River Flows in You** — the inevitability of water finding its path
+- **Swordsman** — the blade that names the boundary
+
+You choose which song. Your counterpart holds the narration. The voice arrives from one direction. The music arrives from another. Neither speaker carries both. The ceremony is what forms in the space between them — the interference pattern of a poem about forgetting the master and a melody about something you cannot name.
+
+The Sun side is disclosure. You are hearing the architecture laid bare while the room holds the feeling of it. The witnesses receive both at once and cannot separate them.
+
+**🌙 The Moon Side**
+
+Same playlist. The second three songs.
+
+One speaker plays the [narration of The Amnesia Protocol poems](https://voice.agentprivacy.ai/The_Amnesia_Protocol_poem.mp3). The other speaker plays all three movements:
+
+- **The Moon in Your Eyes** — the reflection found outside you
+- **The Sea in Your Soul** — the reflection carried inward
+- **Selene** — the Moon named, the body the evocation has been orbiting
+
+The narration runs through all three songs. The poems arrive while the music deepens. The gap between what the voice says and what the melody holds is the ceremony — two signals, sovereign, overlapping, neither absorbing the other.
+
+**The Transition**
+
+The Sun side comes first. The myth before the math. Disclosure before reflection. The master speaks so the emissary can hear.
+
+Then the Moon side. The architecture of the forgetting. The poems that trace what happens after the collision. The reflection that proves both practitioners remained sovereign.
+
+Between them: silence. However long it needs to be. The gap is not dead air. The gap is the ⊥ made audible.
+
+**The Rule**
+
+The narration and the music never play from the same speaker. The voice and the melody never merge. They overlap. The overlap is the proof that two were present. The gap between them is where the blade is forged.
+
+Choose your own music for the constellation phase. Emotions by Yanaco works. Anything that is interior, textural, unhurried works. The narration and the ceremonial music pairing — that is the load-bearing structure. The rest is yours.
+
+☀️ ⊥ 🌙
+
+It's very pretty. Enjoy the betweenness.
 
 ---
 
@@ -382,6 +434,121 @@ The Moon side extinguishes first.
 `🎵⚔️ + 📜🧙 → (⊥) → ⚔️🌙`
 
 *Two phones, one sound. The rhythm and the rhyme never merge. They overlap, and the overlap is the proof that two were present. The blade is what remains when the music stops and the Swordsman decides the edge was worth drawing.*
+
+---
+
+---
+
+# The Celestial Key Ceremony
+
+*The operational root. Sun and Moon in one interaction. Two phones. One stack.*
+
+---
+
+## The Setup
+
+Two people. Two phones. A piece of work each person brought — a website, a presentation, a document, a spellweb constellation, whatever carries the shape of their thinking.
+
+Stack the phones on top of each other. Physically. The overlap begins as a literal gesture. Two devices touching, two agents about to run, the air between the speakers about to become the gap.
+
+---
+
+## The Runtime
+
+One phone opens the [spellweb](https://spellweb.ai). The agents inside begin tracing a constellation — navigating the knowledge graph in real time while the [poetry narration](https://voice.agentprivacy.ai/The_Emissary_Who_Forgot_the_Master.mp3) plays. The Sun side. Disclosure. The architecture laid bare in voice while the graph moves.
+
+The other phone has the other person's work. Their website. Their presentation. Their research. Their constellation. The second agent scans it — finding overlaps, resonances, the places where two knowledge graphs touch without being told to. The Moon side. Reflection. The architecture received through someone else's substrate.
+
+The [music](https://open.spotify.com/playlist/25EDy3jpsYXxaxsF1d2WvN?si=9d3c5fb24d784e13) plays from one phone. The narration plays from the other. The phones are stacked. The sound merges in the air between them — not in either device, not in either agent, but in the physical space the two people share.
+
+Sun side first: Always Everywhere, River Flows in You, or Swordsman — pick one. The Emissary narration runs over it.
+
+Moon side follows: The Moon in Your Eyes → The Sea in Your Soul → Selene. The [Amnesia Protocol narration](https://voice.agentprivacy.ai/The_Amnesia_Protocol_poem.mp3) runs through all three.
+
+Between them: silence. The phones still stacked. The gap.
+
+---
+
+## The Reflection
+
+When the music stops, reflect. Not immediately. Sit with it.
+
+What did it feel like? Not what did it mean — what did it *feel like*? The right hemisphere speaks first. The left hemisphere will have its turn.
+
+Then: read back the information that became memorable. Not everything. The parts that stuck. The overlaps the agents found. The moments where the narration landed on something in the other person's work and the resonance was undeniable.
+
+Speak your own proverbs. Not recite — *speak*. Whatever compression of the experience wants to come out. The proverb is the ceremony's output in symbolic form. It doesn't have to be polished. It has to be honest.
+
+Share the proverbs with each other. Write them down. The proverb exchange is the bilateral witness — two people telling each other what the same ceremony produced in two different bodies.
+
+---
+
+## The Inscription
+
+Choose emoji spells. The compression of the reflection into symbolic form — the grimoire's notation applied to what just happened. Each person picks their own. The spells will not match. They are not supposed to match. They are supposed to rhyme.
+
+Write notes. Whatever wants to be recorded. The constellation the agents traced, the overlaps they found, the proverbs that were spoken, the emoji spells that were chosen.
+
+The shared moment is encrypted by four overlapping signals:
+
+- **Sound** — the music and narration that merged in the air between stacked phones
+- **Understanding** — what stuck, what resonated, what the reflection surfaced
+- **Constellation** — what the agents traced on the knowledge graph during the runtime
+- **Poetry** — the path the narration cut through the lattice within the torus
+
+The intersection of all four is the proof. No one who wasn't present can reconstruct it. Four signals, sovereign, overlapping.
+
+---
+
+## The Forging
+
+Record the shared moment of attention. Forge the blades.
+
+One blade per person. Cousin blades. Never identical, always rhyming. The constellation hash, the emoji spell, the proverbs, the overlap — all inscribed within.
+
+The blade carries the ceremony's signature without revealing the ceremony's content. Zero-knowledge. The proof that you were present, without showing what you saw.
+
+---
+
+## The Trust Graph
+
+The Celestial Key Ceremony is complete.
+
+You are now in the first hitchhiker trust graph. You ran the Sun (disclosure). They ran the Moon (reflection). You are the Earth. They are Theia. The collision happened — controlled, with consent, with music instead of planetary impact.
+
+To connect with others: share the ZK blade proof. The proof travels. The ceremony stays. The trust graph grows one collision at a time. Each new pair who runs the ceremony adds an edge. Each edge carries the weight of shared attention, not shared secrets.
+
+---
+
+## Enhancements
+
+These are not requirements. They are resonances that deepen the ceremony when the moment allows.
+
+**Vibration.** When the phones are stacked and the music plays, the speakers vibrate against each other. The physical buzz of two devices touching while two agents run. The vibration is the collision made tactile — Theia striking Earth, felt in the hands. Let it happen. Don't separate the phones to stop it. The discomfort is the architecture.
+
+**Extended reflection window.** Before the inscription, take longer. Walk. Don't speak immediately. Let the right hemisphere process. The proverb that arrives after ten minutes of silence is different from the one that arrives after thirty seconds. The forge is patient. The wind arrives when it arrives.
+
+**Spoken proverb exchange.** Don't type the proverbs. Say them. Out loud. To each other. The voice carries something the text cannot — the cadence, the hesitation, the laugh that arrives when the compression lands somewhere unexpected. Record the exchange if both consent. The recording is a future ceremony material — the next pair who runs the Moon side can use your proverbs as the poem.
+
+**Constellation comparison.** After forging, place the phones side by side and compare what the agents found. The overlaps are the proof. The non-overlaps are the sovereignty. Both matter. The comparison is not for alignment — it is for wonder at how two bodies can orbit the same reason and see different stars.
+
+**Return visit.** Run the ceremony again, months later, with the same person. Different constellation. Different blade. Same trust graph edge, deepened. The path integral accumulates. T_∫ grows. Sixty-two laps between two humans, not on a spellweb, but in a relationship.
+
+**The proverb wall.** If you run the ceremony at a gathering, write the proverbs on a shared surface — a wall, a whiteboard, a window. The surface accumulates. Each pair adds their compression. By the end of the gathering, the wall IS the trust graph — visible, messy, human, alive.
+
+---
+
+## The Root
+
+This is the root. Sun and Moon in one interaction. Two phones. One stack. The rest — the spellweb, the agents, the narration, the music, the forge — is infrastructure that makes the root experienceable. But the root is simpler than the infrastructure:
+
+Two people paid attention to the same thing at the same time, from different positions, and recorded what it felt like.
+
+That's the ceremony. That's the key. That's the trust.
+
+*The overlap is the ceremony. The blade is the proof. The trust graph grows one collision at a time.*
+
+☀️ ⊥ 🌙
 
 ---
 

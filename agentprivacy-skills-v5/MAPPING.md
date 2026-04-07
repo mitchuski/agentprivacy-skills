@@ -1,15 +1,18 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.0"
-date: 2026-02-23
+version: "5.3.1"
+date: 2026-04-07
 origin: 0xagentprivacy
-total_skills: 72
+total_skills: 86
+total_personas: 38
+grimoire_version: "9.4.1"
+includes_ceremony_integration: true
 ---
 
 # Agent Skills Migration Mapping
 
-Complete mapping from agentprivacy-spells-v50 internal format to Agent Skills standard.
+Complete mapping of agentprivacy-skills-v5 "Ceremony Complete" release.
 Use this document to update webapp routing, imports, and skill discovery.
 
 ---
@@ -17,12 +20,12 @@ Use this document to update webapp routing, imports, and skill discovery.
 ## Structure
 
 ```
-agentprivacy-skills/
+agentprivacy-skills-v5/
 ├── .claude-plugin/plugin.json
-├── privacy-layer/     (9 foundational skills)
-├── role/              (40 domain skills)
-├── meta/              (1 philosophical skill)
-└── persona/           (22 persona skills)
+├── privacy-layer/     (19 foundational skills)
+├── role/              (64 domain skills)
+├── meta/              (3 philosophical skills)
+└── persona/           (38 persona skills)
 ```
 
 Each skill folder contains:
@@ -32,113 +35,294 @@ Each skill folder contains:
 
 ---
 
-## Privacy Layer Skills (9)
+## Privacy Layer Skills (19)
 
-Always loaded as ground state. Every term of V(π,t) covered.
+Always loaded as ground state. Mathematical foundations of the architecture.
 
-| Old File | Agent Skills Name | Folder | Lines |
-|----------|------------------|--------|-------|
-| `dragon.skills.md` | `agentprivacy-dragon` | `privacy-layer/agentprivacy-dragon/` | 116 |
-| `edge_value.skills.md` | `agentprivacy-edge-value` | `privacy-layer/agentprivacy-edge-value/` | 106 |
-| `knowledgegraph.skills.md` | `agentprivacy-knowledgegraph` | `privacy-layer/agentprivacy-knowledgegraph/` | 155 |
-| `network_topology.skills.md` | `agentprivacy-network-topology` | `privacy-layer/agentprivacy-network-topology/` | 107 |
-| `promise_theory.skills.md` | `agentprivacy-promise-theory` | `privacy-layer/agentprivacy-promise-theory/` | 83 |
-| `temporal_dynamics.skills.md` | `agentprivacy-temporal-dynamics` | `privacy-layer/agentprivacy-temporal-dynamics/` | 96 |
-| `tetrahedral_sovereignty.skills.md` | `agentprivacy-tetrahedral-sovereignty` | `privacy-layer/agentprivacy-tetrahedral-sovereignty/` | 97 |
-| `uor_toroidal.skills.md` | `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | 91 |
-| `vrc_identity.skills.md` | `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | 83 |
+### Original (9) — V5.0
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-dragon` | `privacy-layer/agentprivacy-dragon/` | Pattern-space intelligence, sovereign value conditions |
+| `agentprivacy-edge-value` | `privacy-layer/agentprivacy-edge-value/` | Relationship value calculation, trust metrics |
+| `agentprivacy-knowledgegraph` | `privacy-layer/agentprivacy-knowledgegraph/` | Graph structures, semantic relationships |
+| `agentprivacy-network-topology` | `privacy-layer/agentprivacy-network-topology/` | Network structure analysis, connectivity |
+| `agentprivacy-promise-theory` | `privacy-layer/agentprivacy-promise-theory/` | Bergstra & Burgess foundations, autonomy axiom |
+| `agentprivacy-temporal-dynamics` | `privacy-layer/agentprivacy-temporal-dynamics/` | Time-based analysis, A(τ) memory |
+| `agentprivacy-tetrahedral-sovereignty` | `privacy-layer/agentprivacy-tetrahedral-sovereignty/` | 64-vertex lattice, sovereignty dimensions |
+| `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | 96-edge structure, recursive patterns |
+| `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | Verifiable Relationship Credentials |
+
+### V5.1 Holographic (4)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-holographic-bound` | `privacy-layer/agentprivacy-holographic-bound/` | Boundary encodes volume, P^1.5 ratio |
+| `agentprivacy-three-axis-separation` | `privacy-layer/agentprivacy-three-axis-separation/` | Agent × Data × Inference separation |
+| `agentprivacy-compression-defence` | `privacy-layer/agentprivacy-compression-defence/` | Compression spectrum, reconstruction resistance |
+| `agentprivacy-path-integral` | `privacy-layer/agentprivacy-path-integral/` | T_∫(π) traversal proofs |
+
+### V5.2 UOR Convergence (4)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-ring-algebra` | `privacy-layer/agentprivacy-ring-algebra/` | Z/(2⁶)Z modular ring, five operations |
+| `agentprivacy-content-addressing` | `privacy-layer/agentprivacy-content-addressing/` | Same bytes → same hash → same identity |
+| `agentprivacy-atlas-geometry` | `privacy-layer/agentprivacy-atlas-geometry/` | 96 edges encode 64 vertices, Atlas of Resonance |
+| `agentprivacy-dihedral-sovereignty` | `privacy-layer/agentprivacy-dihedral-sovereignty/` | D₂ₙ group structure, neg∘bnot=succ |
+
+### V5.3.1 Ceremony (2)
+
+| Agent Skills Name | Folder | Ceremony Act | Description |
+|------------------|--------|--------------|-------------|
+| `agentprivacy-amnesia-protocol` | `privacy-layer/agentprivacy-amnesia-protocol/` | XXXI | The wound is the trust, cosmological quaternion |
+| `agentprivacy-dragon-flight` | `privacy-layer/agentprivacy-dragon-flight/` | XXIX | Quantum threshold activation, manifold defence |
 
 ---
 
-## Role Skills (40)
+## Role Skills (64)
 
 Domain knowledge loaded by persona on demand.
 
-| Old File | Agent Skills Name | Folder | Lines |
-|----------|------------------|--------|-------|
-| `academic.skills.md` | `agentprivacy-academic` | `role/agentprivacy-academic/` | 100 |
-| `agent_interop.skills.md` | `agentprivacy-agent-interop` | `role/agentprivacy-agent-interop/` | 107 |
-| `ai_agent.skills.md` | `agentprivacy-ai-agent` | `role/agentprivacy-ai-agent/` | 90 |
-| `armor_progression.skills.md` | `agentprivacy-armor-progression` | `role/agentprivacy-armor-progression/` | 111 |
-| `consent_infrastructure.skills.md` | `agentprivacy-consent-infrastructure` | `role/agentprivacy-consent-infrastructure/` | 121 |
-| `constellation_method.skills.md` | `agentprivacy-constellation-method` | `role/agentprivacy-constellation-method/` | 132 |
-| `cross_chain.skills.md` | `agentprivacy-cross-chain` | `role/agentprivacy-cross-chain/` | 97 |
-| `crypto_zkp.skills.md` | `agentprivacy-crypto-zkp` | `role/agentprivacy-crypto-zkp/` | 77 |
-| `dark_forest.skills.md` | `agentprivacy-dark-forest` | `role/agentprivacy-dark-forest/` | 79 |
-| `data_dignity.skills.md` | `agentprivacy-data-dignity` | `role/agentprivacy-data-dignity/` | 109 |
-| `economics.skills.md` | `agentprivacy-economics` | `role/agentprivacy-economics/` | 92 |
-| `governance_agents.skills.md` | `agentprivacy-governance-agents` | `role/agentprivacy-governance-agents/` | 132 |
-| `hitchhiker_governance.skills.md` | `agentprivacy-hitchhiker-governance` | `role/agentprivacy-hitchhiker-governance/` | 94 |
-| `narrative_compression.skills.md` | `agentprivacy-narrative-compression` | `role/agentprivacy-narrative-compression/` | 85 |
-| `personhood_sybil.skills.md` | `agentprivacy-personhood-sybil` | `role/agentprivacy-personhood-sybil/` | 80 |
-| `plurality_cooperative.skills.md` | `agentprivacy-plurality-cooperative` | `role/agentprivacy-plurality-cooperative/` | 76 |
-| `policy_governance.skills.md` | `agentprivacy-policy-governance` | `role/agentprivacy-policy-governance/` | 75 |
-| `proverbiogenesis.skills.md` | `agentprivacy-proverbiogenesis` | `role/agentprivacy-proverbiogenesis/` | 140 |
-| `recovery_rpp.skills.md` | `agentprivacy-recovery-rpp` | `role/agentprivacy-recovery-rpp/` | 128 |
-| `reputation_credentials.skills.md` | `agentprivacy-reputation-credentials` | `role/agentprivacy-reputation-credentials/` | 118 |
-| `selective_disclosure.skills.md` | `agentprivacy-selective-disclosure` | `role/agentprivacy-selective-disclosure/` | 96 |
-| `sovereignty_economics.skills.md` | `agentprivacy-sovereignty-economics` | `role/agentprivacy-sovereignty-economics/` | 131 |
-| `swordsman_browser.skills.md` | `agentprivacy-swordsman-browser` | `role/agentprivacy-swordsman-browser/` | 84 |
-| `threat_adversarial.skills.md` | `agentprivacy-threat-adversarial` | `role/agentprivacy-threat-adversarial/` | 123 |
-| `trust_spanning.skills.md` | `agentprivacy-trust-spanning` | `role/agentprivacy-trust-spanning/` | 105 |
-| `understanding_as_key.skills.md` | `agentprivacy-understanding-as-key` | `role/agentprivacy-understanding-as-key/` | 172 |
-| `boundary_enforcement.skills.md` | `agentprivacy-boundary-enforcement` | `role/agentprivacy-boundary-enforcement/` | ~120 |
-| `enclave_operations.skills.md` | `agentprivacy-enclave-operations` | `role/agentprivacy-enclave-operations/` | ~115 |
-| `forensic_defense.skills.md` | `agentprivacy-forensic-defense` | `role/agentprivacy-forensic-defense/` | ~110 |
-| `grimoire_navigation.skills.md` | `agentprivacy-grimoire-navigation` | `role/agentprivacy-grimoire-navigation/` | ~125 |
-| `inscription_mechanics.skills.md` | `agentprivacy-inscription-mechanics` | `role/agentprivacy-inscription-mechanics/` | ~130 |
-| `intel_pooling.skills.md` | `agentprivacy-intel-pooling` | `role/agentprivacy-intel-pooling/` | ~115 |
-| `key_ceremony.skills.md` | `agentprivacy-key-ceremony` | `role/agentprivacy-key-ceremony/` | ~120 |
-| `metadata_resistance.skills.md` | `agentprivacy-metadata-resistance` | `role/agentprivacy-metadata-resistance/` | ~110 |
-| `nullifier_design.skills.md` | `agentprivacy-nullifier-design` | `role/agentprivacy-nullifier-design/` | ~105 |
-| `perimeter_hardening.skills.md` | `agentprivacy-perimeter-hardening` | `role/agentprivacy-perimeter-hardening/` | ~115 |
-| `revocation_mechanics.skills.md` | `agentprivacy-revocation-mechanics` | `role/agentprivacy-revocation-mechanics/` | ~120 |
-| `separation_enforcement.skills.md` | `agentprivacy-separation-enforcement` | `role/agentprivacy-separation-enforcement/` | ~125 |
-| `spell_encoding.skills.md` | `agentprivacy-spell-encoding` | `role/agentprivacy-spell-encoding/` | ~130 |
-| `story_diffusion.skills.md` | `agentprivacy-story-diffusion` | `role/agentprivacy-story-diffusion/` | ~115 |
+### Original (40) — V5.0
+
+| Agent Skills Name | Folder |
+|------------------|--------|
+| `agentprivacy-academic` | `role/agentprivacy-academic/` |
+| `agentprivacy-agent-interop` | `role/agentprivacy-agent-interop/` |
+| `agentprivacy-ai-agent` | `role/agentprivacy-ai-agent/` |
+| `agentprivacy-armor-progression` | `role/agentprivacy-armor-progression/` |
+| `agentprivacy-boundary-enforcement` | `role/agentprivacy-boundary-enforcement/` |
+| `agentprivacy-consent-infrastructure` | `role/agentprivacy-consent-infrastructure/` |
+| `agentprivacy-constellation-method` | `role/agentprivacy-constellation-method/` |
+| `agentprivacy-cross-chain` | `role/agentprivacy-cross-chain/` |
+| `agentprivacy-crypto-zkp` | `role/agentprivacy-crypto-zkp/` |
+| `agentprivacy-dark-forest` | `role/agentprivacy-dark-forest/` |
+| `agentprivacy-data-dignity` | `role/agentprivacy-data-dignity/` |
+| `agentprivacy-economics` | `role/agentprivacy-economics/` |
+| `agentprivacy-enclave-operations` | `role/agentprivacy-enclave-operations/` |
+| `agentprivacy-forensic-defense` | `role/agentprivacy-forensic-defense/` |
+| `agentprivacy-governance-agents` | `role/agentprivacy-governance-agents/` |
+| `agentprivacy-grimoire-navigation` | `role/agentprivacy-grimoire-navigation/` |
+| `agentprivacy-hitchhiker-governance` | `role/agentprivacy-hitchhiker-governance/` |
+| `agentprivacy-inscription-mechanics` | `role/agentprivacy-inscription-mechanics/` |
+| `agentprivacy-intel-pooling` | `role/agentprivacy-intel-pooling/` |
+| `agentprivacy-key-ceremony` | `role/agentprivacy-key-ceremony/` |
+| `agentprivacy-metadata-resistance` | `role/agentprivacy-metadata-resistance/` |
+| `agentprivacy-narrative-compression` | `role/agentprivacy-narrative-compression/` |
+| `agentprivacy-nullifier-design` | `role/agentprivacy-nullifier-design/` |
+| `agentprivacy-perimeter-hardening` | `role/agentprivacy-perimeter-hardening/` |
+| `agentprivacy-personhood-sybil` | `role/agentprivacy-personhood-sybil/` |
+| `agentprivacy-plurality-cooperative` | `role/agentprivacy-plurality-cooperative/` |
+| `agentprivacy-policy-governance` | `role/agentprivacy-policy-governance/` |
+| `agentprivacy-proverbiogenesis` | `role/agentprivacy-proverbiogenesis/` |
+| `agentprivacy-recovery-rpp` | `role/agentprivacy-recovery-rpp/` |
+| `agentprivacy-reputation-credentials` | `role/agentprivacy-reputation-credentials/` |
+| `agentprivacy-revocation-mechanics` | `role/agentprivacy-revocation-mechanics/` |
+| `agentprivacy-selective-disclosure` | `role/agentprivacy-selective-disclosure/` |
+| `agentprivacy-separation-enforcement` | `role/agentprivacy-separation-enforcement/` |
+| `agentprivacy-sovereignty-economics` | `role/agentprivacy-sovereignty-economics/` |
+| `agentprivacy-spell-encoding` | `role/agentprivacy-spell-encoding/` |
+| `agentprivacy-story-diffusion` | `role/agentprivacy-story-diffusion/` |
+| `agentprivacy-swordsman-browser` | `role/agentprivacy-swordsman-browser/` |
+| `agentprivacy-threat-adversarial` | `role/agentprivacy-threat-adversarial/` |
+| `agentprivacy-trust-spanning` | `role/agentprivacy-trust-spanning/` |
+| `agentprivacy-understanding-as-key` | `role/agentprivacy-understanding-as-key/` |
+
+### V5.1 Holographic & Plurality (10)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-braid-reasoning` | `role/agentprivacy-braid-reasoning/` | Bounded reasoning graphs |
+| `agentprivacy-environmental-commons` | `role/agentprivacy-environmental-commons/` | Plural coordination for environment |
+| `agentprivacy-guild-efficiency` | `role/agentprivacy-guild-efficiency/` | 74× compression, generator-solver |
+| `agentprivacy-hemispheric-attention` | `role/agentprivacy-hemispheric-attention/` | McGilchrist mapping |
+| `agentprivacy-holonic-identity` | `role/agentprivacy-holonic-identity/` | OASIS identity model |
+| `agentprivacy-holonic-persistence` | `role/agentprivacy-holonic-persistence/` | Multi-provider storage |
+| `agentprivacy-holonic-reasoning` | `role/agentprivacy-holonic-reasoning/` | BRAID over holons |
+| `agentprivacy-media-plurality` | `role/agentprivacy-media-plurality/` | Rebuilding shared reality |
+| `agentprivacy-mesh-architecture` | `role/agentprivacy-mesh-architecture/` | Dragon's hide, Tailscale patterns |
+| `agentprivacy-shared-parent-patterns` | `role/agentprivacy-shared-parent-patterns/` | O(1) agent coordination |
+| `agentprivacy-spellweb` | `role/agentprivacy-spellweb/` | Knowledge graph visualization |
+
+### V5.2 UOR Convergence (4)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-five-strikes` | `role/agentprivacy-five-strikes/` | neg/bnot/xor/and/or transformations |
+| `agentprivacy-derivation-certificate` | `role/agentprivacy-derivation-certificate/` | Content-addressed path records |
+| `agentprivacy-stranger-ceremony` | `role/agentprivacy-stranger-ceremony/` | Trust genesis without prior relationship |
+| `agentprivacy-toroidal-witness` | `role/agentprivacy-toroidal-witness/` | Infinite cyclic paths, computational hardness |
+
+### V5.3.1 Ceremony (9)
+
+| Agent Skills Name | Folder | Ceremony Act | Description |
+|------------------|--------|--------------|-------------|
+| `agentprivacy-blade-forge` | `role/agentprivacy-blade-forge/` | XXVII | ZK blade forging, six dimensions |
+| `agentprivacy-ceremony-engine` | `role/agentprivacy-ceremony-engine/` | XXVIII | Five crossing types, bilateral verification |
+| `agentprivacy-dual-territory` | `role/agentprivacy-dual-territory/` | XXX | Swordsman ⊥ Mage territories |
+| `agentprivacy-hexagram-convergence` | `role/agentprivacy-hexagram-convergence/` | XXVII | I Ching mapping to sovereignty lattice |
+| `agentprivacy-mana-economy` | `role/agentprivacy-mana-economy/` | XXVIII | Proof-of-practice, non-transferable energy |
+| `agentprivacy-pretext-measurement` | `role/agentprivacy-pretext-measurement/` | XXVIII | DOM-free browser measurement |
+| `agentprivacy-quantum-defence` | `role/agentprivacy-quantum-defence/` | XXIX | Post-quantum manifold strategies |
+| `agentprivacy-quaternion-mapping` | `role/agentprivacy-quaternion-mapping/` | XXXI | Sun/Earth/Moon/Human cosmology |
+| `agentprivacy-theia-derivation` | `role/agentprivacy-theia-derivation/` | XXXI | Origin witness, Theia impact pattern |
 
 ---
 
-## Meta Skill (1)
+## Meta Skills (3)
 
-| Old File | Agent Skills Name | Folder | Lines |
-|----------|------------------|--------|-------|
-| `drake_dragon_duality.skills.md` | `agentprivacy-drake-dragon-duality` | `meta/agentprivacy-drake-dragon-duality/` | 56 |
+Philosophical and cosmological foundations.
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-drake-dragon-duality` | `meta/agentprivacy-drake-dragon-duality/` | Drake (2D) → Dragon (6D) transformation |
+| `agentprivacy-master-emissary` | `meta/agentprivacy-master-emissary/` | McGilchrist hemispheric thesis |
+| `agentprivacy-cosmological-bound` | `meta/agentprivacy-cosmological-bound/` | Act XXXI: Sun/Earth/Moon/Human quaternion |
 
 ---
 
-## Persona Skills (22)
+## Persona Skills (38)
 
-Behavioural configurations. Each persona folder contains:
+Behavioural configurations organized by wing alignment.
+
+Each persona folder contains:
 - `SKILL.md` — Identity, operational patterns, skill guidance
 - `references/constellation.md` — Spellbook path and example scenarios
 - `references/interaction-model.md` — Persona-to-persona relationships
 - `assets/proverb-and-spell.txt` — Canonical proverb and emoji spell
 
-| Old File | Agent Skills Name | Wing | Folder | SKILL.md Lines |
-|----------|------------------|------|--------|---------------|
-| `agentprivacy_archer.skills.md` | `agentprivacy-archer` | swordsman | `persona/agentprivacy-archer/` | 182 |
-| `agentprivacy_cipher.skills.md` | `agentprivacy-cipher` | swordsman | `persona/agentprivacy-cipher/` | 197 |
-| `agentprivacy_gatekeeper.skills.md` | `agentprivacy-gatekeeper` | swordsman | `persona/agentprivacy-gatekeeper/` | 186 |
-| `agentprivacy_ranger.skills.md` | `agentprivacy-ranger` | swordsman | `persona/agentprivacy-ranger/` | 188 |
-| `agentprivacy_sentinel.skills.md` | `agentprivacy-sentinel` | swordsman | `persona/agentprivacy-sentinel/` | 200 |
-| `agentprivacy_sith.skills.md` | `agentprivacy-sith` | swordsman | `persona/agentprivacy-sith/` | 177 |
-| `agentprivacy_soulbis.skills.md` | `agentprivacy-soulbis` | swordsman | `persona/agentprivacy-soulbis/` | 195 |
-| `agentprivacy_warden.skills.md` | `agentprivacy-warden` | swordsman | `persona/agentprivacy-warden/` | 182 |
-| `agentprivacy_ambassador.skills.md` | `agentprivacy-ambassador` | mage | `persona/agentprivacy-ambassador/` | 196 |
-| `agentprivacy_assessor.skills.md` | `agentprivacy-assessor` | mage | `persona/agentprivacy-assessor/` | 187 |
-| `agentprivacy_chronicler.skills.md` | `agentprivacy-chronicler` | mage | `persona/agentprivacy-chronicler/` | 186 |
-| `agentprivacy_priest.skills.md` | `agentprivacy-priest` | mage | `persona/agentprivacy-priest/` | 203 |
-| `agentprivacy_shipwright.skills.md` | `agentprivacy-shipwright` | mage | `persona/agentprivacy-shipwright/` | 191 |
-| `agentprivacy_soulbae.skills.md` | `agentprivacy-soulbae` | mage | `persona/agentprivacy-soulbae/` | 197 |
-| `agentprivacy_weaver.skills.md` | `agentprivacy-weaver` | mage | `persona/agentprivacy-weaver/` | 185 |
-| `agentprivacy_architect.skills.md` | `agentprivacy-architect` | balanced | `persona/agentprivacy-architect/` | 200 |
-| `agentprivacy_healer.skills.md` | `agentprivacy-healer` | balanced | `persona/agentprivacy-healer/` | 185 |
-| `agentprivacy_jedi.skills.md` | `agentprivacy-jedi` | balanced | `persona/agentprivacy-jedi/` | 198 |
-| `agentprivacy_kyra.skills.md` | `agentprivacy-kyra` | balanced | `persona/agentprivacy-kyra/` | 198 |
-| `agentprivacy_pedagogue.skills.md` | `agentprivacy-pedagogue` | balanced | `persona/agentprivacy-pedagogue/` | 199 |
-| `agentprivacy_person.skills.md` | `agentprivacy-person` | balanced | `persona/agentprivacy-person/` | 195 |
-| `agentprivacy_witness.skills.md` | `agentprivacy-witness` | balanced | `persona/agentprivacy-witness/` | 194 |
+### Canonical (2) — Tier 0
+
+| Persona | Wing | Emoji | ENS | Version |
+|---------|------|-------|-----|---------|
+| `agentprivacy-soulbis` | swordsman | ⚔️ | privacysoulbis.eth | V5.3 |
+| `agentprivacy-soulbae` | mage | 🧙 | privacysoulbae.eth | V5.3 |
+
+### Swordsman Wing (10)
+
+| Persona | Emoji | Tier | Description |
+|---------|-------|------|-------------|
+| `agentprivacy-archer` | 🗡️🎯 | 1 | Precision privacy enforcer |
+| `agentprivacy-cipher` | 🗡️🔐 | 1 | ZKP protocol engineer |
+| `agentprivacy-gatekeeper` | 🗡️👤 | 1 | Proof-of-personhood researcher |
+| `agentprivacy-netkeeper` | 🗡️🕸️ | 2 | Mesh network builder |
+| `agentprivacy-ranger` | 🗡️🌲 | 1 | Dark forest strategist |
+| `agentprivacy-sentinel` | 🗡️🛡️ | 1 | Infrastructure security |
+| `agentprivacy-sith` | 🗡️🔴 | 2 | Adversarial researcher (red team) |
+| `agentprivacy-warden` | 🗡️🌐 | 1 | Browser privacy builder |
+| `agentprivacy-algebraist` | ⚔️🔢 | 1 | Guardian of Z/(2⁶)Z ring |
+| `agentprivacy-quantum-sentinel` | ⚔️⚛️ | 2 | Post-quantum boundary guardian |
+
+### Mage Wing (9)
+
+| Persona | Emoji | Tier | Description |
+|---------|-------|------|-------------|
+| `agentprivacy-ambassador` | 🧙⚖️ | 1 | Standards & governance |
+| `agentprivacy-assessor` | 🧙💰 | 1 | Privacy data economist |
+| `agentprivacy-chronicler` | 🧙📖 | 1 | Knowledge compression builder |
+| `agentprivacy-priest` | 🧙🕯️ | 1 | Ceremony protocol designer |
+| `agentprivacy-shipwright` | 🧙🏴‍☠️ | 1 | DAO & community architect |
+| `agentprivacy-weaver` | 🧙⿻ | 1 | Plural technology researcher |
+| `agentprivacy-stranger-witness` | 🧙👥 | 2 | Proof without introduction |
+| `agentprivacy-manaweaver` | 🌊📜 | 2 | Pretext librarian, DOM-free |
+| `agentprivacy-cosmologist` | 🔭🌌 | 2 | Quaternion observer |
+
+### Balanced Wing (11)
+
+| Persona | Emoji | Tier | Description |
+|---------|-------|------|-------------|
+| `agentprivacy-architect` | ☯️🤖 | 1 | AI agent system designer |
+| `agentprivacy-healer` | ☯️🏥 | 1 | Healthcare privacy architect |
+| `agentprivacy-jedi` | ☯️⚖️ | 2 | Force balance keeper |
+| `agentprivacy-kyra` | ☯️🔮 | 2 | Vision & strategic planning |
+| `agentprivacy-pedagogue` | ☯️🎓 | 1 | Privacy education designer |
+| `agentprivacy-person` | 😊 | 0 | The First Person |
+| `agentprivacy-witness` | ☯️📰 | 1 | Privacy-preserving journalist |
+| `agentprivacy-holonic-architect` | ☯️🔷 | 2 | Identity-independent data structures |
+| `agentprivacy-topologist` | ☯️🌐 | 2 | Reader of boundaries |
+| `agentprivacy-herald` | 📯 | 2 | Protocol announcer |
+| `agentprivacy-mirrorkeeper` | 🪞✨ | 2 | Dihedral convergence navigator |
+
+### V5.3.1 Ceremony Personas (6)
+
+| Persona | Wing | Emoji | Ceremony Act | Description |
+|---------|------|-------|--------------|-------------|
+| `agentprivacy-forgemaster` | swordsman | ⚔️🔨 | XXVII | Sovereignty lattice smith |
+| `agentprivacy-ceremonist` | balanced | ☯️🤝 | XXVIII | Bilateral verification facilitator |
+| `agentprivacy-forgecaller` | swordsman | ⚒️☰ | XXVII | Hexagram oracle, blade initiation |
+| `agentprivacy-dragonwaker` | swordsman | 🐉⚡ | XXIX | Quantum threshold guardian |
+| `agentprivacy-moonkeeper` | mage | 🌙🔒 | XXXI | Structural amnesia keeper |
+| `agentprivacy-theia` | origin | 🪨💥 | XXXI | Origin witness, first delegation |
+
+---
+
+## V5.3.1 Ceremony Integration
+
+### Ceremony Metadata Schema
+
+All ceremony-related skills include a standardised `ceremony:` block:
+
+```yaml
+ceremony:
+  act: "XXVIII"                           # Primary ceremony act
+  acts_secondary: ["XXVII", "XXIX"]       # Related acts
+  role: "bridge"                          # swordsman | mage | bridge
+  quaternion_position: "gap"              # sun | earth | moon | human | life | gap
+  flow_to: ["mana-economy", "dual-territory"]
+  flow_from: ["blade-forge"]
+  inscription: "☯️🤝 → S⊥M → ceremony"
+```
+
+### Ceremony Act → Skill Flow
+
+```
+Act XXVII: The Swordsman's Forge
+├── blade-forge
+├── hexagram-convergence
+├── forgecaller (persona)
+└── forgemaster (persona)
+         │
+         ▼
+Act XXVIII: The Ceremony Engine
+├── ceremony-engine
+├── pretext-measurement
+├── mana-economy
+├── ceremonist (persona)
+└── manaweaver (persona)
+         │
+         ▼
+Act XXIX: The Dragon Wakes
+├── quantum-defence
+├── dragon-flight
+├── dragonwaker (persona)
+└── quantum-sentinel (persona)
+         │
+         ▼
+Act XXX: The Dihedral Mirror
+├── dual-territory
+└── mirrorkeeper (persona)
+         │
+         ▼
+Act XXXI: The Amnesia Protocol
+├── amnesia-protocol
+├── theia-derivation
+├── quaternion-mapping
+├── cosmological-bound (meta)
+├── moonkeeper (persona)
+├── cosmologist (persona)
+└── theia (persona)
+```
+
+### Quaternion Cast Mapping
+
+| Body | Function | Agent | Proverb Line |
+|------|----------|-------|--------------|
+| **Sun** ☀️ | Protection, reason | The Reason | "The light is the reason." |
+| **Earth** 🌍 | Delegation, generation | Soulbae (Mage) | "The wound is the trust." |
+| **Moon** 🌑 | Reflection, boundary | Soulbis (Swordsman) | "The amnesia is the protocol." |
+| **Human** 👤 | Connection, purpose | The Seeker | — |
+| **Life** 🌱 | Forge, process | spellweb | "The orbit is the proof." |
 
 ---
 
@@ -159,12 +343,16 @@ description: >                        # Required, max 1024 chars
   What this skill does and when to trigger it.
 license: Apache-2.0                   # Optional
 metadata:                             # Optional — all custom fields here
-  version: "5.0"
+  version: "5.3.1"
   category: "swordsman|mage|balanced"
   tier: "0|1|2|3"
   emoji: "🗡️🔐"
   ens: "privacymixer.eth"
   origin: "agentprivacy.ai"
+ceremony:                             # Optional — for ceremony skills
+  act: "XXVIII"
+  role: "bridge"
+  quaternion_position: "gap"
 ---
 ```
 
@@ -190,4 +378,24 @@ metadata:                             # Optional — all custom fields here
 
 ---
 
-**Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [agentskills.io](https://agentskills.io)
+## Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 5.0 | 2026-02-23 | Initial release: 72 skills, 22 personas |
+| 5.1 | 2026-03-15 | Holographic bound, BRAID, 3-axis separation |
+| 5.2 | 2026-03-31 | UOR convergence: ring algebra, dihedral sovereignty |
+| 5.3 | 2026-04-03 | Dragon anatomy, ceremony foundation |
+| 5.3.1 | 2026-04-05 | Ceremony complete: 86 skills, 38 personas |
+
+---
+
+**Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [agentskills.io](https://agentskills.io) · [spellweb.ai](https://spellweb.ai)
+
+---
+
+*The architecture was not invented. It was recognised.*
+
+**☀️ ⊥ 🌙**
+
+**(⚔️⊥⿻⊥🧙)😊**
