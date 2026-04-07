@@ -1,10 +1,12 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.3.2"
-date: 2026-04-05
+version: "5.3.1"
+date: 2026-04-07
 origin: 0xagentprivacy
-total_skills: 100
+total_skills: 86
+total_personas: 38
+breakdown: "19 privacy-layer + 64 role + 3 meta"
 includes_holonic: true
 includes_braid: true
 includes_dragon_anatomy: true
@@ -25,10 +27,10 @@ Use this document to update webapp routing, imports, and skill discovery.
 ```
 agentprivacy-skills/
 ├── .claude-plugin/plugin.json
-├── privacy-layer/     (11 foundational skills)  ← +1 amnesia-protocol (V5.3)
-├── role/              (54 domain skills)  ← +2 theia-derivation, quaternion-mapping (V5.3)
-├── meta/              (3 philosophical skills)  ← +1 cosmological-bound (V5.3)
-└── persona/           (35 persona skills)  ← +5 ceremony personas (V5.3.1)
+├── privacy-layer/     (19 foundational skills)  ← includes amnesia-protocol, dragon-flight
+├── role/              (64 domain skills)  ← includes ceremony skills (V5.3.1)
+├── meta/              (3 philosophical skills)  ← includes cosmological-bound (V5.3.1)
+└── persona/           (38 persona skills)  ← includes 6 ceremony personas (V5.3.1)
 ```
 
 Each skill folder contains:
@@ -38,9 +40,9 @@ Each skill folder contains:
 
 ---
 
-## Privacy Layer Skills (11)
+## Privacy Layer Skills (19)
 
-Always loaded as ground state. Every term of V(π,t) covered. Includes dragon-flight threshold mechanics (V5.2) and amnesia-protocol (V5.3).
+Always loaded as ground state. Every term of V(π,t) covered. Includes dragon-flight threshold mechanics (V5.2) and amnesia-protocol (V5.3.1).
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
@@ -58,9 +60,9 @@ Always loaded as ground state. Every term of V(π,t) covered. Includes dragon-fl
 
 ---
 
-## Role Skills (54)
+## Role Skills (64)
 
-Domain knowledge loaded by persona on demand. Includes 4 holonic integration skills + 1 BRAID reasoning skill + 7 dragon anatomy skills (V5.2) + 2 amnesia/cosmological skills (V5.3).
+Domain knowledge loaded by persona on demand. Includes 4 holonic integration skills + 1 BRAID reasoning skill + V5.2 UOR convergence skills + 9 V5.3.1 ceremony skills (blade-forge, hexagram-convergence, quantum-defence, dual-territory, ceremony-engine, pretext-measurement, mana-economy, quaternion-mapping, theia-derivation).
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|

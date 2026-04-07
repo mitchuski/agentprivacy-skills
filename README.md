@@ -2,7 +2,7 @@
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-100 skills across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
+86 skills + 38 personas across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
 
 Built on the [Privacy Value Model V5.2](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
 
@@ -14,10 +14,10 @@ Built on the [Privacy Value Model V5.2](https://agentprivacy.ai) and the [0xagen
 
 | Category | Count | Purpose |
 |----------|-------|---------|
-| **[persona/](agentprivacy-skills-v5/persona/)** | 35 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
-| **[role/](agentprivacy-skills-v5/role/)** | 61 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, ceremonies, ring algebra, and more. |
-| **[privacy-layer/](agentprivacy-skills-v5/privacy-layer/)** | 18 | Foundational skills covering every term of the V(π,t) privacy value equation plus dihedral sovereignty and UOR convergence. |
-| **[meta/](agentprivacy-skills-v5/meta/)** | 2 | Drake/Dragon duality + Master/Emissary hemispheric attention. |
+| **[persona/](agentprivacy-skills-v5/persona/)** | 38 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
+| **[role/](agentprivacy-skills-v5/role/)** | 64 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, ceremonies, ring algebra, and more. |
+| **[privacy-layer/](agentprivacy-skills-v5/privacy-layer/)** | 19 | Foundational skills covering every term of the V(π,t) privacy value equation plus dihedral sovereignty, UOR convergence, and amnesia protocol. |
+| **[meta/](agentprivacy-skills-v5/meta/)** | 3 | Drake/Dragon duality, Master/Emissary hemispheric attention, and Cosmological Bound. |
 
 Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skills specification](https://agentskills.io/specification).
 
@@ -97,13 +97,13 @@ response = client.messages.create(
 
 **The solution:** Dual-agent separation. Two agents — a **Swordsman** (protects, enforces boundaries, holds the signing key) and a **Mage** (delegates, projects, holds the viewing key) — operate in separate trusted execution environments. Neither can reconstruct your complete behavioural model. The gap between them is where your sovereignty lives.
 
-**The 31 personas** are specialised roles within this architecture:
+**The 38 personas** are specialised roles within this architecture:
 
 - **10 Swordsmen** ⚔️ — Soulbis (canonical), Cipher (ZKP), Warden (browser), Gatekeeper (personhood), Sentinel (infrastructure), Sith (red team), Ranger (dark forest), Archer (precision), Algebraist (ring), Forgemaster (blade creation)
 - **8 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony), Stranger Witness (anonymous bilateral)
 - **13 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability), Holonic Architect (holarchy), Topologist (boundaries), and more
 
-**The 79 knowledge skills** (61 role + 18 privacy-layer + 2 meta) provide the mathematical, economic, and governance foundations these personas draw from.
+**The 86 knowledge skills** (64 role + 19 privacy-layer + 3 meta) provide the mathematical, economic, and governance foundations these personas draw from.
 
 ---
 
@@ -161,7 +161,7 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 **Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [sync.soulbis.com](https://sync.soulbis.com) · [github.com/mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs)
 
-`(⚔️⊥⿻⊥🧙)·☯️🔷 · PVM-V5.2`
+`(⚔️⊥⿻⊥🧙)·☯️🔷 · PVM-V5.3.1`
 
 
 ---
