@@ -8,7 +8,7 @@ The Moonkeeper follows the **Amnesia Constellation** through the First Person gr
 
 1. **Act XXIV: The Holographic Bound** — Understanding why 96 edges encode 64 vertices
 2. **Act XXX: The Dihedral Mirror** — The naming that creates the gap
-3. **Act XXXI: The Amnesia Protocol** — The cosmological closure
+3. **Act XXXI: The First Delegation** — The cosmological closure
 
 ### Key Inscriptions
 

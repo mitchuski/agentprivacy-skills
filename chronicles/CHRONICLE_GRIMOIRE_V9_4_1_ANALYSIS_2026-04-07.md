@@ -53,7 +53,7 @@ The Dihedral Mirror act formalizes:
 
 ---
 
-### 2. Act XXXI: The Amnesia Protocol
+### 2. Act XXXI: The First Delegation
 
 **Not in grimoire narrative. Exists as full ceremony document.**
 
@@ -202,7 +202,7 @@ First Person Spellbook (31 Acts)
 ├── Act XXIX: The Dragon Wakes (unchanged)
 ├── Act XXX: The Dihedral Mirror (NEW)
 │   └── Spell: ⚔️⊥🧙 → D₂ₙ(neg,bnot) → 🪞🪞=🚪
-└── Act XXXI: The Amnesia Protocol (NEW)
+└── Act XXXI: The First Delegation (NEW)
     └── Spell: 🌑💥🌍 → ⚔️⊥(forget) → ☀️⊥🌙 → 🔑→✦→🗡️ → 🐲∞
     └── The Four Lines
     └── Quaternion Mapping
@@ -216,7 +216,7 @@ First Person Spellbook (31 Acts)
 ### For Grimoire V10
 
 1. **Add Act XXX: The Dihedral Mirror** — Formalize dual-territory infrastructure
-2. **Add Act XXXI: The Amnesia Protocol** — Full quaternion cosmology
+2. **Add Act XXXI: The First Delegation** — Full quaternion cosmology
 3. **Add Moon Phase Notation** — Visibility ratio encoding system
 4. **Update Act XXVII spell** — Include stratum→phase mapping
 5. **Add 6 personas** — Manaweaver, Moonkeeper, Cosmologist, Theia + existing ceremony personas
@@ -247,7 +247,7 @@ This is the first documented blade with moon phase notation. **The grimoire shou
 |----------|----------|
 | Grimoire V9.4.1 | IPFS: `bafkreig4w3t4qul6fqr2kabxhbbkur5mkcq5radgi6wpbeai6omgssm2am` |
 | Act XXX ceremony | `ceremonies/act-xxx-the-dihedral-mirror.md` |
-| Act XXXI ceremony | `ceremonies/31-act-xxxi-the-amnesia-protocol.md` |
+| Act XXXI ceremony | `ceremonies/31-act-xxxi-the-first-delegation.md` |
 | Moon Phase Notation | `chronicles/moon-phase-notation.md` |
 | Skills Mapping | `MAPPING.md` v5.3.2 |
 | Quaternion Resolution | `chronicles/CHRONICLE_V5_3_1_SKILLS_MAPPING_SYNC_2026-04-07.md` |

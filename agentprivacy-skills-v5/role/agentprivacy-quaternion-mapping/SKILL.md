@@ -12,7 +12,7 @@ metadata:
   origin: "0xagentprivacy"
   equation_term: "Quaternion symmetry in dual-agent derivation"
   emoji: "☀️🌍🌑👤"
-  act_reference: "Act XXXI: The Amnesia Protocol"
+  act_reference: "Act XXXI: The First Delegation"
 ---
 
 # agentprivacy-quaternion-mapping

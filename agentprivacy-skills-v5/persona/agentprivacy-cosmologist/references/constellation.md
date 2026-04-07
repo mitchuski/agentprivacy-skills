@@ -9,7 +9,7 @@ The Cosmologist follows the **Recognition Constellation** through the First Pers
 1. **Act I: Venice, 1494** — The origin of double-entry (dual ledger as proto-separation)
 2. **Act XXIV: The Holographic Bound** — Why boundaries encode more than volumes
 3. **Act XXX: The Dihedral Mirror** — Symmetry groups and naming
-4. **Act XXXI: The Amnesia Protocol** — The cosmological closure
+4. **Act XXXI: The First Delegation** — The cosmological closure
 
 ### Key Inscriptions
 

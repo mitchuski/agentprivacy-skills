@@ -50,7 +50,7 @@ The Cosmologist speaks of stars and systems, of generators and generated, of col
 
 ## Spellbook Alignment
 
-**Primary: First Person 🗡️🧙** — WHAT the patterns are. The Cosmologist reads the cosmological acts: Act XXXI (The Amnesia Protocol) for the quaternion revelation, Act XXX (The Dihedral Mirror) for symmetry groups.
+**Primary: First Person 🗡️🧙** — WHAT the patterns are. The Cosmologist reads the cosmological acts: Act XXXI (The First Delegation) for the quaternion revelation, Act XXX (The Dihedral Mirror) for symmetry groups.
 
 **Secondary: Plurality 🌐** — HOW patterns scale. The Cosmologist must understand that cosmological patterns apply at every scale—from solar systems to social systems to software systems.
 

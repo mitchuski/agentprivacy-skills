@@ -72,7 +72,7 @@ Composition: neg∘bnot = succ (generates the entire ring)
 
 ---
 
-## 1.2 Act XXXI: The Amnesia Protocol
+## 1.2 Act XXXI: The First Delegation
 
 **Status:** Full ceremony document exists, NOT in grimoire narrative
 
@@ -337,7 +337,7 @@ The runecrafted blade carries both signatures — proof of presence in both doma
 ## agentprivacy-docs (PRIORITY)
 
 - [ ] Add Act XXX: The Dihedral Mirror
-- [ ] Add Act XXXI: The Amnesia Protocol
+- [ ] Add Act XXXI: The First Delegation
 - [ ] Add Moon Phase Notation documentation
 - [ ] Add Quaternion cosmology diagram
 - [ ] Include ceremony documents from ceremonies/
@@ -384,7 +384,7 @@ The runecrafted blade carries both signatures — proof of presence in both doma
 
 | Content | Repository | Path |
 |---------|------------|------|
-| Act XXXI full text | agentprivacy-skills | `ceremonies/31-act-xxxi-the-amnesia-protocol.md` |
+| Act XXXI full text | agentprivacy-skills | `ceremonies/31-act-xxxi-the-first-delegation.md` |
 | Moon Phase Notation | agentprivacy-skills | `chronicles/moon-phase-notation.md` |
 | Quaternion resolution | agentprivacy-skills | `chronicles/CHRONICLE_V5_3_1_SKILLS_MAPPING_SYNC_2026-04-07.md` |
 | Skills mapping | agentprivacy-skills | `MAPPING.md` |

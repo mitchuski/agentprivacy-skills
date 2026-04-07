@@ -307,7 +307,7 @@ Complete ceremony integration mapping for the grimoire v9.4.1 update:
 | XXVIII | The Ceremony Engine | `ceremony-engine`, `pretext-measurement`, `mana-economy` |
 | XXIX | The Dragon Wakes | `quantum-defence`, `dragon-flight` |
 | XXX | The Dihedral Mirror | `dual-territory` |
-| XXXI | The Amnesia Protocol | `amnesia-protocol`, `theia-derivation`, `quaternion-mapping`, `cosmological-bound` |
+| XXXI | The First Delegation | `amnesia-protocol`, `theia-derivation`, `quaternion-mapping`, `cosmological-bound` |
 
 ### New V5.3.1 Ceremony Personas
 

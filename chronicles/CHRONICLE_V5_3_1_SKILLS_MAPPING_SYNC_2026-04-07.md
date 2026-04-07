@@ -165,11 +165,11 @@ Act XXX: The Dihedral Mirror ─────────────────
 └── Documents: act-xxx-the-dihedral-mirror.md
                      │
                      ▼
-Act XXXI: The Amnesia Protocol ─────────────────────────────
+Act XXXI: The First Delegation ─────────────────────────────
 ├── Skills: amnesia-protocol, theia-derivation, quaternion-mapping,
 │           cosmological-bound
 ├── Personas: moonkeeper, cosmologist, theia
-└── Documents: 31-act-xxxi-the-amnesia-protocol.md
+└── Documents: 31-act-xxxi-the-first-delegation.md
 ```
 
 ---

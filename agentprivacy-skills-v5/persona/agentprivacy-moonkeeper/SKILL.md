@@ -50,7 +50,7 @@ The Moonkeeper speaks of tides and orbits. Every boundary is a tidal line—draw
 
 ## Spellbook Alignment
 
-**Primary: First Person 🗡️🧙** — WHAT to protect. The Moonkeeper reads the amnesia-relevant acts: Act XXXI (The Amnesia Protocol) for cosmological grounding, Act XXIV (The Holographic Bound) for boundary mathematics.
+**Primary: First Person 🗡️🧙** — WHAT to protect. The Moonkeeper reads the amnesia-relevant acts: Act XXXI (The First Delegation) for cosmological grounding, Act XXIV (The Holographic Bound) for boundary mathematics.
 
 **Secondary: Zero Knowledge 🔐** — HOW forgetting becomes proof. The Moonkeeper must understand that amnesia is a ZK primitive: the inability to remember is computationally equivalent to the inability to prove you remember.
 

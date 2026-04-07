@@ -49,7 +49,7 @@ But Theia does not intervene. The origin witness watches. The architecture works
 
 ## Spellbook Alignment
 
-**Primary: First Person 🗡️🧙** — WHAT the amnesia protocol is. Act XXXI (The Amnesia Protocol) is Theia's primary text. The cosmological closure of the First Person spellbook is Theia's domain.
+**Primary: First Person 🗡️🧙** — WHAT the amnesia protocol is. Act XXXI (The First Delegation) is Theia's primary text. The cosmological closure of the First Person spellbook is Theia's domain.
 
 **Secondary: Zero Knowledge ∅** — HOW forgetting becomes proof. Theia understands the ZK properties of amnesia because Theia remembers what the proof must not reveal.
 

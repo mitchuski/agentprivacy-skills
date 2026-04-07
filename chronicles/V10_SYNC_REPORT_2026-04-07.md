@@ -84,7 +84,7 @@ The V10 JSON `personas` section says:
 | Content | Source |
 |---------|--------|
 | Act XXX: The Dihedral Mirror | `ceremonies/act-xxx-the-dihedral-mirror.md` |
-| Act XXXI: The Amnesia Protocol | `ceremonies/31-act-xxxi-the-amnesia-protocol.md` |
+| Act XXXI: The First Delegation | `ceremonies/31-act-xxxi-the-first-delegation.md` |
 | Moon Phase Notation | `chronicles/moon-phase-notation.md` |
 | PRISM Triadic Coordinates | From V10 JSON Act XXX |
 | Updated spell for Act XXVII | From V10 JSON + skills |

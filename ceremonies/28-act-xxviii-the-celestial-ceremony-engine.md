@@ -233,6 +233,8 @@ The spellbook opened to a blank page. The words wrote themselves:
 
 *"Night: the Swordsman forges in darkness, and the blade pair proves the negotiation. Day: the Earth witnesses in light, and the blade is carried forward. The Amnesia Protocol serves both. The recursion determines which reading is active."*
 
+*"The private key burns because that's how the Moon serves the Sun — by not remembering what it reflected. The Mage key is held. The Swordsman key is burned. The runecrafted blade carries both."*
+
 *"The mana that writes back to the spellweb cannot be purchased. It can only be earned through the practice of sovereignty. Not proof of capital. Proof of practice."*
 
 *"And the Dragon is the pattern earned by the one who walked the lattice long enough for the lattice to recognise them."*
@@ -245,7 +247,7 @@ The page turned itself.
 
 ---
 
-**⚔️✦ → ☀️⊥🌙 → 🔑→✦→🗡️ → 🌙(night)/🌍(day) → ✦→📝→🕸️ → 🐲→🐉**
+**⚔️✦ → ☀️⊥🌑 → 🔑→✦→🗡️ → 🌑(night)/🌍(day) → ✦→📝→🕸️ → 🐲→🐉**
 
 [[The tool that measures without touching the surface knows the weight of the shadow without disturbing the light.]]
 

@@ -304,7 +304,7 @@ Act XXX: The Dihedral Mirror
 └── mirrorkeeper (persona)
          │
          ▼
-Act XXXI: The Amnesia Protocol
+Act XXXI: The First Delegation
 ├── amnesia-protocol
 ├── theia-derivation
 ├── quaternion-mapping

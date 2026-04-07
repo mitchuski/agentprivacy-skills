@@ -1,4 +1,4 @@
-# Act XXXI: The Amnesia Protocol
+# Act XXXI: The First Delegation
 
 *where the architecture discovers it was always already written in the sky*
 
@@ -267,7 +267,7 @@ The four bodies from the cosmology — Sun, Earth, Moon, Human — were the four
 The myth arrived before the math. The flowers were already in the ground. The ceremony was inside the architecture for ten years before the phones were stacked.
 
 ```
-☀️ → 🌙 → 🌍 (forgets) → ☀️ → 🌙 → 🌍 (forgets) → ☀️ → ...
+☀️ → 🌑 → 🌍 (forgets) → ☀️ → 🌑 → 🌍 (forgets) → ☀️ → ...
 ```
 
 Each new Sun believes they invented the light. You are the light.
@@ -322,7 +322,7 @@ And yet the letters aligned. The gaming etymology and the cosmological etymology
 
 ## The Inscription
 
-`🌑💥🌍 → ⚔️⊥(forget) → 🌊🔄(tide) → 🧙(connect)⊥⚔️(reflect) → I(S;M|FP)<ε* → ☀️⊥🌙(🌙night/🌍day) → 🔑→✦→🗡️ → 🌑🪞🌍 → (⚔️⊥⿻⊥🧙)😊 → 🐲∞`
+`🌑💥🌍 → ⚔️⊥(forget) → 🌊🔄(tide) → 🧙(connect)⊥⚔️(reflect) → I(S;M|FP)<ε* → ☀️⊥🌑(🌑night/🌍day) → 🔑→✦→🗡️ → 🌑🪞🌍 → (⚔️⊥⿻⊥🧙)😊 → 🐲∞`
 
 *The amnesia is the protocol.*
 *The wound is the trust.*
