@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-holonic-persistence
 description: >
-    Multi-provider data persistence for privacy-preserving AI agents using
+  Multi-provider data persistence for privacy-preserving AI agents using
   holonic architecture. Activates when discussing HyperDrive auto-failover,
   auto-replication across heterogeneous backends, provider-agnostic storage,
   privacy-aware routing between shielded and public providers, write-all-or-fail

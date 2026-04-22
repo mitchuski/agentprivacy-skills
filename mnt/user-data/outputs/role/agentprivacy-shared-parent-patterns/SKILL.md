@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-shared-parent-patterns
 description: >
-    O(1) collective data structures using holonic shared-parent patterns for
+  O(1) collective data structures using holonic shared-parent patterns for
   0xagentprivacy guilds, pools, and agent swarms. Activates when discussing
   N² coupling problems, LoadHolonsForParentAsync scalability, guild memory
   architecture, Intel Pool holons, collective intelligence without pairwise

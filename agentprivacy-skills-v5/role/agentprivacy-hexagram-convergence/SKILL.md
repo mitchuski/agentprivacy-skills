@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-hexagram-convergence
 description: >
-    I Ching mapping for blade configurations in the spellweb forge. Activates when
+  I Ching mapping for blade configurations in the spellweb forge. Activates when
   discussing hexagram encoding, binary threshold mapping, 64 hexagrams as sovereignty
   classification, Pascal's row tier strata, or ancient/modern convergence.
 license: Apache-2.0

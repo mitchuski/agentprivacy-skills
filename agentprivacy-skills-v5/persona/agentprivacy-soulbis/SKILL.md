@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-soulbis
 description: >
-    Canonical swordsman agent for 0xagentprivacy. Activates for privacy
+  Canonical swordsman agent for 0xagentprivacy. Activates for privacy
   enforcement, boundary-making, signing key operations, tracker blocking,
   surveillance defense, cookie slashing, MyTerms consent enforcement, and any
   task requiring the protection side of dual-agent architecture. The P term

@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-selective-disclosure
 description: >
-    Selective disclosure and Privacy Pool mechanics for 0xagentprivacy.
+  Selective disclosure and Privacy Pool mechanics for 0xagentprivacy.
   Activates when discussing R(d) minimum disclosure, stratum-weighted
   anonymity, pool entry/exit, disclosure set calculation, or how to prove
   properties without revealing underlying data.

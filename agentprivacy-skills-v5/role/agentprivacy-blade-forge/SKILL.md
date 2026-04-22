@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-blade-forge
 description: >
-    Blade configuration mechanics for the spellweb forge. Activates when
+  Blade configuration mechanics for the spellweb forge. Activates when
   discussing blade creation, 6D configuration space (d1Hide through d6Delegate),
   64 vertices from 2^6 combinations, 96 edges forming holographic boundary,
   forge operations, or blade verification through understanding.

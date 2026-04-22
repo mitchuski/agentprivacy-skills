@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-holonic-identity
 description: >
-    Identity-independent data structures for 0xagentprivacy. Activates when
+  Identity-independent data structures for 0xagentprivacy. Activates when
   discussing GUIDs not derived from any provider, the three-layer identity model
   (data GUID / relationship VRC / principal DID), ProviderUniqueStorageKey as
   commitment map, identity vs commitments separation at the data layer, immutable

@@ -28,3 +28,11 @@ build/
 # Local dev
 .env
 .env.local
+
+# Maintenance backups (e.g. SKILL.md.bak from YAML repair)
+*.bak
+
+# Ad-hoc maintenance scripts / manifests
+.yaml_fix*.py
+.yaml_verify.py
+.yaml_fix_manifest.json

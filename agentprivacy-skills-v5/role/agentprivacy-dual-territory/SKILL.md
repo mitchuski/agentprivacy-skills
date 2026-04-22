@@ -1,7 +1,7 @@
 ---
 name: agentprivacy-dual-territory
 description: >
-    Dual-territory ceremony architecture specification. Activates when discussing
+  Dual-territory ceremony architecture specification. Activates when discussing
   Swordsman/Mage separation at infrastructure level, three territories (Spellweb,
   Agentprivacy, Bgin), ceremony channels, or territory sovereignty.
 license: Apache-2.0
