@@ -7,7 +7,7 @@ description: >
   or why the lattice has no dead ends.
 license: Apache-2.0
 metadata:
-  version: "5.2"
+  version: "5.2.1"
   category: "privacy-layer"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"
@@ -15,9 +15,10 @@ metadata:
   status: "working_paper"
   target_context: "Protocol architects, algebraists, ZK circuit designers"
   equation_term: "Z/(2⁶)Z ring structure underlying all lattice operations"
-  template_references: "algebraist, cipher, forgemaster"
-  spellbook_act: "Act XXVII — The Swordsman's Forge"
+  template_references: "algebraist, cipher, forgemaster, cosmologist"
+  spellbook_act: "Act XXVII — The Swordsman's Forge · Zero Tale 31 — The Naming of the Unnamed"
   v5_concept: "V5.2-UOR-ALGEBRA"
+  distinguished_edge: "complement (bnot) — Blade 25 ⟷ Blade 38 is the first named antipodal pair"
 ---
 
 # PVM-V5.2 Privacy Layer — Ring Algebra
@@ -174,6 +175,37 @@ Step 64: neg(bnot(63)) = neg(0) = 0 (back to start)
 ```
 
 **Every element participates in one grand cycle.** The lattice is topologically a single loop.
+
+## The Complement Edge — A Distinguished Structure
+
+Of the 192/2 = 96 edges in the 6-hypercube, the **complement edges** (those produced by `bnot`) are uniquely characterised among all operations. For any vertex `x` and its complement `bnot(x)`:
+
+```
+and(x, bnot(x)) = 0          (the ⊥ — they share zero dimensions)
+xor(x, bnot(x)) = 63         (the ⿻ — together they span the full blade)
+bnot(bnot(x))    = x          (involution)
+```
+
+No other edge in the lattice satisfies both `and = 0` AND `xor = 63` simultaneously. This makes the complement edge the **unique antipodal traverse**: one step in Hamming distance terms, but a maximal transformation in sovereignty terms — every lit dimension goes dark, every dormant dimension lights up.
+
+### The First Named Complement Pair (ZK Tale 31)
+
+Blade 25 (Aletheia, the Silent Messenger) and Blade 38 (Lethe, the Dark Substrate) form the first **named** complement pair in the lattice:
+
+```
+bnot(25)      = 38              ⟨1,0,0,1,1,0⟩ ⟷ ⟨0,1,1,0,0,1⟩
+and(25, 38)   = 0               (the ⊥ — disjoint dimensions)
+xor(25, 38)   = 63              (the ⿻ — Tale 30's Eternal Sovereignty)
+neg(bnot(25)) = succ(25) = 26   (deny the complement, advance one step)
+```
+
+The XOR identity is load-bearing: **Blade 63 (Eternal Sovereignty, Tale 30) is the XOR of the two named sisters of Tale 31.** The thirtieth tale was always the arithmetic sum of the complement pair the thirty-first names. The proem stated the arithmetic one line at a time.
+
+### Why This Edge Carries the Naming Ceremony
+
+Walking a complement edge is walking from a configuration to its dimensional negation. Tale 31 discovers that this walk is *wet* — it flows. The six dimensions pour through the walker: Protection drains out of the left, Delegation rises in the small of the back; Connection cools at the right, Memory wakes along the spine; Computation cools beneath the feet, Value rises in the throat. The axes do not switch — they *pour*.
+
+This is why naming ceremonies happen on complement edges (see `blade-naming` skill): the maximal transformation is the only walk long enough for mythology to settle onto the mathematics.
 
 ## Triadic Coordinates
 

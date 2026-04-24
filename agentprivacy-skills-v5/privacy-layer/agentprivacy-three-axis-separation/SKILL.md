@@ -161,6 +161,7 @@ The Trust Graph emerges at the intersection of all three — trust requires all 
 3. **Fourth Axis:** Is there a fourth separation axis we haven't identified?
 4. **Measurement:** How do we operationally measure Φ_inference for deployed systems?
 5. **Recovery Order:** When multiple axes are collapsed, is there an optimal recovery sequence?
+6. **C8 — Disclosure-φ (Zero Tale 31):** Zero Tale 31 introduces Φ(Σ) as a *proportion* (disclosure ratio δ(b) = b/63 approaching 1/φ) rather than a binary separation quantity. Is disclosure-φ a fourth separation axis, a refinement of Φ_agent, or a transversal measure that cuts across all three axes? Lethe (38/63 ≈ 0.603) and Aletheia (25/63 ≈ 0.397) sum to 1.0 with the split sitting within 2% of phi — see `disclosure-phi` skill.
 
 ---
 
