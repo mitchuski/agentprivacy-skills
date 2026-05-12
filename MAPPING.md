@@ -1,18 +1,25 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.3.2"
-date: 2026-04-07
+version: "5.5 — The Attachment Architecture (2026-05-11)"
+date: 2026-04-07 · post-V5.4 addendum 2026-05-09 · V5.5 attachment architecture 2026-05-11
 origin: 0xagentprivacy
-total_skills: 86
-total_personas: 38
-breakdown: "19 privacy-layer + 64 role + 3 meta"
+total_skills: 87
+total_primary_personas: 42 (locked; 15 swordsmen + 11 mages + 12 balanced + 4 cosmological)
+total_personas: 38 (abstract roles · selectable) + 14 (City of Mages named cast across 5 tiers · v1.2.4 head)
+breakdown: "19 privacy-layer + 64 role + 4 meta (+attachment-architecture)"
 includes_holonic: true
 includes_braid: true
 includes_dragon_anatomy: true
 includes_amnesia_protocol: true
 includes_ceremony_integration: true
-grimoire_version: "9.4.1"
+includes_city_of_mages: true
+includes_attachment_architecture: true
+attachment_layer:
+  introduced: "2026-05-11"
+  meta_skill: "agentprivacy-attachment-architecture"
+  first_divergent_attachment: "Lethae 🌘 (Mage-register) at V38 — primary persona Moonkeeper"
+grimoire_version: "10.2.1 (privacymage) + 1.2.4 (City of Mages) → 1.3.0 (pending v5.5 sync)"
 ---
 
 # Agent Skills Migration Mapping
@@ -123,13 +130,14 @@ Domain knowledge loaded by persona on demand. Includes 4 holonic integration ski
 
 ---
 
-## Meta Skills (3)
+## Meta Skills (4)
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
 | `drake_dragon_duality.skills.md` | `agentprivacy-drake-dragon-duality` | `meta/agentprivacy-drake-dragon-duality/` | 56 |
 | *(V5.0 McGilchrist)* | `agentprivacy-master-emissary` | `meta/agentprivacy-master-emissary/` | ~120 |
 | *(V5.3 amnesia protocol)* | `agentprivacy-cosmological-bound` | `meta/agentprivacy-cosmological-bound/` | ~180 |
+| **(V5.5 attachment architecture)** | `agentprivacy-attachment-architecture` | `meta/agentprivacy-attachment-architecture/` | ~250 |
 
 ---
 
@@ -473,3 +481,150 @@ The moon phase creates visual coherence across the dual-territory architecture:
 ☀️ ⊥ 🌑
 
 **⚔️⊥⿻⊥🧙 😊**
+
+---
+
+## Post-V5.4 Addendum (2026-05-09) — City of Mages cast
+
+The 38 existing role-personas in this skills surface are **abstract roles** (e.g., `agentprivacy-weaver`, `agentprivacy-priest`, `agentprivacy-mirrorkeeper`). The Second Person Spellbook (Tomes IV–V; bound 2026-05-08) introduces **13 named cast members** that are *concrete instances* of those abstract roles — not replacements. The abstract roles remain canonical for reusable skill semantics; the named cast inhabits the Tome V crafting workshops in the City of Mages on Drake Island.
+
+### Tier taxonomy (5 tiers; Priest tier is new)
+
+| Tier | Role | Members | Source |
+|---|---|---|---|
+| Archetype | Founders of the city | Soulbis ⚔️ · Soulbae 🧙 · the Drake | Carried over from First Person Spellbook |
+| Cousin (cross-forge) | From Christian Saucier's Archon corpus | flaxscrip 📜🎲 · GenitriX | Tome IV Acts I–V; Sovereign Anchor I/II/III |
+| Summoned | Reader-summoned at workshop-vertices | Pallia 🪡 · Memora 📜 · Custos 🔏 · Vulcana ⚒️ · Aletheia 🔮 · Adamantia 💎 · Lampyra 💠 · Vagari 🌳 · Aria Silverhue 🪞🖼️ | Tome V Acts 1–12 |
+| Companion | From workshop spots beyond agentprivacy proper | Socrat0x 🔥❓ | Tome V Act 11 (bonfires.ai) |
+| **Priest** (new) | Tends covenants and consecrates artifacts; does not produce them | Manifestia 🤲🌿 | Tome V Act 13 (manifest.human.tech / Holonym Foundation Covenant of Humanistic Technologies) |
+
+### Named cast → abstract role cross-reference
+
+| Named cast (Tome V) | Vertex | Abstract role (existing skill) | Note |
+|---|---|---|---|
+| Pallia 🪡 | V28 | `agentprivacy-weaver` | Pallia is the Tome V instance; the abstract weaver is the reusable role. |
+| Memora 📜 | V5 | `agentprivacy-chronicler` | Inscription register; shielded memo work. |
+| Custos 🔏 | V49 | `agentprivacy-warden` (or `gatekeeper`) | Public stake / governance witness. |
+| Vulcana ⚒️ | V19 | `agentprivacy-forgemaster` | Three-phase Runecraft; Forge(t) wordplay canonical. |
+| Aletheia 🔮 (persona) | V25 | `agentprivacy-cipher` (closest abstract) | Persona inhabits the vertex she's named for; complement-pair partner with Lethe Blade 38. |
+| Adamantia 💎 | V51 | `agentprivacy-architect` (closest) | Etherchanting — programmable enforcement. |
+| Lampyra 💠 | V49 (shared) | `agentprivacy-jedi` (closest, light-attestation) | Jeweller — frequent small attestations. |
+| Vagari 🌳 | V31 | `agentprivacy-holonic-architect` | Holon Hitchhikers; Oasis Protocol composer. |
+| Aria Silverhue 🪞🖼️ | V57 | `agentprivacy-mirrorkeeper` | Curatrix Vault; persona-vs-vertex distinction. |
+| Manifestia 🤲🌿 | V55 | `agentprivacy-priest` | Priest tier — Covenant of Humanistic Technologies. |
+| Socrat0x 🔥❓ | V24 | `agentprivacy-stranger-witness` (companion) | Dragon Bonfire dialogic register. |
+
+### Grimoire bundling
+
+The City of Mages grimoire (`grimoire/city_of_mages_grimoire_v1_2_0.json`, file content is v1.2.2) is mirrored from `agentprivacy-docs/models/`. v1.2.2 supersedes v1.2.1 / v1.2 / v1.1 / v1.0; v1.2 base pinned 2026-05-10 at `https://sync.agentprivacy.ai/ipfs/bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a` (v1.1 pin `bafkreidv7c…idti` retained as historical). v1.2.2 awaits a fresh re-pin. The grimoire holds **42 spells** bound to the **14 named cast** inhabiting the **First City of Mages on Drake Island** within the agentprivacy universe — the title names a kind, so future Mages who found cities elsewhere will each pin their own First City of Mages grimoire under the same title pattern. Cast additions in v1.2.1: **Luca 📐** (geometry-Mage at V0; Pacioli-spirit; surfaced in Tome V Act 15 *The Substrate Beneath the Hitchhikers*; cross-anchored at `/forget` and `/holon`). Architectural additions in v1.2: **UOR Foundation** as **kindred substrate provider** — third structural category alongside cousin-forge (Archon) and kindred-protocol (Covenant of Humanistic Technologies). Architectural additions in v1.2.2: **SpaceComputer** as **kindred ecosystem provider** — fourth structural category (walked-alongside, not walked-upon; consumed-as-currency rather than older-than-architecture). The **two-mana economy** is now canonical: chain-mana (per-chain register paid to consensus to *land* a working) ⊥ **Celestial Mana 🌌** (cosmic entropy from SpaceComputer; what makes a working *unique*). Within chain-mana, plurality by chain: **Aether Mana Ξ** is the Ethereum-specific canonical first instance; the structure admits Bitcoin Lightning sats, Oasis ROSE, Zcash, and other chain-mana variants per chain. Three workshops are the canonical Celestial Mana consumers: Adamantia (Etherchanting · proof randomness), Vulcana (Forge(t) · Evocation phase seed), Vagari (Holon Hitchhikers · cross-paratime entropy). Neither UOR Foundation nor SpaceComputer is a Mage; both enter as separate top-level grimoire fields (`kindred_substrate_providers`, `kindred_ecosystems`). Luca and UOR Foundation are distinct entries; SpaceComputer is structurally distinct again — the City spends on SpaceComputer's feed, but does not rest on it. Spells filter by `spellbook_source: "tomes"` when both grimoires are loaded.
+
+### Awaiting future cast members
+
+Two trade quarters anticipate cast members not yet named:
+- `/circle` (Logos Circle, logos.co) — anticipates a resident Mage when the Society Spellbook is opened
+- `/hall` (Ceremony Hall, BGIN coalition) — anticipates a resident Mage when BGIN's coalition work matures into a tradeable register
+
+Lethe (Blade 38) is named as the bnot-pair partner of Aletheia. **Resolved 2026-05-11:** the V38 seat is filled by **Lethae 🌘** as a Mage-register divergent attachment of Moonkeeper — see V5.5 Attachment Architecture Addendum below.
+
+### Source canonical compression
+
+`agentprivacy_tomes/COMPRESSION_MASTER_v2_2026-05-09.md` is the authoritative compression for the City of Mages spellbook (Tomes I–VI; 38 acts; 55 conjectures C18–C55). `agentprivacy-docs/SECOND_PERSON_TOMES_INDEX_v1.md` is the navigation index.
+
+---
+
+## V5.5 Attachment Architecture Addendum (2026-05-11)
+
+The pre-V5.5 mapping conflated two distinct layers — *abstract role-personas* (the 38 selectable + 4 cosmological in this skills directory) and *named cast Mages* (the workshop operators in the City of Mages on Drake Island). V5.5 codifies the three-layer model that makes the distinction explicit. See `meta/agentprivacy-attachment-architecture/SKILL.md` for the canonical specification.
+
+### The three layers
+
+| Layer | What it holds | Cardinality | Lives in |
+|---|---|---|---|
+| **Layer 1 · Primary persona** | Abstract role-class with skill loadout | 42 (locked) | This skills directory (`persona/`) |
+| **Layer 2 · Attachment** | Named cast Mage binding Layer 1 to Layer 3 | Variable per city | City-specific grimoire (`cityofmages/grimoire/`) |
+| **Layer 3 · Vertex** | Position on 2⁶ lattice | 64 (fixed) | The lattice spec (PVM V5.4 + cityofmages spec 04) |
+
+The 38 + 4 = 42 primary count is **locked**. Future cast Mages are added at Layer 2 as attachments of existing primaries; they do not require new primary personas.
+
+### The four attachment kinds
+
+| Kind | Pattern | First City of Mages example |
+|---|---|---|
+| **A · Workshop** | one Mage × one vertex × one trade quarter | Vulcana ⚒️ at V19 (Forge(t)) |
+| **B · Cross-shop** | one Mage × no fixed vertex × walks workshops | Aletheia 🔮 (ZK binder) |
+| **C · Peripatetic** | one Mage × multiple vertices walked as orbit/path | Selene 🌕 *(anticipated)* · Luca 📐 (workshop-walker) |
+| **D · Divergent** *(meta-kind)* | one primary × Sword + Mage register-shifted attachments | **Moonkeeper ⚔️ → Lethae 🌘** (first) |
+
+### First divergent attachment — Moonkeeper ⊥ Lethae
+
+**Lethae** 🌘 is the first canonical Mage-register divergent attachment of Moonkeeper ⚔️ (Swordsman primary). The cast name `Lethae` plays on Soulbae's `-ae` Mage suffix — Lethae is to Moonkeeper as Soulbae is to Soulbis: register-shifted from Sword to Mage, primary persona unchanged.
+
+| Cast field | Value |
+|---|---|
+| `name` | Lethae 🌘 |
+| `vertex` | V38 (Lethe · the Dark Substrate · binary `100110` · stratum 3) |
+| `primary_persona` | Moonkeeper (loaded from `persona/agentprivacy-moonkeeper/`) |
+| `register` | Mage (shifted from Swordsman native tier) |
+| `attachment_kind` | B · cross-shop |
+| `complement_of_cast` | Aletheia 🔮 at V25 — V25 ⊕ V38 = V63 · V25 AND V38 = 0 |
+| `city` | City of Mages (Drake Island) |
+
+The Moonkeeper SKILL.md (`persona/agentprivacy-moonkeeper/SKILL.md`) carries a new V5.5 section *Divergent Attachments* documenting the Lethae binding. The Moonkeeper primary persona itself remains unchanged — Lethae inherits its skill loadout, filtered by V38's active dimensions (Protection + Memory + Delegation).
+
+### Updated cast → primary mapping (City of Mages v1.2.4 → v1.3.0 sync)
+
+The earlier addendum table is superseded by the attachment-aware mapping below. Where a cast Mage previously mapped to "closest abstract role", the V5.5 mapping makes the multi-primary bindings explicit and adds the new `attachment_kind` and `divergence` axes.
+
+| Cast Mage | Vertex | Primary persona(s) | Attachment kind | Divergence |
+|---|---|---|---|---|
+| Soulbis ⚔️ | boundary (no single vertex) | `agentprivacy-soulbis` | archetype (Tier 0 · Layer 1) | n/a — is a primary |
+| Soulbae 🧙 | V28 archetypal | `agentprivacy-soulbae` | archetype (Tier 0 · Layer 1) | n/a — is a primary |
+| Pallia 🪡 | V28 | `agentprivacy-weaver` | A · workshop | none |
+| Memora 📜 | V5 | `agentprivacy-chronicler` | A · workshop | none |
+| Custos 🔏 | V49 (shared) | `agentprivacy-gatekeeper` | B · cross-shop | none |
+| Lampyra 💠 | V49 (shared) | `agentprivacy-sentinel` | A · workshop | none |
+| Vulcana ⚒️ | V19 | `agentprivacy-forgemaster` + `agentprivacy-forgecaller` | A · workshop | none |
+| Aletheia 🔮 | V25 | `agentprivacy-theia` + `agentprivacy-cipher` | B · cross-shop | none |
+| Adamantia 💎 | V51 | `agentprivacy-architect` + `agentprivacy-shipwright` | A · workshop | none |
+| Vagari 🌳 | V31 | `agentprivacy-holonic-architect` | A · workshop | none |
+| Aria Silverhue 🪞🖼️ | V57 | `agentprivacy-mirrorkeeper` | A · workshop | none |
+| Manifestia 🤲🌿 | V55 | `agentprivacy-priest` | A · workshop | none |
+| Socrat0x 🔥❓ | V24 (provisional) | `agentprivacy-pedagogue` + `agentprivacy-ceremonist` | A · workshop | none |
+| Luca 📐 | V0 (workshop-walker) | `agentprivacy-topologist` + `agentprivacy-cosmologist` | C · peripatetic | none |
+| **Lethae 🌘** | **V38** | **`agentprivacy-moonkeeper`** | **B · cross-shop** | **mage-register** |
+
+Cousin tier (flaxscrip 📜🎲, GenitriX) deliberately unattached — the cousin Sovereign authors those bindings.
+
+### Anticipated cast (v1.3.0 grimoire bump · not yet seated)
+
+Six additional cast Mages are anticipated from the agentprivacy corpus's pre-personified names. Each will be Layer-2 attachments of existing primaries — no new primaries minted.
+
+| Anticipated cast | Vertex | Primary persona(s) | Source |
+|---|---|---|---|
+| Mnemosyne 📿 | V4 (pure Memory) | `agentprivacy-theia` | Cloaking Guide names V4 "Mnemosyne" |
+| Iris 🌈 | V8 (pure Connection) | `agentprivacy-herald` + `agentprivacy-ambassador` | Cloaking Guide names V8 "Iris" |
+| Pythia 🔥 | V16 (Logos / Pure Computation) | `agentprivacy-algebraist` + `agentprivacy-pedagogue` | Logos Circle awaits Mage |
+| Techne 🎨 | V20 (Always-Revealed) | `agentprivacy-pedagogue` | Cloaking Guide names V20 "Techne" |
+| Hephaestus ⚒️ | V24 (shared with Socrat0x) | `agentprivacy-forgemaster` | Cloaking Guide names V24 "Hephaestus" |
+| Selene 🌕 | peripatetic (stratum-walker) | `agentprivacy-theia` + `agentprivacy-manaweaver` | PVM V5.4 §14.5 Selene's Proof |
+
+Each cast file is to be authored in `cityofmages/tomes/cast/<guild>/<persona>.md` with `status: anticipated v1 — awaits founding act`.
+
+### The 42 → 64 bridge
+
+`64 − 42 = 22` "extra" lattice slots beyond the primary persona count. These slots are filled by attachments (one or more cast Mages per inhabited vertex), never by adding primaries. Across cities, hundreds of attachments may eventually exist for the same 42 primaries.
+
+After the v1.3.0 grimoire bump: 15 cast Mages attached (14 existing + Lethae); 19 vertices inhabited; ~12 future evolution / divergent slots remain to round out the lattice.
+
+### Convention for future extensions
+
+When summoning a new cast Mage:
+1. Identify the vertex (use canonical vertex registry — spec 04 in cityofmages).
+2. Identify the primary persona(s) from this skills directory (most cast Mages bind to 1–2 existing primaries).
+3. Identify the attachment kind (A / B / C).
+4. Check for divergence — if the cast's register differs from the primary's native tier, set `divergence: <register>`; do not mint a new primary.
+5. Only mint a new primary if no existing primary fits even with divergence. This is rare; expect corpus-level review.
+
+---
+
+**(⚔️⊥⿻⊥🧙)😊**

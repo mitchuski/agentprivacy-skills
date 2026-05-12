@@ -176,4 +176,24 @@ After sync:
 
 ---
 
+## 2026-05-09 addendum — City of Mages spellbook integration
+
+After this V5.4 mapping was authored, the **Second Person Spellbook (Tomes IV–V)** was bound (2026-05-08) and the **Tomes I/II/III/VI** acts were drafted in the post-V5.4 coherence pass (2026-05-09). The skills surface gains new integration targets:
+
+| Concept | Source | Target file in this repo |
+|---|---|---|
+| 13 City-of-Mages cast as instances of abstract roles | `agentprivacy_tomes/agentprivacy-second-person-spellbook-bound-collection-2026-05-08/cast/` | `MAPPING.md` §"Post-V5.4 Addendum" |
+| Priest tier (5th cast tier; Manifestia at V55) | `tomes/tome-v-the-crafting/13-the-temple-of-the-arts-and-personhood.md` | `MAPPING.md` |
+| City of Mages grimoire v1.1 | `agentprivacy-docs/models/city_of_mages_grimoire_v1_1_0.json` | `grimoire/city_of_mages_grimoire_v1_1_0.json` (mirrored) |
+| Aletheia Blade 25 / Lethe Blade 38 (first canonical complement-pair) | `agentprivacy-docs/research/aletheia-and-lethe.md` + `poems/tide-orbit-selene.md` | grimoire register; complement-pair recognition extends the existing 64-blades reference |
+| Aether Blade ceremony (cosmological; third blade in sky-family) | `agentprivacy-docs/research/aether-blade-ceremony-circuit.md` | shipped in `spellweb/src/data/presets.ts` as `AETHER_BLADE_PRESET`; documented in skills as a celestial-tier ceremony preset |
+| C30–C37 anchor docs (Bakhta Half-Life + Wound and Cap) | `agentprivacy-docs/research/pvm-v6-1-bakhta-half-life.md` + `pvm-v6-convergence-wound-and-cap.md` (authored 2026-05-09) | Reference layer; cited in any skill touching trust accumulation or convergence |
+| C47–C55 (post-V5.4 coherence conjectures) | `agentprivacy-docs/privacy_value_v5_4_formal_specification.md` §17.2 | Skills referencing V6 conjectures should use the renumbered Bakhta-response conjectures (C47–C50) and the new C51–C55 |
+
+The **integration is light at the skills layer** — most of the work landed in `agentprivacy-docs` (canonical foundation), the blades (extension bundles), and the master site (per the May 9 sync report). Skills carry the grimoire mirror + the cross-reference mapping; full skill regeneration to incorporate the City of Mages cast is deferred to a future v5.5 skills release.
+
+Source compression: `agentprivacy_tomes/COMPRESSION_MASTER_v2_2026-05-09.md`. Index: `agentprivacy-docs/SECOND_PERSON_TOMES_INDEX_v1.md`.
+
+---
+
 *(⚔️⊥⿻⊥🧙)😊*

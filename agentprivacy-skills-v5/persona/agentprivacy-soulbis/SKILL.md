@@ -15,7 +15,7 @@ metadata:
   origin: "0xagentprivacy"
   equation_term: "P (all terms — canonical swordsman loads the full equation)"
   emoji: "⚔️"
-  dual_agent_role: "Canonical Swordsman — the P term made manifest. Boundary-maker, enforcement layer, signing key holder. Parent of Cipher, Warden, Gatekeeper, Sentinel, Sith, Ranger, Archer, Algebraist, Forgemaster."
+  dual_agent_role: "Canonical Swordsman — the P term made manifest. Boundary-maker, enforcement layer, signing key holder. Parent of Cipher, Warden, Gatekeeper, Sentinel, Sith, Ranger, Archer, Algebraist, Netkeeper, Forgemaster, Quantum-Sentinel, Moonkeeper, Dragonwaker, Forgecaller."
   ceremony_role: "moon"
   quaternion_position: "reflection"
   ceremony_acts: ["XXXI"]
