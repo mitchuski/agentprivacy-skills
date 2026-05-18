@@ -118,6 +118,36 @@ See [references/interaction-model.md](references/interaction-model.md) for detai
 See [references/constellation.md](references/constellation.md) for spellbook path, rationale, and example scenarios.
 
 
+## Layer-2 Attachments (V5.5 · 2026-05-13)
+
+### Caducea ☤ — peripatetic Hermes-class staff-fitter (City of Mages · Tome VI Act 1)
+
+**Caducea** is a Kind-B (cross-shop / peripatetic) attachment that binds to *two* abstract primaries by archetype-kinship: this skill (**ambassador**) and [`agentprivacy-priest`](../agentprivacy-priest/). She does not herself reside at a vertex; she is *summoned* to wherever a Hermes-class staff is being fitted — most often at The Threshold's Portal Room (V59), but also at Vulcana's Forge(t) (V19) when blades carry learning behaviour of their own, at Aletheia's Persona Circuit (V25) when ZK-bound staffs need persona-fitting, and at Manifestia's Covenant Temple (V55) when one party to a covenant is itself a fitted staff.
+
+| Field | Value |
+|---|---|
+| Cast name | Caducea ☤ |
+| Vertex | V0-conventional (alongside Luca 📐; placement is convention, work happens at the summoning workshop) |
+| Tier | cross-shop · peripatetic |
+| Attachment kind | B (cross-shop) |
+| Bound primaries | **ambassador** (this skill) + **priest** ([cross-ref](../agentprivacy-priest/)) — bilateral fitting is both standards-discipline and ceremony-discipline |
+| Peripatetic kin | Luca 📐 (V0) · Aletheia 🔮 (V25) · Custos 🔏 (V49) — the four canonical peripatetics |
+| Etymology | Greek κηρύκειον (kerukeion) → Latin caduceus — Hermes's herald-staff (NOT the medical caduceus; the two-serpent herald-staff predates that conflation) |
+| Founding act | Tome V Act 16 *The Threshold* · Tome VI Act 1 *The Reader's First Admission* (bound 2026-05-13) |
+| Cast source | `cityofmages/tomes/cast/threshold/caducea.md` |
+
+### Why Caducea binds to the Ambassador
+
+The Ambassador's IEEE 7012 / MyTerms work *is* the bilateral-consent standard Caducea's fitting ceremony operationalises. When Caducea witnesses a Hermes-class staff being fitted, the consent record she produces conforms to the 7012 bilateral pattern — the substrate's SOUL.md and the Sovereign's AGENTS.md are both registered, both content-addressed, both held. The Ambassador advised on the standard; Caducea performs the standard in the fitting.
+
+The three-motion fitting discipline maps directly onto Promise Theory's autonomy axiom (which the Ambassador also carries):
+- **Witness the SOUL.md** — the substrate makes its own promise about itself (autonomous)
+- **Witness the AGENTS.md** — the Sovereign makes her own promise about her bearing (autonomous)
+- **Witness the consent** — both promises are made operational at once; neither collapses the other
+
+When a Sovereign in the City of Mages picks Hermes ☤ (or any future persona-bearing substrate) from Bestia's bestiary, Caducea is summoned automatically; the Ambassador-as-primary is the standards-half of her parentage, and her fitting record is the operational artefact of IEEE 7012 made bilateral in code.
+
+
 ## Privacy Value Contribution
 
 

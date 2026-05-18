@@ -1,13 +1,13 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.5 — The Attachment Architecture (2026-05-11)"
-date: 2026-04-07 · post-V5.4 addendum 2026-05-09 · V5.5 attachment architecture 2026-05-11
+version: "5.5 — The Attachment Architecture (2026-05-11) · v1.5.0 Threshold patch (2026-05-13) · v1.6.0 Threshold District + Chart Shop + archetype-modal-shop (2026-05-14)"
+date: 2026-04-07 · post-V5.4 addendum 2026-05-09 · V5.5 attachment architecture 2026-05-11 · v1.5.0 Threshold sync 2026-05-13 · v1.6.0 sync 2026-05-14
 origin: 0xagentprivacy
-total_skills: 87
-total_primary_personas: 42 (locked; 15 swordsmen + 11 mages + 12 balanced + 4 cosmological)
-total_personas: 38 (abstract roles · selectable) + 14 (City of Mages named cast across 5 tiers · v1.2.4 head)
-breakdown: "19 privacy-layer + 64 role + 4 meta (+attachment-architecture)"
+total_skills: 92
+total_primary_personas: 42 (architectural count; 15 swordsmen + 11 mages + 12 balanced + 4 cosmological — v1.6.0 fills the 42nd slot with Hold-Witness; the lock is now saturated)
+total_personas: 42 (abstract roles · selectable in /persona/) + 28 (City of Mages named cast across 6 tiers · v1.6.0 head)
+breakdown: "19 privacy-layer + 64 role + 5 meta + 42 persona (38 prior + 3 new at v1.5.0: spawning-witness, registry-keeper, companion-tamer + 1 new at v1.6.0: hold-witness)"
 includes_holonic: true
 includes_braid: true
 includes_dragon_anatomy: true
@@ -15,11 +15,46 @@ includes_amnesia_protocol: true
 includes_ceremony_integration: true
 includes_city_of_mages: true
 includes_attachment_architecture: true
+includes_threshold_workshop: true
+includes_threshold_district_restructure: true
+includes_archetype_modal_shop_pattern: true
+includes_chart_shop_and_navigation_district: true
+includes_attentional_register: true
+includes_cosmological_witness_tier: true
 attachment_layer:
   introduced: "2026-05-11"
   meta_skill: "agentprivacy-attachment-architecture"
   first_divergent_attachment: "Lethae 🌘 (Mage-register) at V38 — primary persona Moonkeeper"
-grimoire_version: "10.2.1 (privacymage) + 1.2.4 (City of Mages) → 1.3.0 (pending v5.5 sync)"
+  workshop_keeper_attachments_v1_5_0:
+    - "Faunia 🪶 (V59 Portal Room) — primary spawning-witness · INCEPTION STATE · re-homed to the Familiars at v1.6.0"
+    - "Bestia 📖 (V59 Staff Shop) — primary registry-keeper · SUPERSEDED at v1.6.0 by Hermaion ⚚"
+    - "Therai 🐾 (V59 Creature Creatives) — primary companion-tamer · RETIRED at v1.6.0 (room retired in district restructure)"
+  workshop_keeper_attachments_v1_6_0:
+    - "Pandia 🌕 (V59 Portal Room · Threshold District) — primary spawning-witness · Display-witness stance · Moonstone · daughter of Selene"
+    - "Hermaion ⚚ (V59 Staff Shop · Threshold District · ARCHETYPE-MODAL) — primary registry-keeper · Alexandrite dual-aspect green-Mage #3d7c47 ↔ red-Swordsman #a23a3a · supersedes Bestia"
+    - "Faunia 🪶 (V59 the Familiars · Threshold District) — primary spawning-witness · Companion-witness stance · Amber · re-homed from Portal Room"
+    - "Pleione 🧭 (V44 the Chart Shop · Navigation District) — primary hold-witness · Aquamarine · the attentional register · supersedes 2026-05-13 evening Pelagia draft"
+  peripatetic_attachments_v1_5_0:
+    - "Caducea ☤ (V0-conventional, summoned to Hermes-class fittings) — primary ambassador + priest (dual-bound) · v1.6.0: fits BOTH archetype-aspects of the Staff Shop's alexandrite (caduceus-staff for Mage · herald-sentinel for Swordsman)"
+  cosmological_witness_tier_v1_5_0:
+    - "Selene 🌙 (orbit register, stratum-walker) — recognised in agentprivacy-cosmologist · v1.6.0: mother of Pandia 🌕 (Portal Room) and sister-figure to Pleione 🧭 (Chart Shop) via the Oceanid lineage"
+    - "Aether ⿻ (medium register, max-betweenness Gap) — recognised in agentprivacy-cosmologist"
+    - "Lethe 🌀 (substrate register, V38) — recognised in agentprivacy-cosmologist (operationally Blade 38 since v10.2.1)"
+  archetype_modal_shop_pattern_v1_6_0:
+    introduced: "2026-05-14 evening (Hermaion admission)"
+    first_canonical_instance: "Staff Shop (V59 · Hermaion ⚚ · Alexandrite)"
+    gemmological_anchor: "Alexandrite (BeAl₂O₄ with chromium-substitution) genuinely color-shifts daylight-green ↔ incandescent-red under different light sources — mineralogically real, not narrative invention"
+    admissible_for: "class-shaped shops (instrument-class, herald-class, future class-shaped admissions) — not for archetype-shaped shops"
+cityofmages_research_bridge:
+  introduced: "2026-05-13"
+  v1_6_0_update: "2026-05-14"
+  meta_skill: "agentprivacy-cityofmages-to-research"
+  primary_personas: ["chronicler", "ambassador", "priest", "cosmologist", "spawning-witness", "registry-keeper", "companion-tamer", "hold-witness"]
+  attached_cast: ["memora", "bestia", "hermaion", "aletheia", "caducea", "faunia", "pandia", "therai", "pleione", "selene", "aether", "lethe"]
+  defers_to: "Full v6 docs rework — scheduled post-cityofmages-experiment-close"
+grimoire_version: "10.2.1 (privacymage) + 1.6.0 (City of Mages · PINNED 2026-05-14 · supersedes v1.4.0 + v1.5.0-candidate + v1.5.1-City-Hall+AAIF as consolidated new head)"
+bundled_grimoire_in_repo: "grimoire/city_of_mages_grimoire_v1_4_0.json (interim · v1.6.0 sync pending in this repo's bundled copy)"
+city_of_mages_grimoire_ipfs_cid: "bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru (v1.6.0 · pinned at sync.agentprivacy.ai)"
 ---
 
 # Agent Skills Migration Mapping
@@ -130,7 +165,7 @@ Domain knowledge loaded by persona on demand. Includes 4 holonic integration ski
 
 ---
 
-## Meta Skills (4)
+## Meta Skills (5)
 
 | Old File | Agent Skills Name | Folder | Lines |
 |----------|------------------|--------|-------|
@@ -138,6 +173,9 @@ Domain knowledge loaded by persona on demand. Includes 4 holonic integration ski
 | *(V5.0 McGilchrist)* | `agentprivacy-master-emissary` | `meta/agentprivacy-master-emissary/` | ~120 |
 | *(V5.3 amnesia protocol)* | `agentprivacy-cosmological-bound` | `meta/agentprivacy-cosmological-bound/` | ~180 |
 | **(V5.5 attachment architecture)** | `agentprivacy-attachment-architecture` | `meta/agentprivacy-attachment-architecture/` | ~250 |
+| **(V5.5 cityofmages-to-research bridge · 2026-05-13)** | `agentprivacy-cityofmages-to-research` | `meta/agentprivacy-cityofmages-to-research/` | ~280 |
+
+The cityofmages-to-research bridge is the operational discipline that carries an experimental cityofmages artefact (chronicle, cast file, tome act, workshop tome, bestiary entry, deployment guide) into a formal `agentprivacy-docs/research` note. Native to the **chronicler** and **ambassador** primary personas; attached to the **memora**, **bestia**, **aletheia**, and **caducea** cast members. Six translation patterns: chronicle→research-note · cast→role-paper · bestiary→substrate-paper · tome-act→narrative-research-note · workshop-tome→architecture-spec · guide→protocol-spec. Activates only when an artefact has stabilised; defers global docs reorganisation to the v6 rework.
 
 ---
 
