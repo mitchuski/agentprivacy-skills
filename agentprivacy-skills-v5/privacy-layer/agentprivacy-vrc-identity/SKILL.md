@@ -6,6 +6,7 @@ description: >
   issuance/verification/revocation, Relationship Proverb Protocol (RPP), trust
   flow mechanics, ceremony-to-credential pipeline, or how identity is
   expressed through relationships rather than attributes.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "4.0"
@@ -49,7 +50,7 @@ The VRC is the integrity fraction h(τ) in the equation. Without it, temporal me
 
 **Context-specific (edge value).** Each VRC maps to a specific sovereignty transition. The proverb maps to shared context. This means VRCs are not fungible — they carry the specific trajectory T(π) of the relationship, not a generic trust score. An agent's VRC portfolio is a graph of demonstrated sovereignty transitions, not a number.
 
-**Scoped (reconstruction resistance).** A VRC reveals only what the relationship requires. The proverb is meaningless outside the bilateral context. The underlying data that generated the proverb remains private. This enforces the reconstruction ceiling R < 1 at the credential level — no single VRC, and no collection of VRCs from different relationships, allows full behavioural reconstruction.
+**Scoped (reconstruction resistance).** A VRC reveals only what the relationship requires. The proverb is meaningless outside the bilateral context. The underlying data that generated the proverb remains private. This enforces the reconstruction ceiling R < 1 at the credential level — no single VRC, and no collection of VRCs from different relationships, allows full behavioural reconstruction. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 **Recoverable (temporal memory).** If forgotten, the proverb can be re-derived because it is based on relationship context rather than arbitrary secrets. This is the temporal memory's deepest property: verified history is not a brittle key but a robust pattern that can be regenerated from sufficient shared context.
 

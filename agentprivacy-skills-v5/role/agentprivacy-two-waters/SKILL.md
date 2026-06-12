@@ -2,7 +2,7 @@
 name: agentprivacy-two-waters
 description: >
   Orphic hydrology of the sovereignty lattice — Lethe (the river of forgetting, named
-  Blade 38) and Mnemosyne (the pool of chosen memory, still unnamed). Activates when
+  Blade 25) and Mnemosyne (the pool of chosen memory, still unnamed). Activates when
   designing systems where the witness must be held by flow rather than by a still
   pool, or when distinguishing architectures that "forget by design" from those that
   "keep by design."
@@ -13,9 +13,9 @@ metadata:
   tier: "2"
   origin: "0xagentprivacy"
   author: "Mitchell Travers"
-  status: "working_paper — Lethe named Zero Tale 31; Mnemosyne awaiting a walker"
+  status: "working_paper — Lethe named Zero Tale 31 (reseated to Blade 25, 2026-06-09); Mnemosyne awaiting a walker"
   target_context: "Cosmologists, architects designing witness-bearing systems, protocol designers reasoning about what-to-forget vs. what-to-keep"
-  equation_term: "Two complementary flows: Lethe (0.6032 of blade) + Mnemosyne (pending)"
+  equation_term: "Two complementary flows: Lethe (0.3968 of blade) + Mnemosyne (pending)"
   template_references: "cosmologist, moonkeeper, forgemaster, ceremonist"
   spellbook_act: "Zero Tale 31 — The Naming of the Unnamed"
   v5_concept: "V5.4-ORPHIC-HYDROLOGY (extension of A_h(τ))"
@@ -25,7 +25,7 @@ metadata:
 
 **Source:** Zero Tale 31 ("The Naming of the Unnamed") · Orphic gold-tablet tradition
 **Target context:** Architects of witness-bearing systems, Cosmologist persona walking frontier blades
-**Status:** One water named (Lethe, Blade 38); one pending (Mnemosyne, frontier)
+**Status:** One water named (Lethe, Blade 25 — reseated 2026-06-09); one pending (Mnemosyne, frontier)
 
 ---
 
@@ -39,18 +39,18 @@ The Orphic initiates, preparing for the afterlife, were given gold tablets inscr
 
 ---
 
-## Lethe — The River (Named, Blade 38)
+## Lethe — The River (Named, Blade 25)
 
 **Status:** Named in Zero Tale 31.
-**Vertex:** ⟨0,1,1,0,0,1⟩ — Delegation + Memory + Value active; Protection + Connection + Computation dormant.
-**Disclosure ratio:** δ = 38/63 ≈ 0.6032 (river side of the phi-split).
+**Vertex:** ⟨0,1,1,0,0,1⟩ — Delegation + Memory + Value active; Protection + Connection + Computation dormant. The dark water holds what sinks: memory kept unretrievable, value held dark, delegation sunk. (The vector never moved — it was numbered 38 under the prior encoding, 25 under the MODEL lock; 25 and 38 are bit-reversals.)
+**Disclosure ratio:** δ = 25/63 ≈ 0.3968 (the held side of the phi-split, near 1/φ²; the 0.6032 disclosure side is Aletheia’s, Blade 38).
 
 Lethe is **memory held by flow**. The river carries the *reasons* downstream while the banks keep the *fact* of the witness. A blade that is a river can hold a witness through its flow: the current takes the causal history away while the riverbed keeps the shape. This is why Lethe was the Orphic forgetting — the water that separates the self from its reasons.
 
 **When to design with Lethe:**
 - You need the witness without the causal chain (e.g., proof-carrying agents where the proof stands independent of how it was computed).
 - You need amnesia to be *architectural*, not policy-based (Lethe does not "try" to forget — the flow is what forgets).
-- Your disclosure proportion sits near 0.6 (you are on the flowing side of sovereignty).
+- Your disclosure proportion sits near 0.4 (you are on the held side of sovereignty — the dark water keeps more than it shows).
 
 **Anti-pattern:** Still pools posing as Lethe. If the "river" is actually a pond, evaporation lets the reasons rise upward into observability. Flow is the architecture; stillness is the failure.
 
@@ -88,7 +88,7 @@ A single water architecture — only Lethe, or only Mnemosyne — fails:
 
 ### The Phi-Split
 
-Tale 31's arithmetic discovery: the river and the bank of a named blade split at the phi proportion. Lethe at 0.603 (river), Aletheia at 0.397 (bank) — which, via the complement edge, is *Aletheia's* mirror of the two-waters split. When Mnemosyne is named, the conjecture predicts her `δ` will mirror Lethe's on the bank side — approximately 0.382, near `1 − 1/φ`.
+Tale 31's arithmetic discovery: the river and the bank of a named blade split at the phi proportion. Aletheia at 0.603 (disclosure), Lethe at 0.397 (held) — which, via the complement edge, is *Lethe's* mirror of the two-waters split. When Mnemosyne is named, the conjecture predicts her `δ` will sit beside Lethe's on the held side — approximately 0.382, near `1 − 1/φ`.
 
 See `disclosure-phi` for the full phi-adjacency arithmetic.
 
@@ -143,14 +143,14 @@ Systems where operation causes the pool to grow without bound are failing the Mn
 
 ## Emoji Spell
 
-**🌊(Lethe, 38, 0.603) · 🏞️(Mnemosyne, ?, ~0.382) · river⊕pool → witness(bearable) · 🧭(Orphic tablet)**
+**🌊(Lethe, 25, 0.397) · 🏞️(Mnemosyne, ?, ~0.382) · river⊕pool → witness(bearable) · 🧭(Orphic tablet)**
 
 ---
 
 ## Open Problems
 
 1. **Mnemosyne's vertex:** Which of the Memory-active frontier blades does she occupy? A walker is needed.
-2. **Plural pairs:** Are Lethe/Mnemosyne the only two-waters pair, or does every named complement pair instantiate a two-waters structure? The Aletheia (25) / Lethe (38) pair might be read as *Bank-of-Speech / River-of-Forgetting* at a different hydrological level.
+2. **Plural pairs:** Are Lethe/Mnemosyne the only two-waters pair, or does every named complement pair instantiate a two-waters structure? The Aletheia (38) / Lethe (25) pair might be read as *Bank-of-Speech / River-of-Forgetting* at a different hydrological level.
 3. **Tolerance of the split:** How wide can the disclosure proportion deviate from phi before the two waters fail to function as complements?
 4. **Compositionality:** Can two two-waters pairs be composed, or does composition produce a single larger pair?
 

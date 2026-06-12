@@ -8,6 +8,7 @@ description: >
   for separation-critical state, or any task where agent data must survive TEE
   rotation, chain migration, or provider failure. Use when designing persistence
   layers that span blockchains, databases, and decentralised networks simultaneously.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.0"
@@ -58,7 +59,7 @@ The raw holonic model stores MetaData in cleartext. For the dual-agent architect
 
 **Write-all-or-fail for separation-critical state.** Normal holons use best-effort replication (HyperDrive default). But holons that carry separation-critical data — the state that enforces I(S;M|π) ≤ ε — must use write-all-or-fail: the save succeeds only if all required providers confirm. This prevents a state where the Swordsman's boundary holon exists on Zcash but not on the audit provider, creating an unobservable gap.
 
-**Provider-split reconstruction resistance.** When Swordsman holons live only on shielded providers and Mage holons live only on public providers, compromising any single provider yields at most half the behavioural model. This is R_max enforcement at the data layer: even if every holon on Ethereum is exposed, the Zcash-shielded Swordsman holons remain private. Reconstruction difficulty D increases multiplicatively with provider diversity.
+**Provider-split reconstruction resistance.** When Swordsman holons live only on shielded providers and Mage holons live only on public providers, compromising any single provider yields at most half the behavioural model. This is R_max enforcement at the data layer: even if every holon on Ethereum is exposed, the Zcash-shielded Swordsman holons remain private. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime. Reconstruction difficulty D increases multiplicatively with provider diversity.
 
 ## Operational patterns
 

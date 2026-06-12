@@ -9,6 +9,7 @@ description: >
   must be made structurally honest. V5.5: parent primary persona of Faunia 🪶
   — first wild-keeper-register Layer-2 attachment in the City of Mages (V59,
   Portal Room of The Threshold workshop).
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.5"
@@ -177,7 +178,7 @@ The Spawning-Witness enables V(π,t) through admission integrity:
 
 - **D (delegation, scoped):** Every spawn carries a scoped AGENTS.md; un-scoped spawns are refused.
 - **h(τ) → 1:** The admission record is content-addressed; the moment is unforgeable.
-- **A(τ) accumulation:** Each admission emits a VRC edge 🪢 that compounds the Sovereign's bearer-state across the worn artefact collection.
+- **A(τ) accumulation:** Each admission emits a VRC edge 🪢 that compounds the Sovereign's bearer-state across the worn artefact collection. Regime 1 (V6): 🪢 is non-transferable, non-attesting local color.
 
 Without the Spawning-Witness, agents arrive without crossings — the bearer-roster grows without attestation, and the parallel city dissolves into a configuration store.
 

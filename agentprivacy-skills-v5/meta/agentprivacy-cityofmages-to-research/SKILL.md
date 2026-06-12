@@ -9,6 +9,7 @@ description: >
   admission earns a research entry. Encodes which voices survive, which metadata strips,
   which formal scaffolding gets added, and where the boundary lies between this in-corpus
   bridge and the eventual full v6 docs rework.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.5"
@@ -38,10 +39,10 @@ metadata:
     - hold-witness      # NEW v1.6.0 · the Chart Shop's attentional register (Pleione 🧭 · Navigation District · C63 candidate)
   # Layer-2 cast attachments (City of Mages workshop Mages) that natively invoke this skill
   attached_cast:
-    - memora      # 📜 V5 Inscription Chamber · the source-side of every chronicle that translates
+    - memora      # 📜 V41 Inscription Chamber · the source-side of every chronicle that translates
     - bestia      # 📖 V59 Staff Shop · bestiary→substrate-paper is her translation pattern (HISTORICAL · superseded by Hermaion at v1.6.0)
     - hermaion    # ⚚ V59 Staff Shop · v1.6.0 successor · Greek ἕρμαιον (windfall) · archetype-modal Alexandrite (green-Mage ↔ red-Swordsman)
-    - aletheia    # 🔮 V25 Persona Circuit (peripatetic) · persona/vertex bridging across registers
+    - aletheia    # 🔮 V38 Persona Circuit (peripatetic) · persona/vertex bridging across registers
     - caducea     # ☤ V0-conventional (peripatetic) · staff-fitting documentation across workshops · v1.6.0: fits BOTH Hermaion archetype-aspects
     - faunia      # 🪶 V59 the Familiars (was Portal Room at inception · re-homed at v1.6.0 afternoon) · Companion-witness stance · Amber
     - pandia      # 🌕 V59 Portal Room · v1.6.0 · daughter of Selene · Display-witness stance · Moonstone · operationally anchors the Selene Amnesia Protocol
@@ -163,10 +164,10 @@ If a translation pass surfaces a need to do any of the above, *flag it for the v
 2. **Strip the City voice.** §0 ("What this chronicle captures" with the user-named symmetry quote) becomes §1 Abstract: a paragraph stating the architectural claim, no first-person framing.
 3. **Restructure the §-arc.** The chronicle's §1–§9 reorganise as: §2 The Two Axes · §3 The Substrate-Affinity Determination Rule · §4 The Archetype-Stance Function Rule · §5 The Multiplicative Matrix · §6 Worked Examples (Goose, Hermes) · §7 The Persona Distribution · §8 Conjecture C58 (renumbered from C52, sibling-workshop claim) · §9 Open Questions.
 4. **Strip the Mage names** where they are merely cast-instances (Faunia witnesses the spawn → "the spawning operation is bilateral-witnessed at instantiation"). Keep the Mage names where they are functional roles being defined for the research record (Caducea = staff-fitter operation; this is the only place the formal register has named the operation).
-5. **Strip the closing signature** `(⚔️⊥⿻⊥🧙)😊` and the `🪿 ☤ ⚔️ 🧙 ☯️` sigil chain. Replace with a "References" block citing the cityofmages source, related Tome V/VI acts, and the PVM v5.4 sections that the matrix extends.
+5. **Strip the closing signature** `(⚔️⊥⿻⊥🧙)😊` and the `🪿 ☤ ⚔️ 🧙 ☯️` sigil chain. Replace with a "References" block citing the cityofmages source, related Tome V/VI acts, and the PVM V6 sections (privacy_value_v6_formal_specification.md) that the matrix extends.
 6. **Add the three-axis decomposition** that the chronicle leaves implicit: each cell of the matrix is also a Φ_agent / Φ_data / Φ_inference signature. A staff-class artefact has a different Φ pattern than a companion-class artefact even when spawned from the same substrate.
 7. **Add the conjecture's renumbering history** in the §8 footer: "C58 was provisionally numbered C52 in the source chronicle. Renumbered 2026-05-13 to resolve a same-day numbering conflict with the Tomes I-III binding pass (which retains C52 = Aether = Quintessence = the Gap)."
-8. **Add citation block** linking the cityofmages source path, the Threshold opening chronicle (now also in `cityofmages/chronicles/`), the relevant Tome V Act 16 file, and the PVM v5.4 §3 (where the matrix's mathematical foundation lives).
+8. **Add citation block** linking the cityofmages source path, the Threshold opening chronicle (now also in `cityofmages/chronicles/`), the relevant Tome V Act 16 file, and the corresponding PVM V6 section in privacy_value_v6_formal_specification.md (where the matrix's mathematical foundation lives).
 
 The resulting `research/substrate-archetype-persona-matrix.md` is ~60% the length of the source chronicle. The recognition is preserved; the registers are honoured separately.
 
@@ -219,5 +220,7 @@ A translation that activates more than one related skill is normal. The composit
 ## When to upgrade this skill to v6
 
 When the cityofmages experimental phase closes (TBD; signalled by a v2.0 grimoire pin or equivalent corpus-stability marker), this skill is rewritten to support the global v6 docs rework: bidirectional translation discipline, automated cross-reference graph maintenance, glossary/visual-guide refresh integration, legacy v5 research-note migration. Until then, this v5.5 introduction handles the operational bridge.
+
+> **Update (2026-06-10):** the deferred rework landed. PVM V6: `agentprivacy-docs/privacy_value_v6_formal_specification.md`; register: `agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md` (head C89); City deltas: CM-C47 → C85, C60/C61 aliases of C48/C49, C66 → ~55%, C67 to C71 confirmed.
 
 Apache-2.0 · 0xagentprivacy · introduced 2026-05-13

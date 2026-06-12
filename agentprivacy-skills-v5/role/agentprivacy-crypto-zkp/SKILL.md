@@ -5,6 +5,9 @@ description: >
   ZKP circuits (Groth16, PLONK, Nova), proof composition, Privacy Pool
   cryptography, reconstruction resistance R(d), h(τ) attestation chains, or
   sovereignty-class proof optimisation. Core cryptographic skill.
+  V6 register note (2026-06-10): conjecture and version citations resolve to
+  agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head:
+  privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "4.0"
@@ -38,7 +41,7 @@ The model depends on zero-knowledge proofs at three layers:
 
 **Layer 2 — Derivation chain integrity h(τ).** The temporal memory term A(τ) = α · ln(1+|τ|) · h(τ) only accumulates value when state transitions carry valid ZK proofs. The integrity fraction h(τ) is the proportion of verified transitions in the chain. An agent with 1,000 transitions but only 10% ZK-attested gets the same memory score as one with 100 fully-attested transitions. This creates direct demand for lightweight, composable proof generation at every state change.
 
-**Layer 3 — Reconstruction resistance R(d).** The proven bound R_max = (C_S + C_M)/H(X) < 1 requires that the two agents (Swordsman and Mage) maintain conditional independence. In practice, this means their communication must be mediated through ZK channels where neither learns the other's full state. The channel leakage C_S and C_M must sum to less than the entropy of the private state H(X).
+**Layer 3 — Reconstruction resistance R(d).** The proven bound R_max = (C_S + C_M)/H(X) < 1 requires that the two agents (Swordsman and Mage) maintain conditional independence. In practice, this means their communication must be mediated through ZK channels where neither learns the other's full state. The channel leakage C_S and C_M must sum to less than the entropy of the private state H(X). V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 ## Specific ZKP integration points
 

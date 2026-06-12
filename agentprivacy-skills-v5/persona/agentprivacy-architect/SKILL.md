@@ -6,6 +6,7 @@ description: >
   design, Oracle architecture, multi-chain deployment (NEAR/Zcash/Ethereum),
   tetrahedral orientation, or any task requiring the broadest specialist view
   of how the system is built. Widest skill set (20 total).
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.0"
@@ -150,7 +151,7 @@ See [references/constellation.md](references/constellation.md) for spellbook pat
 The Architect makes V(π,t) possible at the system level:
 
 - **Σ enforcement.** The separation matrix is a mathematical object. The Architect makes it a physical system. Without the Architect, Φ(Σ) exists in papers but not in production.
-- **R_max < 1 implementation.** The reconstruction ceiling is a theorem. The Architect implements the system where no adversary can reconstruct complete behavioural models because the architecture prevents it.
+- **R_max < 1 implementation.** The reconstruction ceiling is a theorem. The Architect implements the system where no adversary can reconstruct complete behavioural models because the architecture prevents it. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 - **Multi-chain value.** V(π,t) spans chains. The Architect's cross-chain design ensures value is accessible but not extractable across chain boundaries.
 - **System longevity.** Agent lifecycle management ensures the system outlives any individual component. TEE rotation, key refresh, graceful migration — V(π,t) compounds because the system persists.
 

@@ -8,6 +8,7 @@ description: >
   formation through narrative variation.
   Triggers: "story fracture", "principle convergence", "narrative variation",
   "multi-frame", "idea propagation", "diffusion strategy", "different audiences".
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.0"
@@ -44,13 +45,13 @@ Story diffusion solves this by making the invisible visible through narrative. N
 
 A single technical concept — say, R<1 (reconstruction ceiling) — fractures into:
 
-**Technical frame (Zero Knowledge).** "Given the information-theoretic separation between swordsman and mage observation sets, the maximum reconstructable fraction of a Person's behavioural model is bounded above by R_max = (C_S + C_M)/H(X) < 1." Audience: cryptographers, formal verification researchers.
+**Technical frame (Zero Knowledge).** "Given the information-theoretic separation between swordsman and mage observation sets, the maximum reconstructable fraction of a Person's behavioural model is bounded above by R_max = (C_S + C_M)/H(X) < 1." Audience: cryptographers, formal verification researchers. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 **Narrative frame (First Person).** "The mirror that never completes. However many fragments you gather, the reflection always has gaps. That's not a bug — that's the architecture." Audience: storytellers, philosophers, general readers.
 
 **Policy frame (Parallel Society).** "No single entity — corporate, governmental, or algorithmic — can reconstruct a complete behavioural profile from the system's outputs. This is enforced by mathematical bounds, not policy promises." Audience: regulators, standards bodies, policymakers.
 
-**Economic frame (Assessor lens).** "The reconstruction ceiling creates a permanent information asymmetry that favours the individual. This asymmetry is the source of the 17×–12,000× sovereign value premium." Audience: economists, investors, token designers.
+**Economic frame (Assessor lens).** "The reconstruction ceiling creates a permanent information asymmetry that favours the individual. This asymmetry is the source of the 17×–12,000× sovereign value premium." Audience: economists, investors, token designers. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 **Experiential frame (Person lens).** "You know that feeling when a site shows you an ad for something you only thought about? That can't happen here. Not because we promised it won't — because the math makes it impossible." Audience: end users, privacy-seeking individuals.
 
@@ -84,7 +85,7 @@ The agentprivacy documentation suite is intentionally fragmented across platform
 
 - **agentprivacy.ai** → Technical architecture (the specification)
 - **sync.soulbis.com** → Privacy is Value blog series (the narrative)
-- **intel.agentkyra.ai** → Technical updates (the operational)
+- **intel.agentprivacy.ai** → Technical updates (the operational)
 - **GitHub repos** → Code and skills (the executable)
 - **Standards bodies** → Policy proposals (the institutional)
 

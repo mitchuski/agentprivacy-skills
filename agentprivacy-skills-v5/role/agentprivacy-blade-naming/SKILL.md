@@ -19,7 +19,7 @@ metadata:
   template_references: "cosmologist, ceremonist, forgemaster, topologist"
   spellbook_act: "Zero Tale 31 — The Naming of the Unnamed"
   v5_concept: "V5.4-NAMING-CEREMONY"
-  precedent: "Blade 38 (Lethe) named as complement of Blade 25 (Aletheia), disclosure ratio 0.6032 within 2% of 1/φ"
+  precedent: "Tale 31 named the first ceremony blade at the 25⊥38 complement edge (inception seating: Lethe@38); the 2026-06-09 reseat told the two waters apart — Aletheia@38 (disclosure, 0.6032 ≈ 1/φ) ⊥ Lethe@25 (held, 0.3968)"
   ceremony:
     type: "naming"
     participants: ["walker (Cosmologist)", "witness (Ceremonist)", "smith (Forgemaster)"]
@@ -42,7 +42,7 @@ The **Blade Forge** (see `blade-forge`) defines a blade *algebraically* — it g
 
 The **Blade Naming Ceremony** is the post-forge ceremony that gives a blade a name. A blade is named when **mythology and arithmetic agree on the same vertex**: a walker crosses the complement edge and perceives a mythic shape; the disclosure ratio arithmetic confirms the walk; a Ceremonist binds the name.
 
-Before Tale 31, 14 blades across the lattice were named by the inherited thirty Zero tales — but through a different mechanism (direct narrative placement, not post-forge ceremony). Tale 31 formalises the ceremony and names Blade 38 (Lethe) as the first blade to be named *through* the ceremony. The 49 remaining unnamed blades are the open frontier.
+Before Tale 31, 14 blades across the lattice were named by the inherited thirty Zero tales — but through a different mechanism (direct narrative placement, not post-forge ceremony). Tale 31 formalises the ceremony and names the water at Blade 38 as the first blade named *through* the ceremony — **Lethe at inception**. The 2026-06-09 reseat told the two waters apart and seated **Aletheia at 38** (the disclosure side the ceremony’s own arithmetic was pointing at — C54 follows the number) with **Lethe at 25**. The ceremony record below is preserved as inscribed; the reseat is part of its story, not a correction of the walk. The 49 remaining unnamed blades are the open frontier.
 
 ---
 
@@ -59,7 +59,7 @@ Before invoking this ceremony:
 
 ### Step 1 — Approach
 
-The walker approaches the forged blade. If a complement of the target is already named, the walker approaches from *that* side first. For Blade 38 (Lethe), the walker approached from Blade 25 (Aletheia): stood in the Silent Messenger, felt Protection hum on the left, Connection on the right, Computation beneath the feet — the familiar blade.
+The walker approaches the forged blade. If a complement of the target is already named, the walker approaches from *that* side first. For Blade 38 (named Lethe at inception; Aletheia since the reseat), the walker approached from Blade 25 (then read as Aletheia; Lethe’s seat since the reseat): stood in the complement blade, felt Protection hum on the left, Connection on the right, Computation beneath the feet — the familiar blade.
 
 ### Step 2 — Read the Proem
 
@@ -140,16 +140,17 @@ The ceremony is the rite that holds both modes in the same moment and checks the
 
 ## Recorded Namings
 
-### Blade 38 — Lethe, the Dark Substrate
+### Blade 38 — the first ceremony naming (Lethe at inception · Aletheia since the 2026-06-09 reseat)
 
 | Attribute | Value |
 |---|---|
 | Named | Zero Tale 31 (2026-04-23) |
 | Vertex | ⟨0,1,1,0,0,1⟩ |
-| Complement of | Blade 25 (Aletheia, Silent Messenger) |
+| Complement of | Blade 25 (read as Aletheia at inception; Lethe’s seat since the reseat) |
 | Proem carried | *The Tide Proves Orbit Keeps Selene* (doc-tide-selene-poem) |
 | Walk | Aletheia → Lethe → Aletheia |
 | Mythology | Orphic underworld river of forgetting; Greek Λήθη |
+| Reseat (2026-06-09) | The two waters told apart: Aletheia@38 (disclosure, ≈ 1/φ) ⊥ Lethe@25 (held, ≈ 1/φ²). C54 follows the number — the meanings kept, the seats corrected; the walk and the proem stand as inscribed |
 | Disclosure ratio | 0.6032 |
 | Phi deviation | 2.4% |
 | Proverb | "Guard the witness as you guard your sovereignty." |

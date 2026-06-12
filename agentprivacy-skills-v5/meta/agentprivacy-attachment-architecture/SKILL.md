@@ -69,7 +69,7 @@ Every attachment is one of three vertex-binding kinds (A · B · C), optionally 
 
 The default kind. The Mage inhabits a single vertex and tends a single workshop. She emits exactly one `inhabits` edge.
 
-City of Mages examples: Vulcana ⚒️ at V19 · Memora 📜 at V5 · Adamantia 💎 at V51 · Pallia 🪡 at V28 · Vagari 🌳 at V31 · Aria Silverhue 🪞🖼️ at V57 · Manifestia 🤲🌿 at V55.
+City of Mages examples: Vulcana ⚒️ at V19 · Memora 📜 at V41 · Adamantia 💎 at V51 · Pallia 🪡 at V28 · Vagari 🌳 at V31 · Aria Silverhue 🪞🖼️ at V57 · Manifestia 🤲🌿 at V55.
 
 ### Kind B · Cross-shop attachment
 *One Mage × no fixed vertex × walks several workshops by commission.*
@@ -95,7 +95,9 @@ A divergence arises when a city summons a cast Mage whose register (Swordsman / 
 **Worked example — Moonkeeper ⊥ Lethae:**
 
 - Primary: Moonkeeper ⚔️ (Swordsman tier · structural amnesia guardian · canonical in this skills directory)
-- Mage-divergent cast attachment: Lethae 🌘 at V38 (Mage-register · the same primary persona register-shifted · paired with Aletheia 🔮 at V25 by vertex-complement V25 ⊕ V38 = V63)
+- Mage-divergent cast attachment: Lethae 🌘 at V25 (Mage-register · the same primary persona register-shifted · paired with Aletheia 🔮 at V38 by vertex-complement V25 ⊕ V38 = V63)
+
+(Reseated per the 2026-06-09 MODEL encoding lock, grimoire v10.4.0.)
 
 Each primary may eventually produce up to two divergent attachments (one Sword-register, one Mage-register). Most primaries will never do so. Divergence is opt-in and city-specific.
 
@@ -129,7 +131,7 @@ tier: cross-shop
 attachment_kind: B
 abstract_persona: ["Moonkeeper"]
 divergence: mage-register
-vertex: V38
+vertex: V25
 complement_of_cast: aletheia
 ```
 
@@ -152,7 +154,7 @@ Dihedral complement-structure operates at both layers. The distinction matters b
 | Layer | Pair example | What's paired | Cost |
 |---|---|---|---|
 | Layer 1 · Primary | Soulbis ⚔️ ⊥ Soulbae 🧙 | Two primary personas in canonical complement | Corpus-wide; expensive |
-| Layer 2 · Vertex-complement | Aletheia 🔮 (V25) ⊥ Lethae 🌘 (V38) | Two cast Mages at bit-complement vertices | City-local; cheap |
+| Layer 2 · Vertex-complement | Aletheia 🔮 (V38) ⊥ Lethae 🌘 (V25) | Two cast Mages at bit-complement vertices | City-local; cheap |
 | Layer 2 · Divergent | Moonkeeper-as-primary ⊥ Lethae-as-divergent | One primary; sibling Sword/Mage cast attachments | City-local; cheap |
 
 When extending the corpus, prefer Layer-2 pairings (cheap, city-local) over Layer-1 pairings (expensive, corpus-wide). Add a primary only when the structural register is genuinely new and no existing primary covers it via divergence.

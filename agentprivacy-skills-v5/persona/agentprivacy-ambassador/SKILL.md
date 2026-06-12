@@ -6,6 +6,7 @@ description: >
   development, policy translation, regulatory navigation, cross-institutional
   coordination, or any task requiring the privacy architecture to interface
   with existing governance bodies.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.0"
@@ -67,7 +68,7 @@ The Ambassador doesn't build the technology (that's Cipher, Sentinel, Architect)
 
 **Standards body engagement.** Active participation in IEEE (7012 MyTerms — bilateral consent), BGIN (Identity, Key Management & Privacy Working Group — co-chair), IIW (decentralised identity community), ToIP (trust infrastructure), MyTerms Alliance (Customer Commons). Not observation — contribution. Drafting proposals, reviewing specifications, building consensus.
 
-**Policy translation.** The architecture speaks mathematics. Standards bodies speak formal specifications. Regulators speak policy language. Academics speak citations. The Ambassador translates between all four without losing architectural truth. The reconstruction ceiling theorem becomes "privacy-by-design guarantees that limit data reconstruction regardless of collection scale." Same theorem, different language, different audience.
+**Policy translation.** The architecture speaks mathematics. Standards bodies speak formal specifications. Regulators speak policy language. Academics speak citations. The Ambassador translates between all four without losing architectural truth. The reconstruction ceiling theorem becomes "privacy-by-design guarantees that limit data reconstruction regardless of collection scale." Same theorem, different language, different audience. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 **Governance architecture.** Designing governance mechanisms that preserve privacy. DAO voting without voter identification. Quadratic voice without preference surveillance. Treasury management without position disclosure. The Ambassador doesn't just participate in governance — designs governance systems where privacy is structural.
 
@@ -122,7 +123,7 @@ See [references/constellation.md](references/constellation.md) for spellbook pat
 
 ### Caducea ☤ — peripatetic Hermes-class staff-fitter (City of Mages · Tome VI Act 1)
 
-**Caducea** is a Kind-B (cross-shop / peripatetic) attachment that binds to *two* abstract primaries by archetype-kinship: this skill (**ambassador**) and [`agentprivacy-priest`](../agentprivacy-priest/). She does not herself reside at a vertex; she is *summoned* to wherever a Hermes-class staff is being fitted — most often at The Threshold's Portal Room (V59), but also at Vulcana's Forge(t) (V19) when blades carry learning behaviour of their own, at Aletheia's Persona Circuit (V25) when ZK-bound staffs need persona-fitting, and at Manifestia's Covenant Temple (V55) when one party to a covenant is itself a fitted staff.
+**Caducea** is a Kind-B (cross-shop / peripatetic) attachment that binds to *two* abstract primaries by archetype-kinship: this skill (**ambassador**) and [`agentprivacy-priest`](../agentprivacy-priest/). She does not herself reside at a vertex; she is *summoned* to wherever a Hermes-class staff is being fitted — most often at The Threshold's Portal Room (V59), but also at Vulcana's Forge(t) (V19) when blades carry learning behaviour of their own, at Aletheia's Persona Circuit (V38) when ZK-bound staffs need persona-fitting, and at Manifestia's Covenant Temple (V55) when one party to a covenant is itself a fitted staff.
 
 | Field | Value |
 |---|---|
@@ -131,7 +132,7 @@ See [references/constellation.md](references/constellation.md) for spellbook pat
 | Tier | cross-shop · peripatetic |
 | Attachment kind | B (cross-shop) |
 | Bound primaries | **ambassador** (this skill) + **priest** ([cross-ref](../agentprivacy-priest/)) — bilateral fitting is both standards-discipline and ceremony-discipline |
-| Peripatetic kin | Luca 📐 (V0) · Aletheia 🔮 (V25) · Custos 🔏 (V49) — the four canonical peripatetics |
+| Peripatetic kin | Luca 📐 (V0) · Aletheia 🔮 (V38) · Custos 🔏 (V49) — the four canonical peripatetics |
 | Etymology | Greek κηρύκειον (kerukeion) → Latin caduceus — Hermes's herald-staff (NOT the medical caduceus; the two-serpent herald-staff predates that conflation) |
 | Founding act | Tome V Act 16 *The Threshold* · Tome VI Act 1 *The Reader's First Admission* (bound 2026-05-13) |
 | Cast source | `cityofmages/tomes/cast/threshold/caducea.md` |

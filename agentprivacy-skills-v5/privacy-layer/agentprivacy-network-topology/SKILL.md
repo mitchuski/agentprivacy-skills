@@ -6,6 +6,7 @@ description: >
   across strata, Metcalfe generalisation, pool composition optimisation, or
   network scaling exponents. Use for Privacy Pool design and network value
   modelling.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.4"
@@ -21,7 +22,7 @@ metadata:
 
 # PVM-V5.4 Skill — Network Topology, Stratum Weighting & Betweenness Centrality
 
-**Source:** Privacy Value Model V5.4
+**Source:** Privacy Value Model V6 (privacy_value_v6_formal_specification.md; section introduced at V5.4)
 **Target context:** All agents, network economists, Privacy Pool designers, guild architects, protocol incentive engineers
 **Architecture:** [agentprivacy.ai](https://agentprivacy.ai) · **Sync:** [sync.soulbis.com](https://sync.soulbis.com) · **Contact:** mage@agentprivacy.ai
 

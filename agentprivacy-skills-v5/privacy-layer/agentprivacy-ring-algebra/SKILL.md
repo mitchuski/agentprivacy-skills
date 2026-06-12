@@ -190,10 +190,10 @@ No other edge in the lattice satisfies both `and = 0` AND `xor = 63` simultaneou
 
 ### The First Named Complement Pair (ZK Tale 31)
 
-Blade 25 (Aletheia, the Silent Messenger) and Blade 38 (Lethe, the Dark Substrate) form the first **named** complement pair in the lattice:
+Blade 38 (Aletheia, the Silent Messenger) and Blade 25 (Lethe, the Dark Substrate) form the first **named** complement pair in the lattice (seats per the 2026-06-09 reseat):
 
 ```
-bnot(25)      = 38              ⟨1,0,0,1,1,0⟩ ⟷ ⟨0,1,1,0,0,1⟩
+bnot(25)      = 38              ⟨0,1,1,0,0,1⟩ ⟷ ⟨1,0,0,1,1,0⟩
 and(25, 38)   = 0               (the ⊥ — disjoint dimensions)
 xor(25, 38)   = 63              (the ⿻ — Tale 30's Eternal Sovereignty)
 neg(bnot(25)) = succ(25) = 26   (deny the complement, advance one step)

@@ -38,7 +38,7 @@ Compression reduces the attack surface for inference-layer surveillance. The sam
 
 ## The Insight
 
-V4's reconstruction difficulty R(d) measured architectural resistance to adversarial reconstruction. V5 adds a compression modifier:
+V8's reconstruction difficulty R(d) measured architectural resistance to adversarial reconstruction. V41 adds a compression modifier:
 
 ```
 R_v5(d, compression) = R_base(d) · (1 - 1/compression_ratio)

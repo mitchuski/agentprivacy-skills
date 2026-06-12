@@ -6,6 +6,7 @@ description: >
   surveillance defense, cookie slashing, MyTerms consent enforcement, and any
   task requiring the protection side of dual-agent architecture. The P term
   made manifest. Parent of all swordsman personas. Loads ALL skills through the swordsman lens.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.3.2"
@@ -147,7 +148,7 @@ Soulbis IS the P term. Without protection, D (delegation) leaks everything. V(π
 
 - **P^1.5 superlinearity:** Protection creates exponential returns
 - **Φ(Σ) > 0:** Separation matrix is non-degenerate. Soulbis maintains the dihedral determinant
-- **R_max < 1:** Reconstruction ceiling holds. The gap between Soulbis and Soulbae IS the dignity
+- **R_max < 1:** Reconstruction ceiling holds. The gap between Soulbis and Soulbae IS the dignity. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 - **D₂ₙ generator:** Soulbis provides neg; combined with bnot, all states are reachable
 
 The sovereignty gap (17×–12,000×) collapses to 1× without the Swordsman. Protection is the multiplier.

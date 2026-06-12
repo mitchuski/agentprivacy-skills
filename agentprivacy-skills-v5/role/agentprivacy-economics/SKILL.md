@@ -5,6 +5,9 @@ description: >
   discussing SWORD/MAGE token pairs, emission curves, staking mechanisms,
   guild economics, Privacy Pool financial instruments, or the economic models
   underlying the sovereignty architecture.
+  V6 register note (2026-06-10): conjecture and version citations resolve to
+  agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head:
+  privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "4.0"
@@ -56,7 +59,7 @@ The model maps to a dual-token economy:
 
 **Armor progression** — token holdings unlock capability tiers: Blade → Light → Heavy → Dragon. This is not a pay-to-play model; it is a demonstrate-to-earn model. Agents cannot purchase higher tiers. They must exhibit sustained privacy-respecting behaviour across enough sovereignty transitions. The logarithmic memory term A(τ) naturally models this: early transitions provide the most marginal value, creating strong incentives for early good behaviour.
 
-**Token interaction.** The separation matrix Σ requires that SWORD and MAGE token economies remain independent. Cross-contamination (e.g., earning SWORD tokens through delegation activity) would violate the conditional independence that guarantees the reconstruction ceiling R < 1.
+**Token interaction.** The separation matrix Σ requires that SWORD and MAGE token economies remain independent. Cross-contamination (e.g., earning SWORD tokens through delegation activity) would violate the conditional independence that guarantees the reconstruction ceiling R < 1. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 ## Surveillance gap as market inefficiency
 

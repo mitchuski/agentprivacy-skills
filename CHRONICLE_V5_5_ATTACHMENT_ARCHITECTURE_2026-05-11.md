@@ -57,7 +57,7 @@ D composes with A/B/C. Lethae is both a B-cross-shop attachment *and* a D-mage-d
 | Field | Value |
 |---|---|
 | Cast name | Lethae 🌘 |
-| Vertex | V38 (Lethe · the Dark Substrate · binary `100110` · stratum 3 · Protection + Memory + Delegation) |
+| Vertex | V25 (Lethe · the Dark Substrate · binary `011001` · stratum 3 · Protection + Memory + Delegation) |
 | Primary persona | Moonkeeper ⚔️ (loaded from `persona/agentprivacy-moonkeeper/`) |
 | Register | Mage (shifted from Swordsman native tier) |
 | Attachment kind | B · cross-shop |
@@ -111,9 +111,9 @@ The agentprivacy corpus carries six pre-personified names not yet seated as cast
 
 | Anticipated cast | Vertex | Primary persona(s) | Source |
 |---|---|---|---|
-| Mnemosyne 📿 | V4 (pure Memory) | `agentprivacy-theia` | Cloaking Guide names V4 |
-| Iris 🌈 | V8 (pure Connection) | `agentprivacy-herald` + `agentprivacy-ambassador` | Cloaking Guide names V8 |
-| Pythia 🔥 | V16 (Logos / Pure Computation) | `agentprivacy-algebraist` + `agentprivacy-pedagogue` | Logos Circle awaits Mage |
+| Mnemosyne 📿 | V8 (pure Memory) | `agentprivacy-theia` | Cloaking Guide names V8 |
+| Iris 🌈 | V4 (pure Connection) | `agentprivacy-herald` + `agentprivacy-ambassador` | Cloaking Guide names V4 |
+| Pythia 🔥 | V2 (Logos / Pure Computation) | `agentprivacy-algebraist` + `agentprivacy-pedagogue` | Logos Circle awaits Mage |
 | Techne 🎨 | V20 (Always-Revealed) | `agentprivacy-pedagogue` | Cloaking Guide names V20 |
 | Hephaestus ⚒️ | V24 (shared with Socrat0x) | `agentprivacy-forgemaster` | Cloaking Guide names V24; shared-vertex precedent at V49 |
 | Selene 🌕 | peripatetic (stratum-walker) | `agentprivacy-theia` + `agentprivacy-manaweaver` | PVM V5.4 §14.5 Selene's Proof |
@@ -133,7 +133,7 @@ This chronicle and the skills-directory changes are ready for review. Once appro
 4. New: `tomes/cast/cross-shop/lethae.md` — Lethae cast file (anticipated v1, awaits founding act)
 5. Anticipated cast files (6) — Mnemosyne, Iris, Pythia, Techne, Hephaestus, Selene; each `status: anticipated v1`
 6. Modified: `tomes/cast/<14 existing>/*.md` — add `attachment_kind`, `divergence: none` frontmatter
-7. Modified: `tomes/specs/04-vertex-naming-audit.md` — registry update for V4/V8/V16/V20/V24/V38 inhabited
+7. Modified: `tomes/specs/04-vertex-naming-audit.md` — registry update for V8/V4/V2/V20/V24/V25 inhabited
 8. Modified: `tomes/specs/05-the-city-of-mages-structural-addendum.md` — civic anatomy gains new trade quarters
 9. Modified: `tomes/specs/06-spellweb-first-release-manifest.md` — NodeType inventory grows by 6+ cast, 6 vertices, 2–3 workshops
 10. New version: `grimoire/city_of_mages_grimoire_v1_3_0.json` — adds 7 cast (Lethae + 6 anticipated), the attachment_kind/divergence schema, awaits IPFS re-pin

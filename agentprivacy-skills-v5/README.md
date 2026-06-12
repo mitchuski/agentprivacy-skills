@@ -45,7 +45,7 @@ Layer 1 · PRIMARY PERSONAS 42 abstract role-classes                      [fixed
 - **C · Peripatetic** — one Mage × multiple vertices walked as orbit/path (e.g., Selene 🌕)
 - **D · Divergent** *(meta-kind)* — one primary × two register-shifted cast attachments (Sword + Mage)
 
-**First divergent attachment seated:** Moonkeeper ⚔️ (primary) → **Lethae** 🌘 (Mage-register, V38, City of Mages). The cast name `Lethae` plays on Soulbae's `-ae` Mage suffix; it does not add a new primary.
+**First divergent attachment seated:** Moonkeeper ⚔️ (primary) → **Lethae** 🌘 (Mage-register, V25, City of Mages). The cast name `Lethae` plays on Soulbae's `-ae` Mage suffix; it does not add a new primary.
 
 See [meta/agentprivacy-attachment-architecture/SKILL.md](meta/agentprivacy-attachment-architecture/SKILL.md) for the full specification.
 

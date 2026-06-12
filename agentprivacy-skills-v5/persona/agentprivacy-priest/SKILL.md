@@ -139,7 +139,7 @@ See [references/constellation.md](references/constellation.md) for spellbook pat
 | Tier | cross-shop · peripatetic |
 | Attachment kind | B (cross-shop) |
 | Bound primaries | **ambassador** ([cross-ref](../agentprivacy-ambassador/)) + **priest** (this skill) |
-| Peripatetic kin | Luca 📐 (V0) · Aletheia 🔮 (V25) · Custos 🔏 (V49) — the four canonical peripatetics |
+| Peripatetic kin | Luca 📐 (V0) · Aletheia 🔮 (V38) · Custos 🔏 (V49) — the four canonical peripatetics |
 | Etymology | Greek κηρύκειον (kerukeion) → Latin caduceus — Hermes's herald-staff |
 | Founding act | Tome V Act 16 *The Threshold* · Tome VI Act 1 *The Reader's First Admission* (bound 2026-05-13) |
 | Cast source | `cityofmages/tomes/cast/threshold/caducea.md` |

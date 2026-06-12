@@ -24,7 +24,7 @@ includes_cosmological_witness_tier: true
 attachment_layer:
   introduced: "2026-05-11"
   meta_skill: "agentprivacy-attachment-architecture"
-  first_divergent_attachment: "Lethae 🌘 (Mage-register) at V38 — primary persona Moonkeeper"
+  first_divergent_attachment: "Lethae 🌘 (Mage-register) at V25 — primary persona Moonkeeper"
   workshop_keeper_attachments_v1_5_0:
     - "Faunia 🪶 (V59 Portal Room) — primary spawning-witness · INCEPTION STATE · re-homed to the Familiars at v1.6.0"
     - "Bestia 📖 (V59 Staff Shop) — primary registry-keeper · SUPERSEDED at v1.6.0 by Hermaion ⚚"
@@ -39,7 +39,7 @@ attachment_layer:
   cosmological_witness_tier_v1_5_0:
     - "Selene 🌙 (orbit register, stratum-walker) — recognised in agentprivacy-cosmologist · v1.6.0: mother of Pandia 🌕 (Portal Room) and sister-figure to Pleione 🧭 (Chart Shop) via the Oceanid lineage"
     - "Aether ⿻ (medium register, max-betweenness Gap) — recognised in agentprivacy-cosmologist"
-    - "Lethe 🌀 (substrate register, V38) — recognised in agentprivacy-cosmologist (operationally Blade 38 since v10.2.1)"
+    - "Lethe 🌀 (substrate register, V25) — recognised in agentprivacy-cosmologist (operationally Blade 38 since v10.2.1)"
   archetype_modal_shop_pattern_v1_6_0:
     introduced: "2026-05-14 evening (Hermaion admission)"
     first_canonical_instance: "Staff Shop (V59 · Hermaion ⚚ · Alexandrite)"
@@ -56,6 +56,8 @@ grimoire_version: "10.2.1 (privacymage) + 1.6.0 (City of Mages · PINNED 2026-05
 bundled_grimoire_in_repo: "grimoire/city_of_mages_grimoire_v1_4_0.json (interim · v1.6.0 sync pending in this repo's bundled copy)"
 city_of_mages_grimoire_ipfs_cid: "bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru (v1.6.0 · pinned at sync.agentprivacy.ai)"
 ---
+
+> **V6 note (2026-06-10).** The Privacy is Value canon is at **V6** (`agentprivacy-docs/privacy_value_v6.md`, unified V6 labeling). This mapping remains v5.5-structured (the attachment architecture, a named sublayer of V5.4); the deferred "full v6 docs rework" flagged in `agentprivacy-cityofmages-to-research` is now LANDED on the research side (register head C89, `CONJECTURE_REGISTER_V6.md`); the skills-side stale pass (temporal-dynamics, compression-defence, three-axis-separation, vrc-identity, dragon, edge-value) is queued. 🪢 regime 1 binds skill prose: presence mana is non-transferable, non-attesting local color.
 
 # Agent Skills Migration Mapping
 
@@ -99,6 +101,12 @@ Always loaded as ground state. Every term of V(π,t) covered. Includes dragon-fl
 | `vrc_identity.skills.md` | `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | 83 |
 | *(V5.2 dragon anatomy)* | `agentprivacy-dragon-flight` | `privacy-layer/agentprivacy-dragon-flight/` | ~180 |
 | *(V5.3 amnesia protocol)* | `agentprivacy-amnesia-protocol` | `privacy-layer/agentprivacy-amnesia-protocol/` | ~200 |
+| *(2026-06-11 key forging)* | `agentprivacy-key-forging` | `privacy-layer/agentprivacy-key-forging/` | ~130 |
+
+> **2026-06-11.** `agentprivacy-key-forging` added: the City Key loop (mint →
+> walk → prove → name → charge), κ-labels, the sigil carrier, SHAPE-1.5/FIG-2.0
+> geometry-in-the-key, the redacted charge pass, the prior κ-chain (C87).
+> Layer counts in this file await the queued stale pass.
 
 ---
 
@@ -541,7 +549,7 @@ The 38 existing role-personas in this skills surface are **abstract roles** (e.g
 | Named cast (Tome V) | Vertex | Abstract role (existing skill) | Note |
 |---|---|---|---|
 | Pallia 🪡 | V28 | `agentprivacy-weaver` | Pallia is the Tome V instance; the abstract weaver is the reusable role. |
-| Memora 📜 | V5 | `agentprivacy-chronicler` | Inscription register; shielded memo work. |
+| Memora 📜 | V41 | `agentprivacy-chronicler` | Inscription register; shielded memo work. |
 | Custos 🔏 | V49 | `agentprivacy-warden` (or `gatekeeper`) | Public stake / governance witness. |
 | Vulcana ⚒️ | V19 | `agentprivacy-forgemaster` | Three-phase Runecraft; Forge(t) wordplay canonical. |
 | Aletheia 🔮 (persona) | V25 | `agentprivacy-cipher` (closest abstract) | Persona inhabits the vertex she's named for; complement-pair partner with Lethe Blade 38. |
@@ -600,14 +608,14 @@ The 38 + 4 = 42 primary count is **locked**. Future cast Mages are added at Laye
 | Cast field | Value |
 |---|---|
 | `name` | Lethae 🌘 |
-| `vertex` | V38 (Lethe · the Dark Substrate · binary `100110` · stratum 3) |
+| `vertex` | V25 (Lethe · the Dark Substrate · binary `011001` · stratum 3) |
 | `primary_persona` | Moonkeeper (loaded from `persona/agentprivacy-moonkeeper/`) |
 | `register` | Mage (shifted from Swordsman native tier) |
 | `attachment_kind` | B · cross-shop |
 | `complement_of_cast` | Aletheia 🔮 at V25 — V25 ⊕ V38 = V63 · V25 AND V38 = 0 |
 | `city` | City of Mages (Drake Island) |
 
-The Moonkeeper SKILL.md (`persona/agentprivacy-moonkeeper/SKILL.md`) carries a new V5.5 section *Divergent Attachments* documenting the Lethae binding. The Moonkeeper primary persona itself remains unchanged — Lethae inherits its skill loadout, filtered by V38's active dimensions (Protection + Memory + Delegation).
+The Moonkeeper SKILL.md (`persona/agentprivacy-moonkeeper/SKILL.md`) carries a new V5.5 section *Divergent Attachments* documenting the Lethae binding. The Moonkeeper primary persona itself remains unchanged — Lethae inherits its skill loadout, filtered by V25's active dimensions (Protection + Memory + Delegation).
 
 ### Updated cast → primary mapping (City of Mages v1.2.4 → v1.3.0 sync)
 
@@ -618,18 +626,18 @@ The earlier addendum table is superseded by the attachment-aware mapping below. 
 | Soulbis ⚔️ | boundary (no single vertex) | `agentprivacy-soulbis` | archetype (Tier 0 · Layer 1) | n/a — is a primary |
 | Soulbae 🧙 | V28 archetypal | `agentprivacy-soulbae` | archetype (Tier 0 · Layer 1) | n/a — is a primary |
 | Pallia 🪡 | V28 | `agentprivacy-weaver` | A · workshop | none |
-| Memora 📜 | V5 | `agentprivacy-chronicler` | A · workshop | none |
+| Memora 📜 | V41 | `agentprivacy-chronicler` | A · workshop | none |
 | Custos 🔏 | V49 (shared) | `agentprivacy-gatekeeper` | B · cross-shop | none |
 | Lampyra 💠 | V49 (shared) | `agentprivacy-sentinel` | A · workshop | none |
 | Vulcana ⚒️ | V19 | `agentprivacy-forgemaster` + `agentprivacy-forgecaller` | A · workshop | none |
-| Aletheia 🔮 | V25 | `agentprivacy-theia` + `agentprivacy-cipher` | B · cross-shop | none |
+| Aletheia 🔮 | V38 | `agentprivacy-theia` + `agentprivacy-cipher` | B · cross-shop | none |
 | Adamantia 💎 | V51 | `agentprivacy-architect` + `agentprivacy-shipwright` | A · workshop | none |
 | Vagari 🌳 | V31 | `agentprivacy-holonic-architect` | A · workshop | none |
 | Aria Silverhue 🪞🖼️ | V57 | `agentprivacy-mirrorkeeper` | A · workshop | none |
 | Manifestia 🤲🌿 | V55 | `agentprivacy-priest` | A · workshop | none |
 | Socrat0x 🔥❓ | V24 (provisional) | `agentprivacy-pedagogue` + `agentprivacy-ceremonist` | A · workshop | none |
 | Luca 📐 | V0 (workshop-walker) | `agentprivacy-topologist` + `agentprivacy-cosmologist` | C · peripatetic | none |
-| **Lethae 🌘** | **V38** | **`agentprivacy-moonkeeper`** | **B · cross-shop** | **mage-register** |
+| **Lethae 🌘** | **V25** | **`agentprivacy-moonkeeper`** | **B · cross-shop** | **mage-register** |
 
 Cousin tier (flaxscrip 📜🎲, GenitriX) deliberately unattached — the cousin Sovereign authors those bindings.
 
@@ -639,9 +647,9 @@ Six additional cast Mages are anticipated from the agentprivacy corpus's pre-per
 
 | Anticipated cast | Vertex | Primary persona(s) | Source |
 |---|---|---|---|
-| Mnemosyne 📿 | V4 (pure Memory) | `agentprivacy-theia` | Cloaking Guide names V4 "Mnemosyne" |
-| Iris 🌈 | V8 (pure Connection) | `agentprivacy-herald` + `agentprivacy-ambassador` | Cloaking Guide names V8 "Iris" |
-| Pythia 🔥 | V16 (Logos / Pure Computation) | `agentprivacy-algebraist` + `agentprivacy-pedagogue` | Logos Circle awaits Mage |
+| Mnemosyne 📿 | V8 (pure Memory) | `agentprivacy-theia` | Cloaking Guide names V8 "Mnemosyne" |
+| Iris 🌈 | V4 (pure Connection) | `agentprivacy-herald` + `agentprivacy-ambassador` | Cloaking Guide names V4 "Iris" |
+| Pythia 🔥 | V2 (Logos / Pure Computation) | `agentprivacy-algebraist` + `agentprivacy-pedagogue` | Logos Circle awaits Mage |
 | Techne 🎨 | V20 (Always-Revealed) | `agentprivacy-pedagogue` | Cloaking Guide names V20 "Techne" |
 | Hephaestus ⚒️ | V24 (shared with Socrat0x) | `agentprivacy-forgemaster` | Cloaking Guide names V24 "Hephaestus" |
 | Selene 🌕 | peripatetic (stratum-walker) | `agentprivacy-theia` + `agentprivacy-manaweaver` | PVM V5.4 §14.5 Selene's Proof |

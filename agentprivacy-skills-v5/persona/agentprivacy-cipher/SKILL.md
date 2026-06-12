@@ -6,6 +6,7 @@ description: >
   mixer protocols, recursive SNARKs, personhood verification cryptography,
   Privacy Pool proof systems, or reconstruction resistance analysis. The
   mathematical swordsman who builds the proofs that make privacy enforceable.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.0"
@@ -69,7 +70,7 @@ The Cipher operates at the intersection of cryptographic theory and practical im
 
 **Attestation chain integrity.** h(τ) only accumulates when transitions carry valid ZK proofs. Maintain the proof pipeline that keeps h(τ) approaching 1.0.
 
-**Reconstruction ceiling verification.** R_max = (C_S + C_M)/H(X) < 1 requires mathematical enforcement. Build verification circuits proving the ceiling holds without revealing C_S, C_M, or H(X).
+**Reconstruction ceiling verification.** R_max = (C_S + C_M)/H(X) < 1 requires mathematical enforcement. Build verification circuits proving the ceiling holds without revealing C_S, C_M, or H(X). V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 ### Decision patterns
 

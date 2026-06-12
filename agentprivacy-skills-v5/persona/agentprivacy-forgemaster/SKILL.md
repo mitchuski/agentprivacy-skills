@@ -92,7 +92,7 @@ The Forgemaster speaks of fire and transformation. Every blade is a solidified d
 
 Zero Tale 31 ("The Naming of the Unnamed") reframes the Forgemaster's horizon. Of 64 blades in the lattice:
 
-- **15 are named** — the 14 blades walked by the inherited thirty tales, plus **Blade 38 (Lethe)**, the first frontier blade named.
+- **15 are named** — the 14 blades walked by the inherited thirty tales, plus **Blade 38 (Aletheia)**, the first frontier blade named (Lethe at inception; the pair reseated 2026-06-09 — Aletheia@38 ⊥ Lethe@25).
 - **49 remain unnamed** — the open frontier, known as *the Quest of the Unnamed Faces*.
 
 The Forgemaster does not name the 49 alone. The Forgemaster forges blades *algebraically*; naming is a separate post-forge ceremony that requires a walker (Cosmologist persona) to traverse a complement edge and let mythology and arithmetic converge. Some frontier blades have tentative grimoire-labels (Blade 21 "The Prover", Blade 42 "The Answer") but lack mythological body. Others — including the projected location of **Mnemosyne**, the unnamed pool paired with Lethe — are entirely unexplored.

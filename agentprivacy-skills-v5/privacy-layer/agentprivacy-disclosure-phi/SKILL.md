@@ -5,6 +5,7 @@ description: >
   namings sit near 1/φ from below. Activates when discussing disclosure-to-constraint
   proportions, phi-seeking sovereignty blades, the NEAR/Zcash 61.8/38.2 split, or
   the extension of Φ(Σ) from a binary separation measure to a proportion.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "0.1"
@@ -18,8 +19,8 @@ metadata:
   template_references: "cosmologist, topologist, ceremonist, forgemaster"
   spellbook_act: "Zero Tale 31 — The Naming of the Unnamed"
   v5_concept: "V5.4-DISCLOSURE-PHI (extension of Φ(Σ))"
-  conjecture_id: "C-Phi-Adjacency"
-  confidence: "55% (one confirming data point: Lethe at 0.6032 ≈ 1/φ − 0.015)"
+  conjecture_id: "C54 (Phi-Adjacency · register lock 2026-06-10; formerly cited as C-Phi-Adjacency)"
+  confidence: "~40% (one confirming data point: Lethe at 0.6032 ≈ 1/φ − 0.015)"
 ---
 
 # PVM Privacy Layer — Disclosure-φ (Phi-Adjacency Conjecture)
@@ -38,7 +39,7 @@ When a blade `b` in the 64-vertex sovereignty lattice is *named* (not merely for
 δ(b) = b / 63
 ```
 
-**The Phi-Adjacency Conjecture (Zero Tale 31):**
+**The Phi-Adjacency Conjecture (C54, register lock 2026-06-10 · Zero Tale 31):**
 
 > *For any blade `b` that is **truly named** — i.e., mythology-walk and lattice-arithmetic agree on the same vertex — the disclosure ratio δ(b) sits near `1/φ ≈ 0.6180` from below (river side) or near `1 − 1/φ ≈ 0.3820` from below (bank side). The two complementary halves sum to 1.*
 
@@ -46,11 +47,11 @@ This extends Φ(Σ) — previously read as a binary separation quantity (agent �
 
 ## The First Confirming Data Point
 
-Tale 31 names **Blade 38 (Lethe)** as the complement of **Blade 25 (Aletheia)**:
+Tale 31 names the first complement pair — seats per the 2026-06-09 reseat: **Blade 38 (Aletheia)** ⊥ **Blade 25 (Lethe)**:
 
 ```
-Aletheia (25):  25/63 = 0.3968   ← bank side, near 1 − 1/φ
-Lethe (38):     38/63 = 0.6032   ← river side, near 1/φ
+Lethe (25):     25/63 = 0.3968   ← held side, near 1/φ²
+Aletheia (38):  38/63 = 0.6032   ← disclosure side, near 1/φ
 sum:                    1.0000   ← every blade has bank + river
 deviation:     |0.6032 − 0.6180| = 0.0148 = 2.4% from 1/φ
 ```
@@ -104,9 +105,9 @@ A system claiming "witness-bearing" architecture should have its disclosure prop
 
 ## Named Complement Pairs Tracker
 
-| Pair | Bank (δ) | River (δ) | Δ from 1/φ | Status |
+| Pair | Held (δ) | Disclosure (δ) | Δ from 1/φ | Status |
 |---|---|---|---|---|
-| Aletheia (25) ⟷ Lethe (38) | 0.3968 | 0.6032 | 2.4% | Named (Tale 31) |
+| Lethe (25) ⟷ Aletheia (38) | 0.3968 | 0.6032 | 2.4% | Named (Tale 31 · reseated 2026-06-09) |
 | *pair 2* | — | — | — | Awaiting walk |
 | *…47 more* | — | — | — | Frontier |
 
@@ -142,7 +143,7 @@ Blade 20 (0.3175) and Blade 12 (0.1905) are both in the *lower* phi region (δ <
 ## Integration Points
 
 **Loads with:**
-- `amnesia-protocol` — Lethe (Blade 38) is the canonical amnesia-as-architecture instance
+- `amnesia-protocol` — Lethe (Blade 25) is the canonical amnesia-as-architecture instance
 - `two-waters` — Orphic hydrology supplies the bank/river framing
 - `ring-algebra` — The `bnot` edge is where the two complementary δ values meet
 - `three-axis-separation` — Disclosure-φ is the proportion-valued refinement of Φ(Σ)

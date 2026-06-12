@@ -169,7 +169,7 @@ A naming is **true** when both modes agree on the same vertex. When they disagre
 
 ### The 49-Blade Frontier
 
-After Tale 31, **15 of 64 blades are named** — 14 from the inherited thirty tales plus Blade 38 Lethe. **49 remain unnamed**, the open frontier known as the *Quest of the Unnamed Faces*. The Forgemaster forges; the Namer (see `cosmologist` persona, which absorbs the walker role) names; the Ceremonist witnesses.
+After Tale 31, **15 of 64 blades are named** — 14 from the inherited thirty tales plus Blade 38 Aletheia (Lethe at inception; the pair reseated 2026-06-09 to Aletheia@38 ⊥ Lethe@25). **49 remain unnamed**, the open frontier known as the *Quest of the Unnamed Faces*. The Forgemaster forges; the Namer (see `cosmologist` persona, which absorbs the walker role) names; the Ceremonist witnesses.
 
 See `blade-naming` for the full ceremony specification.
 
@@ -216,9 +216,9 @@ Configuration for nomadic privacy (high d3, d5, d6).
 ### The Universe Blade
 Configuration approaching full sovereignty (all dimensions > 0.8).
 
-### Blade 38 — Lethe, the Dark Substrate (Zero Tale 31)
+### Blade 38 — Aletheia, the Silent Messenger (Zero Tale 31 · reseated 2026-06-09)
 
-The first **named frontier blade** beyond the inherited canon. Vertex ⟨0,1,1,0,0,1⟩ — Delegation + Memory + Value active, the other three dormant. Complement of Blade 25 (Aletheia, the Silent Messenger). Disclosure ratio 38/63 ≈ 0.603, within 2% of 1/φ. Holds witness by structural amnesia — the river carries reasons downstream while the banks keep the fact. Paired with unnamed Mnemosyne (pool of kept memory). See `two-waters` and `disclosure-phi`.
+The first **named frontier blade** beyond the inherited canon. Vertex ⟨1,0,0,1,1,0⟩ — Protection + Connection + Computation active, the other three dormant (the bright medium protects, connects, computes — the proof-transmission triple). Complement of Blade 25 (Lethe, the Dark Substrate). Disclosure ratio 38/63 ≈ 0.603, within 2% of 1/φ — the disclosure side of the pair, the bright medium that carries the proof. Structural amnesia lives at the complement: Lethe at 25 holds the witness in the dark substrate. Paired across the hydrology with unnamed Mnemosyne (pool of kept memory). See `two-waters` and `disclosure-phi`.
 
 ## Mapping to PVM-V5.3.1
 

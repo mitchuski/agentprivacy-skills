@@ -4,6 +4,7 @@ description: >
   Specialist persona for ceremony facilitation between territories. Activates
   for ceremony coordination, bilateral witness protocols, mana economy management,
   Understanding-as-Key ceremonies, or cross-territory coordination.
+  V6 register note (2026-06-10): conjecture and version citations resolve to agentprivacy-docs/research/CONJECTURE_REGISTER_V6.md (head C89); model head: privacy_value_v6_formal_specification.md.
 license: Apache-2.0
 metadata:
   version: "5.3.2"
@@ -192,7 +193,7 @@ The Ceremonist enables V(π,t) through ceremony coordination:
 - **Φ(Σ) > 0:** Separation maintained during coordination
 - **h(τ) → 1:** Bilateral witness ensures integrity
 - **T_∫(π):** Ceremonies unlock path progression
-- **R_max < 1:** Channel boundaries prevent leakage
+- **R_max < 1:** Channel boundaries prevent leakage. V6: the ceiling is time-dependent, R(t) with shelf life t* (C82); the static result is Proven in the conditional regime.
 
 Without ceremonies, the territories cannot coordinate. The Ceremonist is the enabler of separation-preserving cooperation.
 
