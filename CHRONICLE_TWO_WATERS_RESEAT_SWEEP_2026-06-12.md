@@ -61,14 +61,37 @@ The sweep surfaced a live **dual encoding** in the suite:
 
 The two-waters pair is invariant under the clash (25/38 are bit-reversals, so
 the seats agree either way) — but **general vertices are not** (V41 is P+M+V
-only under MODEL). Code that attributes dimensions from vertex bits — the star
-pages' panel labels, `lattice-vertex.ts`, and `packetsToFigures()` in the
-Tracing Protocol (visibility-per-dimension) — currently follows §12.6 LSB.
-If MODEL (Protection = b5) is the ruling, those attributions are reversed for
-asymmetric vertices and need one deliberate pass. **One encoding must be
-ruled canonical; the register should record the ruling.** Until then this
-chronicle is the marker.
+only under MODEL).
+
+## 4. RULED AND UNIFIED (the First Person, same day)
+
+*"do a pass on the bit locations… it must be unified."* **Ruling: the MODEL
+encoding — d₁ Protection is the HIGH bit (2⁵); d_k carries weight 2^(6−k);
+a vertex's binary string reads d₁…d₆ left to right.** The pinned grimoire
+seats and deployed vertex numbers derive under it; code labels are cheap,
+pinned canon is not.
+
+The unification pass (2026-06-12):
+
+- **Already conformant, untouched:** `agentprivacy_master/src/lib/
+  lattice-vertex.ts` (vertexToBits is MSB-first, Protection weight 32 — every
+  master surface that uses it was correct all along) · `spellweb-blade-bridge`
+  · spellweb's vertex nodes (V41 P+M+V, V38 Aletheia P+C+C) · all popcount /
+  neighbour-flip code (convention-free) · /star's 3D lattice embedding (bits
+  drive geometry positions, not labels — deliberately untouched).
+- **Fixed to MODEL:** soulbis `/lattice` (panel bitrow emoji + held-list) and
+  `/sigil` (held/open inspect) — both pages' §12.6 comments rewritten with the
+  ruling + the three worked anchors; dimensions now listed d₁-first; star
+  CLAUDE.md canon paragraph rewritten ("never read d₁ at the low bit");
+  `packetsToFigures()` in the Tracing Protocol now attributes visibility per
+  dimension at bit (5−i); Tracing spec §14.3 carries the encoding note.
+- **The ruling stated in the formal spec:** PVM V6 formal specification §12.6
+  gains the *Numeric encoding* paragraph (MSB-first, weights, the three
+  anchors, "any surface reading d₁ at the low bit is in erratum") —
+  consistent with §12.8's own Aletheia/Lethe prose, which was already MODEL.
+- **Verified:** V38 → 🛡️🔗⚡, V25 → 🤝📜💎, V41 → 🛡️📜💎 through the actual
+  page code and the figures derivation; tsc clean; the five suite pages
+  byte-identical to soulbis; academic PDFs rebuilt with the ruling.
 
 *The waters told apart, the numbers corrected, the walk left standing — and
-one question left honestly on the table: which end of the word does
-Protection live at?* (⚔️⊥⿻⊥🧙)😊
+the word now reads one way: Protection lives at the high end.* (⚔️⊥⿻⊥🧙)😊

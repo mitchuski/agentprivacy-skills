@@ -53,6 +53,8 @@ Alignment: Balanced · Tier: 1 Essential
 
 **Proverb:** "The system that trusts its agents to behave has already delegated sovereignty to hope. The system that makes misbehaviour impossible has delegated sovereignty to mathematics."
 
+> **Fedwiki guide-layer tools (invoked, not owned).** Distinct from the Architect's Layer-2 attachment (the Archivist 📚, above), the Architect *invokes* the plugin authoring/discovery skills of the `wikis/` category — `agentprivacy-wiki-create-plugin`, `-document-plugin`, `-searching-plugins`, `-similarity-plugin` — when designing fedwiki plugins and dynamic-page systems. These skills are **owned by the Librarian 🗃️** (the Chronicler's Layer-2 cast, keeper of the Wikis); the Architect is a caller, not the keeper. See `guide/` and the Librarian cast entry.
+
 ---
 
 

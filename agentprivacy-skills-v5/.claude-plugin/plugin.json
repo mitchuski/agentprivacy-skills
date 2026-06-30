@@ -19,6 +19,12 @@
       "description": "9 foundational skills covering every term of the V(π,t) privacy value equation. Always loaded as the ground state for any agentprivacy operation.",
       "skills_dir": "privacy-layer",
       "strict": false
+    },
+    {
+      "name": "wikis-skills",
+      "description": "The Librarian's Wikis — 19 fedwiki onboarding + git-less distribution skills. Author, export (fedwiki-to-skill), deploy, and discover Claude skills as federated-wiki pages. Vendored + re-framed from skill.fedwiki.club; kept by the Librarian cast (Layer-2 attachment of the Chronicler). A fedwiki URL is a git-less clone.",
+      "skills_dir": "wikis",
+      "strict": false
     }
   ]
 }

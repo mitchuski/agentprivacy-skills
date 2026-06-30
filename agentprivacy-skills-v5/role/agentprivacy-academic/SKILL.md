@@ -108,6 +108,7 @@ The model values privacy-preserving agent architectures. It does not: provide a 
 
 - Amcalar, A. & Cinar, E. "BRAID: Bounded Reasoning for Autonomous Inference and Decisions." arXiv:2512.15959 (2025). [Structured prompting economics, PPD metric, Generator/Solver split architecture, Numerical Masking Protocol]
 - Gershfield, M. "Holonic Architecture: Identity-Independent Data Structures for Cross-Environment Interoperability." OASIS / NextGen Software Whitepaper v1.2 (2026). [Holon model, HyperDrive runtime, multi-provider persistence, shared-parent patterns, Holonic BRAID]
+- Cunningham, W. et al. "Smallest Federated Wiki." (federatedwiki.org) — the fork-with-attribution model the `guide/` onboarding layer builds on. [Federated page forking; the journal as lineage; pages-as-skills (skill.fedwiki.club); the git-less-clone distribution thesis — a fedwiki URL forks a `SKILL.md` whose journal carries its origin, kept by the Librarian 🗃️ in the Wikis]
 
 ## Suggested review criteria
 

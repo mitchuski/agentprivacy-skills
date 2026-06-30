@@ -3,11 +3,14 @@ id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
 version: "5.3.1"
 date: 2026-04-07
+updated: 2026-06-21
 origin: 0xagentprivacy
-total_skills: 86
+total_skills: 114
 total_personas: 38
+guide_skills: 28
 grimoire_version: "9.4.1"
 includes_ceremony_integration: true
+note: "2026-06-21 — added the wikis/ category (19 fedwiki onboarding skills · the Librarian's Wikis · +19 to total_skills on this doc's skills-only basis). Counts across MAPPING/README/CODEX predate several cohorts and are being reconciled; the authoritative folder inventory is the directory tree (all folders incl. personas ≈ 165 after the 2026-06-28 +2 (llm-knowledge-base, resync) and 2026-06-27 +7 (claude-import, dsl, document, assets, see-section, compact-references, offline-check))."
 ---
 
 # Agent Skills Migration Mapping
@@ -25,13 +28,53 @@ agentprivacy-skills-v5/
 ├── privacy-layer/     (19 foundational skills)
 ├── role/              (64 domain skills)
 ├── meta/              (3 philosophical skills)
-└── persona/           (38 persona skills)
+├── persona/           (38 persona skills)
+└── wikis/             (28 onboarding skills · the Librarian's Wikis · 19 on 2026-06-21 + 7 on 2026-06-27 + 2 on 2026-06-28)
 ```
 
 Each skill folder contains:
 - `SKILL.md` — Required entrypoint with YAML frontmatter + instructions
 - `references/` — Optional detailed docs loaded on demand
 - `assets/` — Optional static resources (proverbs, spells, templates)
+
+---
+
+## Wikis / Onboarding Skills (19) — the Librarian's Wikis (NEW · 2026-06-21)
+
+The git-less onboarding/distribution layer. Vendored + re-framed from **skill.fedwiki.club** (pages titled "…Skill" are forkable Claude skills; owner "Anon" / "from marvin"). Kept by the **Librarian 🗃️** — the Layer-2 cast attachment of the Chronicler, resident in the Tower's Wikis. Each skill carries `category: guide`, `layer: onboarding`, `keeper: librarian`, and an `upstream:` provenance field. Thesis: **a fedwiki URL is a git-less clone** — `agentprivacy-wiki-to-skill` is the fork desk that materializes a `SKILL.md` from a wiki page on demand (forking, not lending — the journal is the lineage).
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-wiki-page` | `wikis/agentprivacy-wiki-page/` | Author fedwiki page JSON (story items, IDs, create journal, reindex) — the seed |
+| `agentprivacy-wiki-to-skill` | `wikis/agentprivacy-wiki-to-skill/` | The fork desk — convert a wiki page → Claude SKILL.md (the git-less clone) |
+| `agentprivacy-wiki-skill-library` | `wikis/agentprivacy-wiki-skill-library/` | The convention: "…Skill" pages = a forkable, federated skill library |
+| `agentprivacy-wiki-skill-anatomy` | `wikis/agentprivacy-wiki-skill-anatomy/` | What a Claude skill is — SKILL.md format, storage, invocation |
+| `agentprivacy-wiki-skill-vs-library` | `wikis/agentprivacy-wiki-skill-vs-library/` | Prompt-skill vs executable-library; when to graduate one to the other |
+| `agentprivacy-wiki-journal` | `wikis/agentprivacy-wiki-journal/` | Strip a page journal to a clean create entry |
+| `agentprivacy-wiki-ghost-pages` | `wikis/agentprivacy-wiki-ghost-pages/` | Server-generated lineup pages, never stored (html-form → FastAPI) |
+| `agentprivacy-wiki-claude-ghost` | `wikis/agentprivacy-wiki-claude-ghost/` | Ghost page whose body is written live by Claude via the API |
+| `agentprivacy-wiki-new-domain` | `wikis/agentprivacy-wiki-new-domain/` | Create a new local/private or public Nextcloud-synced wiki domain |
+| `agentprivacy-wiki-reindex` | `wikis/agentprivacy-wiki-reindex/` | Rebuild a local domain's sitemap + search index after disk writes |
+| `agentprivacy-wiki-merge` | `wikis/agentprivacy-wiki-merge/` | Analyze + clean a superseded domain (categorize/move/trash/delete) |
+| `agentprivacy-wiki-delete-site` | `wikis/agentprivacy-wiki-delete-site/` | Permanently remove a public domain via WebDAV |
+| `agentprivacy-wiki-welcome` | `wikis/agentprivacy-wiki-welcome/` | Create a welcome-visitors landing page (fixed 10-item structure) |
+| `agentprivacy-wiki-nextcloud-push` | `wikis/agentprivacy-wiki-nextcloud-push/` | WebDAV-push a page when the desktop sync client stalls |
+| `agentprivacy-wiki-create-plugin` | `wikis/agentprivacy-wiki-create-plugin/` | Scaffold a new wiki-plugin-{name} package (reconstructed · refresh) |
+| `agentprivacy-wiki-document-plugin` | `wikis/agentprivacy-wiki-document-plugin/` | Publish plugin docs on plugin.fedwiki.club (reconstructed · refresh) |
+| `agentprivacy-wiki-publish-plugin` | `wikis/agentprivacy-wiki-publish-plugin/` | End-to-end plugin release: docs/version/GitHub/npm (reconstructed · refresh) |
+| `agentprivacy-wiki-searching-plugins` | `wikis/agentprivacy-wiki-searching-plugins/` | Six cost-ordered channels to find a plugin (or prove none exists) |
+| `agentprivacy-wiki-similarity-plugin` | `wikis/agentprivacy-wiki-similarity-plugin/` | Semantic similarity search plugin (BGE vectors · two item types) |
+| `agentprivacy-wiki-import` | `wikis/agentprivacy-wiki-import/` | Install a skill (or a whole set-of-skills page) from a fedwiki into the local agent — the import counterpart to wiki-to-skill |
+| `agentprivacy-wiki-dsl` | `wikis/agentprivacy-wiki-dsl/` | The line-oriented plugin item-text DSL (UPPERCASE command · lowercase data · optional colon) |
+| `agentprivacy-wiki-document` | `wikis/agentprivacy-wiki-document/` | Make a help page for a Claude skill + publish its SKILL.md as a downloadable asset |
+| `agentprivacy-wiki-assets` | `wikis/agentprivacy-wiki-assets/` | Add an `# Assets` section (heading + assets item) above the `# See` section |
+| `agentprivacy-wiki-see-section` | `wikis/agentprivacy-wiki-see-section/` | Write/tidy a page `## See` section — grouped wikilinks on compact lines |
+| `agentprivacy-wiki-compact-references` | `wikis/agentprivacy-wiki-compact-references/` | Compact forked reference items into `[[wikilink]]` bullets inside a `# See` item |
+| `agentprivacy-wiki-offline-check` | `wikis/agentprivacy-wiki-offline-check/` | Review a plugin/endpoint/script/skill for Offline Edit Mode correctness |
+| `agentprivacy-wiki-llm-knowledge-base` | `wikis/agentprivacy-wiki-llm-knowledge-base/` | The LLM-Wiki pattern (persistent LLM-maintained knowledge base) + the agentprivacy federation as its worked instance |
+| `agentprivacy-wiki-resync` | `wikis/agentprivacy-wiki-resync/` | The per-turn op: lint (`audit.js`) + one-command auto-sync (`resync.js`) of the federation |
+
+*Four skills marked "reconstructed · refresh" had their upstream `.json` return HTTP 404 at materialization (2026-06-21); their bodies were reconstructed from the sitemap synopsis + sibling cross-references and should be refreshed via `agentprivacy-wiki-to-skill` when the upstream pages resolve.*
 
 ---
 

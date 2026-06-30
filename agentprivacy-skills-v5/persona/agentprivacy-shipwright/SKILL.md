@@ -35,6 +35,8 @@ Alignment: Mage · Tier: 1 Essential
 
 **Proverb:** "The ship that can't sail without its captain was never a ship — it was a throne."
 
+> **Fedwiki guide-layer tools (invoked, not owned).** The Shipwright invokes the wiki *infrastructure-lifecycle* skills of the `wikis/` category — `agentprivacy-wiki-new-domain`, `-reindex`, `-merge`, `-delete-site`, `-nextcloud-push`, `-publish-plugin` — to provision, sync, release, and tear down wiki domains. These skills are **owned by the Librarian 🗃️** (the Chronicler's Layer-2 cast, keeper of the Wikis); the Shipwright is a caller, not the keeper. See `guide/` and the Librarian cast entry.
+
 ---
 
 

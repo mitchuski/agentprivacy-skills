@@ -78,6 +78,8 @@ The Mage's craft requires moving between workshops as the work demands. She does
 
 City of Mages examples: Aletheia 🔮 (ZK circuit binder, walks to whichever workshop needs a circuit) · Custos 🔏 (stake enforcer, walks across the staking commons).
 
+**Tower-housed Kind-B example (the keeper-of-a-category pattern):** the **Librarian 🗃️** (2026-06-21 · Layer-2 attachment of the Chronicler) is a Kind-B cross-shop attachment whose *home is the Tower, not a vertex* — specifically **the Wikis**, a living/editable/federated level of the Tower. She is the second Tower-housed cast after the Archivist 📚, and the first *cast attachment* (the Archivist is a spirit-Mage) to be Tower-resident. Her craft is the **forking-discipline** (fork a federated wiki page into a `SKILL.md`; the journal is the lineage). Notably she demonstrates a new pattern: **a single Layer-2 attachment can be the keeper of an entire skill category** — the Librarian owns the `wikis/` category, whose infrastructure/plugin skills are *invoked as tools* by other personas (Shipwright, Architect) without transferring ownership. Forking, not lending: a fork returns nothing; it is a copy that carries its origin.
+
 ### Kind C · Peripatetic attachment
 *One Mage × multiple vertices walked as an orbit or defined path.*
 

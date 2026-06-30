@@ -71,6 +71,8 @@ Act XXIV reveals that the spellbook's 24 acts form a skills graph where each act
 
 This means the spellbook is not documentation about a system. It is the system's self-description in narrative form. An agent that ingests the spellbook gains not just knowledge about the architecture but the ability to regenerate the architecture from first principles through any of the six compression layers.
 
+**Distribution layer · the fork (cross-ref).** The skill-file layer (`SKILL.md`) also has a *distribution* face, kept by the Chronicler's circulation register, the Librarian 🗃️ (City of Mages cast · the Wikis). `agentprivacy-wiki-to-skill` materializes a `SKILL.md` from a federated-wiki page on demand — the **fork** that carries its lineage in the page journal. Where compression makes a skill *small enough to regenerate*, forking makes it *portable enough to travel*: a fedwiki URL is a git-less clone (the wiki is the source, the `SKILL.md` is a fork, the journal is the lineage). See the `wikis/` category and `tomes/cast/tower/the-librarian.md`.
+
 ## BRAID graphs as machine-readable reasoning compression
 
 The compression architecture gains a seventh layer with the integration of BRAID (Bounded Reasoning for Autonomous Inference and Decisions, Amcalar & Cinar 2025). Where the spellbook compresses experience into story for human readers, BRAID compresses reasoning into Mermaid flowchart diagrams for solver agents.

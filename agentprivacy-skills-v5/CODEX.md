@@ -2,10 +2,13 @@
 name: "agentprivacy-codex"
 version: "5.3.2"
 date: 2026-04-07
+updated: 2026-06-21
 origin: 0xagentprivacy
 personas: 38
-knowledge_skills: 86
-total_skills: 124
+knowledge_skills: 105
+guide_skills: 19
+total_skills: 143
+note: "2026-06-21 — added the wikis/ category (19 fedwiki onboarding skills · the Librarian's Wikis). knowledge_skills 86→105, total_skills 124→143 on this doc's basis. Cross-doc counts predate several cohorts and are being reconciled; the directory tree is authoritative."
 ---
 
 # The Codex of Spells
@@ -24,6 +27,14 @@ V(π, t) = P · D · C · e^{-λt} · (1 + A(τ)) · T(π) · (1 + Σ wᵢ nᵢ/
 ```
 
 Where **P** = Protection, **D** = Delegation, **C** = Verifiability, **λ** = Decay, **A(τ)** = Memory, **T(π)** = Trajectory, and the final term = Network Effects. Every persona, every skill, every spell maps back to one or more terms of this equation.
+
+---
+
+## 0. The Librarian's Wikis — wikis/ onboarding layer (NEW · 2026-06-21)
+
+A fifth category beside privacy-layer / role / meta / persona: **wikis/** — 19 fedwiki onboarding + git-less distribution skills, vendored + re-framed from [skill.fedwiki.club](https://skill.fedwiki.club). Kept by the **Librarian 🗃️**, the City of Mages' second spirit-Mage and the Layer-2 cast attachment of the **Chronicler** (resident in *the Wikis*, a living/editable/federated level of the Tower — see Tome VIII Act 6). Equation footprint: **Network (+ T(π))** — federation value + the forking-as-transition of the git-less clone.
+
+The keeper-spell: *a fedwiki URL is a git-less clone — the wiki is the source, the materialized SKILL.md is a fork, the journal is the lineage. The Archivist never copies; the Librarian only forks.* The fork desk is `agentprivacy-wiki-to-skill`. Full roster in [MAPPING.md](MAPPING.md#wikis--onboarding-skills-19--the-librarians-wikis-new--2026-06-21).
 
 ---
 
