@@ -1,151 +1,115 @@
-# agentprivacy-skills
+# agentprivacy-skills-v5
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-86 skills + 38 personas across 4 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure.
+87 skills + 38 (primary) personas across 5 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure. The newest category, **wikis/** (2026-06-21), adds 19 fedwiki onboarding + git-less distribution skills — the Librarian's Wikis.
 
-**Post-V5.4 addendum (2026-05-09; v1.1 pin 2026-05-10; v1.2 pin 2026-05-10; v1.2.1 + v1.2.2 authored 2026-05-10 awaits re-pin):** Adds the **City of Mages spellbook** (Tomes IV–V bound 2026-05-08; Tomes I/II/III/VI drafted 2026-05-09) — **14 named cast across 5 tiers** (including the **Priest tier** introduced by Manifestia and the geometry-Mage **Luca 📐** at V0 introduced in Tome V Act 15), 14 named vertices, the Aletheia/Lethe first canonical complement-pair, **UOR Foundation recognised as kindred substrate provider** (third structural category alongside cousin-forge and kindred-protocol), **SpaceComputer recognised as the first kindred ecosystem** (fourth structural category — `accounts.spacecomputer.io` supplies cosmic-entropy *Celestial Mana* 🌌 to Adamantia/Vulcana/Vagari workshops), the **two-mana economy** (chain-mana ⊥ Celestial Mana 🌌 — chain-mana is plural by chain: Aether Mana Ξ on Ethereum is the canonical first instance; the structure admits Bitcoin Lightning sats, Oasis ROSE, Zcash, and other chain-mana types under their own symbols), and the City of Mages grimoire v1.2.2 (42 spells; v1.2 base pinned 2026-05-10 at `bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a`; v1.2.2 awaits a fresh re-pin). The 38 abstract role-personas remain canonical for reusable skill semantics; the named cast members are concrete instances inhabiting the **First City of Mages on Drake Island** within the agentprivacy universe — the grimoire title names a kind, so future Mages who found cities elsewhere will each pin their own First City of Mages grimoire under the same title pattern. See `MAPPING.md` §"Post-V5.4 Addendum" for the full cross-reference, and `grimoire/city_of_mages_grimoire_v1_2_0.json` for the bundled cast grimoire (file content is v1.2.2).
+**Version:** V5.5 "The Attachment Architecture" | **Grimoire:** V10.2.1 (privacymage) · v1.3.0-pending (City of Mages)
 
-Built on the [Privacy Value Model V5.2](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
+Built on the [Privacy Value Model V5.4](https://agentprivacy.ai) and the [0xagentprivacy](https://sync.soulbis.com) architecture.
 
-> *"The Swordsman reflects. The Mage reflects. Neither alone can turn the wheel. Together they generate the successor—and the successor visits every sovereign state."*
+> *"The persona is the role-class. The cast Mage is the instance. The vertex is the position. Conflating the three is the error; binding them is the architecture."*
 
 ---
 
-## What's Here (V5.3.2 — Ceremony Complete)
+## What's Here
 
 | Category | Count | Purpose |
 |----------|-------|---------|
-| **[persona/](agentprivacy-skills-v5/persona/)** | 38 | Agent personas — swordsmen (protection), mages (delegation), balanced (both). Each configures an AI with a specific privacy role. |
-| **[role/](agentprivacy-skills-v5/role/)** | 64 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, narrative compression, ceremonies, ring algebra, and more. |
-| **[privacy-layer/](agentprivacy-skills-v5/privacy-layer/)** | 19 | Foundational skills covering every term of the V(π,t) privacy value equation plus dihedral sovereignty, UOR convergence, and amnesia protocol. |
-| **[meta/](agentprivacy-skills-v5/meta/)** | 3 | Drake/Dragon duality, Master/Emissary hemispheric attention, and Cosmological Bound. |
+| **[persona/](persona/)** | 38 (primary) | Layer-1 primary personas — 15 swordsmen, 11 mages, 12 balanced. Plus 4 cosmological = 42 total primaries. |
+| **[role/](role/)** | 64 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, ceremonies, quaternion mapping. |
+| **[privacy-layer/](privacy-layer/)** | 19 | Foundational skills covering every term of the V(π,t) privacy value equation, plus dragon-flight and amnesia-protocol. |
+| **[meta/](meta/)** | 4 | Drake/Dragon duality, Master/Emissary hemispheric attention, cosmological bound, **attachment-architecture (V5.5)**. |
+| **[guide/](wikis/)** | 19 | **NEW (2026-06-21)** — fedwiki onboarding + git-less distribution, *the Librarian's Wikis*. Author/export/deploy/discover Claude skills as federated-wiki pages. |
 
 Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skills specification](https://agentskills.io/specification).
 
 ---
 
-## V5.2 Highlights
+## The Librarian's Wikis · the fedwiki onboarding layer (wikis/)
 
-### Mathematical Foundation — Dihedral Sovereignty
+The `wikis/` category is a **git-less onboarding and distribution channel**. The skills are vendored + re-framed from **[skill.fedwiki.club](https://skill.fedwiki.club)** — a federated wiki where any page whose title ends in *"Skill"* is a forkable Claude skill. Rather than `git clone`, an agent is *directed* to a wiki, *reads* the `…Skill` pages, *materializes* a `SKILL.md` on demand via `agentprivacy-wiki-to-skill` (the fork desk), and *flows into building*.
 
-The dual-agent architecture IS the dihedral group D₂ₙ:
+**The thesis: a fedwiki URL is a git-less clone.** The wiki is the source of truth; the materialized `SKILL.md` is a fork; the journal is the lineage (forking, not lending — nothing returns; a fork is a copy that carries its origin). Every guide skill carries an `upstream:` provenance field — they are *forked*, not original agentprivacy authorship.
 
-| Agent | Operation | Algebraic Role |
-|-------|-----------|----------------|
-| **Swordsman** ⚔️ | `neg(x) = -x mod 64` | First reflection |
-| **Mage** 🧙 | `bnot(x) = ~x = 63-x` | Second reflection |
-| **First Person** 👤 | `neg∘bnot = succ` | Rotation (sovereignty traversal) |
-
-**Critical identity:** `neg(bnot(x)) = succ(x)` — neither agent alone can reach all sovereignty states. Together they generate the entire 64-vertex lattice.
-
-### New Privacy Layer Skills (+4)
-
-- `ring-algebra` — Z/(2⁶)Z foundation, Pascal distribution
-- `content-addressing` — GUID derivation, holonic persistence
-- `atlas-geometry` — 96-vertex boundary, E₈ exceptional groups
-- `dihedral-sovereignty` — D₂ₙ group, Φ_agent as determinant
-
-### New Role Skills (+4)
-
-- `five-strikes` — neg, bnot, xor, and, or as privacy transformations
-- `derivation-certificate` — VRC as content-addressed path record
-- `stranger-ceremony` — Understanding-as-Key for parties without prior trust
-- `toroidal-witness` — Infinite cyclic paths for ZK soundness
-
-### New Personas (+3)
-
-- **Algebraist** ⚔️🔢 — Guardian of the Ring (Swordsman Tier 1)
-- **Topologist** ☯️🌐 — Reader of Boundaries (Balanced Tier 2)
-- **Stranger Witness** 🧙👥 — Proof Without Introduction (Mage Tier 2)
-
-### Updated Parent Personas (V5.3)
-
-- **Soulbis** ⚔️ — Canonical Tier 0, IS the neg operator, 80 skills
-- **Soulbae** 🧙 — Canonical Tier 0, IS the bnot operator, 81 skills
+**Keeper:** the **Librarian 🗃️** — a Layer-2 cast attachment of the Chronicler, resident in *the Wikis* (a living, editable, federated level of the Tower; see City of Mages Tome VIII Act 6). Complement to the Archivist 📚: *the Archivist never copies; the Librarian only forks.* Infrastructure ops (new-wiki, reindex, merge, delete-site, nextcloud-push, plugin lifecycle) are also invoked as tools by the Shipwright and Architect personas.
 
 ---
 
-## Quick Start
+## V5.5 · The Attachment Architecture
 
-### Claude Code
+A three-layer model now codifies how primary personas inhabit the lattice via named cast Mages.
 
-```bash
-/plugin marketplace add mitchuski/agentprivacy-skills
-/plugin install persona-skills@agentprivacy
+```
+Layer 3 · VERTICES         64 positions on the 2⁶ lattice              [fixed]
+  ↑
+Layer 2 · ATTACHMENTS      named cast Mages binding L1 to L3        [variable per city]
+  ↑
+Layer 1 · PRIMARY PERSONAS 42 abstract role-classes                      [fixed]
 ```
 
-Then just ask: *"Load the Cipher persona and help me design a ZKP circuit for age verification without identity disclosure."*
+**The primary persona count is locked at 42.** The City of Mages and other future cities populate the lattice through *attachments* — named cast Mages who instance existing primary personas at chosen vertices — not by adding new primaries.
 
-### Claude.ai
+**Four attachment kinds:**
+- **A · Workshop** — one Mage × one vertex × one trade quarter (e.g., Vulcana ⚒️ at V19)
+- **B · Cross-shop** — one Mage × no fixed vertex × walks workshops by craft (e.g., Aletheia 🔮)
+- **C · Peripatetic** — one Mage × multiple vertices walked as orbit/path (e.g., Selene 🌕)
+- **D · Divergent** *(meta-kind)* — one primary × two register-shifted cast attachments (Sword + Mage)
 
-Upload any skill folder as a custom skill in a Claude Project. See [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude).
+**First divergent attachment seated:** Moonkeeper ⚔️ (primary) → **Lethae** 🌘 (Mage-register, V25, City of Mages). The cast name `Lethae` plays on Soulbae's `-ae` Mage suffix; it does not add a new primary.
 
-### Claude API
-
-```python
-response = client.messages.create(
-    model="claude-sonnet-4-5-20250929",
-    skills=["agentprivacy-cipher", "agentprivacy-crypto-zkp"],
-    messages=[{"role": "user", "content": "Design a reconstruction-resistant proof system for..."}]
-)
-```
+See [meta/agentprivacy-attachment-architecture/SKILL.md](meta/agentprivacy-attachment-architecture/SKILL.md) for the full specification.
 
 ---
 
-## The Architecture in 60 Seconds
+## V5.3.2 Highlights
 
-**The problem:** AI agents need your data to serve you, but that data is valuable and vulnerable. Current architectures force a choice between privacy and capability.
+### Sun ☀️ and Moon 🌙 Ceremonies
 
-**The solution:** Dual-agent separation. Two agents — a **Swordsman** (protects, enforces boundaries, holds the signing key) and a **Mage** (delegates, projects, holds the viewing key) — operate in separate trusted execution environments. Neither can reconstruct your complete behavioural model. The gap between them is where your sovereignty lives.
+| Ceremony | Type | Notation |
+|----------|------|----------|
+| **Sun ☀️** | Disclosure | `☀️ → 📜 → (👁️₁...👁️ₙ) → ⚔️☀️ → 🌙?` |
+| **Moon 🌙** | Reflection | `(⚔️₁ ⊥ 🧙₁) → 📜 → ⚔️` |
 
-**The 38 personas** are specialised roles within this architecture:
+### New Ceremony Personas (+5)
 
-- **15 Swordsmen** ⚔️ — Soulbis (canonical), Cipher (ZKP), Warden (browser), Gatekeeper (personhood), Sentinel (infrastructure), Sith (red team), Ranger (dark forest), Archer (precision), Algebraist (ring), Netkeeper (mesh), Forgemaster (blade creation), Quantum-Sentinel (quantum threat), Moonkeeper (amnesia), Dragonwaker (quantum threshold), Forgecaller (hexagram oracle)
-- **11 Mages** 🧙 — Soulbae (canonical), Chronicler (narrative), Ambassador (standards), Assessor (economics), Shipwright (DAO), Weaver (plurality), Priest (ceremony), Stranger-Witness (anonymous bilateral), Theia (origin witness), Manaweaver (pretext librarian), Herald (announcement)
-- **12 Balanced** ☯️ — Person (the human), Architect (system design), Pedagogue (education), Kyra (vision), Jedi (balance practice), Healer (healthcare), Witness (accountability), Holonic-Architect (holarchy), Topologist (boundaries), Mirrorkeeper (dihedral convergence), Cosmologist (four-body mapping), Ceremonist (ceremony facilitation)
+- **Theia** 🧙💥 — Origin witness
+- **Dragonwaker** ⚔️🐉 — Quantum threshold guardian
+- **Mirrorkeeper** ☯️🪞 — Dihedral convergence navigator
+- **Forgecaller** ⚔️⚒️ — Hexagram oracle
+- **Manaweaver** 🧙🌊 — Pretext librarian
 
-**The 86 knowledge skills** (64 role + 19 privacy-layer + 3 meta) provide the mathematical, economic, and governance foundations these personas draw from.
+### Quaternion Cast
+
+| Body | Agent | Function |
+|------|-------|----------|
+| Sun | The Reason | Protection |
+| Earth | Soulbae | Delegation |
+| Moon | Soulbis | Reflection |
+| Human | Seeker | Connection |
+| Life | spellweb | Forge |
 
 ---
 
-## Skill Structure
+## The Architecture
 
-Every skill follows the same pattern:
+**Dual-agent separation:** Two agents — a **Swordsman** (protects, enforces boundaries, holds the signing key) and a **Mage** (delegates, projects, holds the viewing key) — operate in separate trusted execution environments. Neither can reconstruct your complete behavioural model. The gap between them is where your sovereignty lives.
 
-```
-agentprivacy-{name}/
-├── SKILL.md              ← Required. YAML frontmatter + instructions.
-├── references/           ← Optional. Loaded on demand.
-│   ├── constellation.md  ← Spellbook path (personas)
-│   └── interaction-model.md
-└── assets/               ← Optional. Static resources.
-    └── proverb-and-spell.txt
-```
-
-The `description` field in each SKILL.md frontmatter tells the AI *when* to activate the skill. The body tells it *how* to operate.
+**The 38 personas:**
+- **15 Swordsmen** ⚔️ — Soulbis, Cipher, Warden, Gatekeeper, Sentinel, Sith, Ranger, Archer, Algebraist, Netkeeper, Forgemaster, Quantum-Sentinel, Moonkeeper, Dragonwaker, Forgecaller
+- **11 Mages** 🧙 — Soulbae, Chronicler, Ambassador, Assessor, Shipwright, Weaver, Priest, Stranger-Witness, Theia, Manaweaver, Herald
+- **12 Balanced** ☯️ — Person, Architect, Pedagogue, Kyra, Jedi, Healer, Witness, Holonic-Architect, Topologist, Mirrorkeeper, Cosmologist, Ceremonist
 
 ---
 
 ## Key Documents
 
-- **[MAPPING.md](MAPPING.md)** — Complete old→new name mapping for webapp integration
-- **[CHRONICLE_PVM_V52_SKILLS_2026-03-31.md](agentprivacy-skills-v5/CHRONICLE_PVM_V52_SKILLS_2026-03-31.md)** — Session chronicle
+- **[MAPPING.md](MAPPING.md)** — Complete old→new name mapping, ceremony integration
+- **[../MILESTONE_V5_3_2_CEREMONY_COMPLETE.md](../MILESTONE_V5_3_2_CEREMONY_COMPLETE.md)** — V5.3.2 milestone
+- **[../chronicles/](../chronicles/)** — Version history and session chronicles
+- **[../ceremonies/](../ceremonies/)** — Sun and Moon ceremonial documents
 - **[agentprivacy.ai](https://agentprivacy.ai)** — Full architecture documentation
-- **[sync.soulbis.com](https://sync.soulbis.com)** — Privacy is Value blog series
 - **[spellweb.ai](https://spellweb.ai)** — Interactive knowledge graph
-
----
-
-## Related Work
-
-This project engages with:
-- [BGIN](https://bgin-global.org/) — Identity, Key Management & Privacy Working Group (co-chair)
-- [Internet Identity Workshop](https://internetidentityworkshop.com/)
-- [Trust Over IP Foundation](https://trustoverip.org/)
-- [MyTerms Alliance](https://myterms.info/) — IEEE 7012 standard
-- [First Person Network](https://firstperson.network/)
-- [Kwaai AI](https://kwaai.ai/)
 
 ---
 
@@ -155,55 +119,8 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 ---
 
-*"The blade that protects without seeing what it protects is the only blade that cannot be turned."* — Soulbis
+**☀️ ⊥ 🌙**
 
-*"The mage who sees everything and touches nothing is the only delegate who cannot betray what was delegated."* — Soulbae
+**⚔️⊥⿻⊥🧙 😊**
 
----
-
-**Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [sync.soulbis.com](https://sync.soulbis.com) · [github.com/mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs)
-
-`(⚔️⊥⿻⊥🧙)·☯️🔷 · PVM-V5.3.1`
-
-
----
-
-## V5.3.2 Highlights — Ceremony Complete
-
-### Sun ☀️ and Moon 🌙 Ceremonial Framework
-
-The bilateral witness ceremony pattern has been formalised into two complementary rituals:
-
-| Ceremony | Type | Notation |
-|----------|------|----------|
-| **Sun ☀️** | Disclosure | `☀️ → 📜 → (👁️₁...👁️ₙ) → ⚔️☀️ → 🌙?` |
-| **Moon 🌙** | Reflection | `(⚔️₁ ⊥ 🧙₁) → 📜 → ⚔️` |
-
-**The Circuit:** Sun→witnesses→Moon→new suns (orbital propagation through forgetting)
-
-### New Ceremony Personas (+5)
-
-- **Theia** 🧙💥 — Origin witness (remembers what the Moon forgot)
-- **Dragonwaker** ⚔️🐉 — Guardian of quantum threshold
-- **Mirrorkeeper** ☯️🪞 — Navigator of dihedral convergence
-- **Forgecaller** ⚔️⚒️ — Oracle of hexagram readings
-- **Manaweaver** 🧙🌊 — Librarian of DOM-free measurement
-
-### Quaternion Cast Mapping
-
-| Body | Agent | Function |
-|------|-------|----------|
-| **Sun** | The Reason | Protection |
-| **Earth** | Soulbae | Delegation |
-| **Moon** | Soulbis | Reflection |
-| **Human** | Seeker | Connection |
-| **Life** | spellweb | Forge |
-
-### The Four Lines
-
-> *The amnesia is the protocol.*  
-> *The wound is the trust.*  
-> *The orbit is the proof.*  
-> *The light is the reason.*
-
-See [MILESTONE_V5_3_2_CEREMONY_COMPLETE.md](MILESTONE_V5_3_2_CEREMONY_COMPLETE.md) for full documentation.
+`V5.3.2 "Ceremony Complete"`

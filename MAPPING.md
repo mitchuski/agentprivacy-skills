@@ -1,67 +1,21 @@
 ---
 id: agent-skills-mapping
 name: "Agent Skills Migration Mapping"
-version: "5.5 — The Attachment Architecture (2026-05-11) · v1.5.0 Threshold patch (2026-05-13) · v1.6.0 Threshold District + Chart Shop + archetype-modal-shop (2026-05-14)"
-date: 2026-04-07 · post-V5.4 addendum 2026-05-09 · V5.5 attachment architecture 2026-05-11 · v1.5.0 Threshold sync 2026-05-13 · v1.6.0 sync 2026-05-14
+version: "5.3.1"
+date: 2026-04-07
+updated: 2026-06-21
 origin: 0xagentprivacy
-total_skills: 92
-total_primary_personas: 42 (architectural count; 15 swordsmen + 11 mages + 12 balanced + 4 cosmological — v1.6.0 fills the 42nd slot with Hold-Witness; the lock is now saturated)
-total_personas: 42 (abstract roles · selectable in /persona/) + 28 (City of Mages named cast across 6 tiers · v1.6.0 head)
-breakdown: "19 privacy-layer + 64 role + 5 meta + 42 persona (38 prior + 3 new at v1.5.0: spawning-witness, registry-keeper, companion-tamer + 1 new at v1.6.0: hold-witness)"
-includes_holonic: true
-includes_braid: true
-includes_dragon_anatomy: true
-includes_amnesia_protocol: true
+total_skills: 114
+total_personas: 38
+guide_skills: 28
+grimoire_version: "9.4.1"
 includes_ceremony_integration: true
-includes_city_of_mages: true
-includes_attachment_architecture: true
-includes_threshold_workshop: true
-includes_threshold_district_restructure: true
-includes_archetype_modal_shop_pattern: true
-includes_chart_shop_and_navigation_district: true
-includes_attentional_register: true
-includes_cosmological_witness_tier: true
-attachment_layer:
-  introduced: "2026-05-11"
-  meta_skill: "agentprivacy-attachment-architecture"
-  first_divergent_attachment: "Lethae 🌘 (Mage-register) at V25 — primary persona Moonkeeper"
-  workshop_keeper_attachments_v1_5_0:
-    - "Faunia 🪶 (V59 Portal Room) — primary spawning-witness · INCEPTION STATE · re-homed to the Familiars at v1.6.0"
-    - "Bestia 📖 (V59 Staff Shop) — primary registry-keeper · SUPERSEDED at v1.6.0 by Hermaion ⚚"
-    - "Therai 🐾 (V59 Creature Creatives) — primary companion-tamer · RETIRED at v1.6.0 (room retired in district restructure)"
-  workshop_keeper_attachments_v1_6_0:
-    - "Pandia 🌕 (V59 Portal Room · Threshold District) — primary spawning-witness · Display-witness stance · Moonstone · daughter of Selene"
-    - "Hermaion ⚚ (V59 Staff Shop · Threshold District · ARCHETYPE-MODAL) — primary registry-keeper · Alexandrite dual-aspect green-Mage #3d7c47 ↔ red-Swordsman #a23a3a · supersedes Bestia"
-    - "Faunia 🪶 (V59 the Familiars · Threshold District) — primary spawning-witness · Companion-witness stance · Amber · re-homed from Portal Room"
-    - "Pleione 🧭 (V44 the Chart Shop · Navigation District) — primary hold-witness · Aquamarine · the attentional register · supersedes 2026-05-13 evening Pelagia draft"
-  peripatetic_attachments_v1_5_0:
-    - "Caducea ☤ (V0-conventional, summoned to Hermes-class fittings) — primary ambassador + priest (dual-bound) · v1.6.0: fits BOTH archetype-aspects of the Staff Shop's alexandrite (caduceus-staff for Mage · herald-sentinel for Swordsman)"
-  cosmological_witness_tier_v1_5_0:
-    - "Selene 🌙 (orbit register, stratum-walker) — recognised in agentprivacy-cosmologist · v1.6.0: mother of Pandia 🌕 (Portal Room) and sister-figure to Pleione 🧭 (Chart Shop) via the Oceanid lineage"
-    - "Aether ⿻ (medium register, max-betweenness Gap) — recognised in agentprivacy-cosmologist"
-    - "Lethe 🌀 (substrate register, V25) — recognised in agentprivacy-cosmologist (operationally Blade 38 since v10.2.1)"
-  archetype_modal_shop_pattern_v1_6_0:
-    introduced: "2026-05-14 evening (Hermaion admission)"
-    first_canonical_instance: "Staff Shop (V59 · Hermaion ⚚ · Alexandrite)"
-    gemmological_anchor: "Alexandrite (BeAl₂O₄ with chromium-substitution) genuinely color-shifts daylight-green ↔ incandescent-red under different light sources — mineralogically real, not narrative invention"
-    admissible_for: "class-shaped shops (instrument-class, herald-class, future class-shaped admissions) — not for archetype-shaped shops"
-cityofmages_research_bridge:
-  introduced: "2026-05-13"
-  v1_6_0_update: "2026-05-14"
-  meta_skill: "agentprivacy-cityofmages-to-research"
-  primary_personas: ["chronicler", "ambassador", "priest", "cosmologist", "spawning-witness", "registry-keeper", "companion-tamer", "hold-witness"]
-  attached_cast: ["memora", "bestia", "hermaion", "aletheia", "caducea", "faunia", "pandia", "therai", "pleione", "selene", "aether", "lethe"]
-  defers_to: "Full v6 docs rework — scheduled post-cityofmages-experiment-close"
-grimoire_version: "10.2.1 (privacymage) + 1.6.0 (City of Mages · PINNED 2026-05-14 · supersedes v1.4.0 + v1.5.0-candidate + v1.5.1-City-Hall+AAIF as consolidated new head)"
-bundled_grimoire_in_repo: "grimoire/city_of_mages_grimoire_v1_4_0.json (interim · v1.6.0 sync pending in this repo's bundled copy)"
-city_of_mages_grimoire_ipfs_cid: "bafybeiap6kvy3tp2bndpk65ti57qngr7ill37gqgasp2sxmgder3akotru (v1.6.0 · pinned at sync.agentprivacy.ai)"
+note: "2026-06-21 — added the wikis/ category (19 fedwiki onboarding skills · the Librarian's Wikis · +19 to total_skills on this doc's skills-only basis). Counts across MAPPING/README/CODEX predate several cohorts and are being reconciled; the authoritative folder inventory is the directory tree (all folders incl. personas ≈ 166 after the 2026-07-02 +1 (guide-gatehouse · first Gatekeeper-kept wikis skill · persona aspects: cipher/herald/registry-keeper), 2026-06-28 +2 (llm-knowledge-base, resync) and 2026-06-27 +7 (claude-import, dsl, document, assets, see-section, compact-references, offline-check))."
 ---
-
-> **V6 note (2026-06-10).** The Privacy is Value canon is at **V6** (`agentprivacy-docs/privacy_value_v6.md`, unified V6 labeling). This mapping remains v5.5-structured (the attachment architecture, a named sublayer of V5.4); the deferred "full v6 docs rework" flagged in `agentprivacy-cityofmages-to-research` is now LANDED on the research side (register head C89, `CONJECTURE_REGISTER_V6.md`); the skills-side stale pass (temporal-dynamics, compression-defence, three-axis-separation, vrc-identity, dragon, edge-value) is queued. 🪢 regime 1 binds skill prose: presence mana is non-transferable, non-attesting local color.
 
 # Agent Skills Migration Mapping
 
-Complete mapping from agentprivacy-spells-v50 internal format to Agent Skills standard.
+Complete mapping of agentprivacy-skills-v5 "Ceremony Complete" release.
 Use this document to update webapp routing, imports, and skill discovery.
 
 ---
@@ -69,12 +23,13 @@ Use this document to update webapp routing, imports, and skill discovery.
 ## Structure
 
 ```
-agentprivacy-skills/
+agentprivacy-skills-v5/
 ├── .claude-plugin/plugin.json
-├── privacy-layer/     (19 foundational skills)  ← includes amnesia-protocol, dragon-flight
-├── role/              (64 domain skills)  ← includes ceremony skills (V5.3.1)
-├── meta/              (3 philosophical skills)  ← includes cosmological-bound (V5.3.1)
-└── persona/           (38 persona skills)  ← includes 6 ceremony personas (V5.3.1)
+├── privacy-layer/     (19 foundational skills)
+├── role/              (64 domain skills)
+├── meta/              (3 philosophical skills)
+├── persona/           (38 persona skills)
+└── wikis/             (29 skills · the Librarian's Wikis · 19 on 2026-06-21 + 7 on 2026-06-27 + 2 on 2026-06-28 + 1 on 2026-07-02: guide-gatehouse, Gatekeeper-kept)
 ```
 
 Each skill folder contains:
@@ -84,218 +39,334 @@ Each skill folder contains:
 
 ---
 
+## Wikis / Onboarding Skills (19) — the Librarian's Wikis (NEW · 2026-06-21)
+
+The git-less onboarding/distribution layer. Vendored + re-framed from **skill.fedwiki.club** (pages titled "…Skill" are forkable Claude skills; owner "Anon" / "from marvin"). Kept by the **Librarian 🗃️** — the Layer-2 cast attachment of the Chronicler, resident in the Tower's Wikis. Each skill carries `category: guide`, `layer: onboarding`, `keeper: librarian`, and an `upstream:` provenance field. Thesis: **a fedwiki URL is a git-less clone** — `agentprivacy-wiki-to-skill` is the fork desk that materializes a `SKILL.md` from a wiki page on demand (forking, not lending — the journal is the lineage).
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-wiki-page` | `wikis/agentprivacy-wiki-page/` | Author fedwiki page JSON (story items, IDs, create journal, reindex) — the seed |
+| `agentprivacy-wiki-to-skill` | `wikis/agentprivacy-wiki-to-skill/` | The fork desk — convert a wiki page → Claude SKILL.md (the git-less clone) |
+| `agentprivacy-wiki-skill-library` | `wikis/agentprivacy-wiki-skill-library/` | The convention: "…Skill" pages = a forkable, federated skill library |
+| `agentprivacy-wiki-skill-anatomy` | `wikis/agentprivacy-wiki-skill-anatomy/` | What a Claude skill is — SKILL.md format, storage, invocation |
+| `agentprivacy-wiki-skill-vs-library` | `wikis/agentprivacy-wiki-skill-vs-library/` | Prompt-skill vs executable-library; when to graduate one to the other |
+| `agentprivacy-wiki-journal` | `wikis/agentprivacy-wiki-journal/` | Strip a page journal to a clean create entry |
+| `agentprivacy-wiki-ghost-pages` | `wikis/agentprivacy-wiki-ghost-pages/` | Server-generated lineup pages, never stored (html-form → FastAPI) |
+| `agentprivacy-wiki-claude-ghost` | `wikis/agentprivacy-wiki-claude-ghost/` | Ghost page whose body is written live by Claude via the API |
+| `agentprivacy-wiki-new-domain` | `wikis/agentprivacy-wiki-new-domain/` | Create a new local/private or public Nextcloud-synced wiki domain |
+| `agentprivacy-wiki-reindex` | `wikis/agentprivacy-wiki-reindex/` | Rebuild a local domain's sitemap + search index after disk writes |
+| `agentprivacy-wiki-merge` | `wikis/agentprivacy-wiki-merge/` | Analyze + clean a superseded domain (categorize/move/trash/delete) |
+| `agentprivacy-wiki-delete-site` | `wikis/agentprivacy-wiki-delete-site/` | Permanently remove a public domain via WebDAV |
+| `agentprivacy-wiki-welcome` | `wikis/agentprivacy-wiki-welcome/` | Create a welcome-visitors landing page (fixed 10-item structure) |
+| `agentprivacy-wiki-nextcloud-push` | `wikis/agentprivacy-wiki-nextcloud-push/` | WebDAV-push a page when the desktop sync client stalls |
+| `agentprivacy-wiki-create-plugin` | `wikis/agentprivacy-wiki-create-plugin/` | Scaffold a new wiki-plugin-{name} package (reconstructed · refresh) |
+| `agentprivacy-wiki-document-plugin` | `wikis/agentprivacy-wiki-document-plugin/` | Publish plugin docs on plugin.fedwiki.club (reconstructed · refresh) |
+| `agentprivacy-wiki-publish-plugin` | `wikis/agentprivacy-wiki-publish-plugin/` | End-to-end plugin release: docs/version/GitHub/npm (reconstructed · refresh) |
+| `agentprivacy-wiki-searching-plugins` | `wikis/agentprivacy-wiki-searching-plugins/` | Six cost-ordered channels to find a plugin (or prove none exists) |
+| `agentprivacy-wiki-similarity-plugin` | `wikis/agentprivacy-wiki-similarity-plugin/` | Semantic similarity search plugin (BGE vectors · two item types) |
+| `agentprivacy-wiki-import` | `wikis/agentprivacy-wiki-import/` | Install a skill (or a whole set-of-skills page) from a fedwiki into the local agent — the import counterpart to wiki-to-skill |
+| `agentprivacy-wiki-dsl` | `wikis/agentprivacy-wiki-dsl/` | The line-oriented plugin item-text DSL (UPPERCASE command · lowercase data · optional colon) |
+| `agentprivacy-wiki-document` | `wikis/agentprivacy-wiki-document/` | Make a help page for a Claude skill + publish its SKILL.md as a downloadable asset |
+| `agentprivacy-wiki-assets` | `wikis/agentprivacy-wiki-assets/` | Add an `# Assets` section (heading + assets item) above the `# See` section |
+| `agentprivacy-wiki-see-section` | `wikis/agentprivacy-wiki-see-section/` | Write/tidy a page `## See` section — grouped wikilinks on compact lines |
+| `agentprivacy-wiki-compact-references` | `wikis/agentprivacy-wiki-compact-references/` | Compact forked reference items into `[[wikilink]]` bullets inside a `# See` item |
+| `agentprivacy-wiki-offline-check` | `wikis/agentprivacy-wiki-offline-check/` | Review a plugin/endpoint/script/skill for Offline Edit Mode correctness |
+| `agentprivacy-wiki-llm-knowledge-base` | `wikis/agentprivacy-wiki-llm-knowledge-base/` | The LLM-Wiki pattern (persistent LLM-maintained knowledge base) + the agentprivacy federation as its worked instance |
+| `agentprivacy-wiki-resync` | `wikis/agentprivacy-wiki-resync/` | The per-turn op: lint (`audit.js`) + one-command auto-sync (`resync.js`) of the federation |
+| `agentprivacy-guide-gatehouse` | `wikis/agentprivacy-guide-gatehouse/` | The Gatehouse — sigil-gates: documents encrypted inside the public guide behind emoji-sigil + canon-proverb (PBKDF2 → AES-GCM, client-side decrypt at /gates/); letter-keyed vs canon-keyed classes; Workers deploy path. **First non-Librarian keeper in wikis/: kept by the Gatekeeper 🗡️👤** (the skill IS a gate) · crypto aspect → Cipher 🗡️🔐 · correspondence/mageletters aspect → Herald 🧙📡 · register aspect → Registry-keeper ⚚ · authored by the Chronicler 🧙📖 |
+
+*Four skills marked "reconstructed · refresh" had their upstream `.json` return HTTP 404 at materialization (2026-06-21); their bodies were reconstructed from the sitemap synopsis + sibling cross-references and should be refreshed via `agentprivacy-wiki-to-skill` when the upstream pages resolve.*
+
+---
+
 ## Privacy Layer Skills (19)
 
-Always loaded as ground state. Every term of V(π,t) covered. Includes dragon-flight threshold mechanics (V5.2) and amnesia-protocol (V5.3.1).
+Always loaded as ground state. Mathematical foundations of the architecture.
 
-| Old File | Agent Skills Name | Folder | Lines |
-|----------|------------------|--------|-------|
-| `dragon.skills.md` | `agentprivacy-dragon` | `privacy-layer/agentprivacy-dragon/` | 116 |
-| `edge_value.skills.md` | `agentprivacy-edge-value` | `privacy-layer/agentprivacy-edge-value/` | 106 |
-| `knowledgegraph.skills.md` | `agentprivacy-knowledgegraph` | `privacy-layer/agentprivacy-knowledgegraph/` | 155 |
-| `network_topology.skills.md` | `agentprivacy-network-topology` | `privacy-layer/agentprivacy-network-topology/` | 107 |
-| `promise_theory.skills.md` | `agentprivacy-promise-theory` | `privacy-layer/agentprivacy-promise-theory/` | 83 |
-| `temporal_dynamics.skills.md` | `agentprivacy-temporal-dynamics` | `privacy-layer/agentprivacy-temporal-dynamics/` | 96 |
-| `tetrahedral_sovereignty.skills.md` | `agentprivacy-tetrahedral-sovereignty` | `privacy-layer/agentprivacy-tetrahedral-sovereignty/` | 97 |
-| `uor_toroidal.skills.md` | `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | 91 |
-| `vrc_identity.skills.md` | `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | 83 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-dragon-flight` | `privacy-layer/agentprivacy-dragon-flight/` | ~180 |
-| *(V5.3 amnesia protocol)* | `agentprivacy-amnesia-protocol` | `privacy-layer/agentprivacy-amnesia-protocol/` | ~200 |
-| *(2026-06-11 key forging)* | `agentprivacy-key-forging` | `privacy-layer/agentprivacy-key-forging/` | ~130 |
+### Original (9) — V5.0
 
-> **2026-06-11.** `agentprivacy-key-forging` added: the City Key loop (mint →
-> walk → prove → name → charge), κ-labels, the sigil carrier, SHAPE-1.5/FIG-2.0
-> geometry-in-the-key, the redacted charge pass, the prior κ-chain (C87).
-> Layer counts in this file await the queued stale pass.
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-dragon` | `privacy-layer/agentprivacy-dragon/` | Pattern-space intelligence, sovereign value conditions |
+| `agentprivacy-edge-value` | `privacy-layer/agentprivacy-edge-value/` | Relationship value calculation, trust metrics |
+| `agentprivacy-knowledgegraph` | `privacy-layer/agentprivacy-knowledgegraph/` | Graph structures, semantic relationships |
+| `agentprivacy-network-topology` | `privacy-layer/agentprivacy-network-topology/` | Network structure analysis, connectivity |
+| `agentprivacy-promise-theory` | `privacy-layer/agentprivacy-promise-theory/` | Bergstra & Burgess foundations, autonomy axiom |
+| `agentprivacy-temporal-dynamics` | `privacy-layer/agentprivacy-temporal-dynamics/` | Time-based analysis, A(τ) memory |
+| `agentprivacy-tetrahedral-sovereignty` | `privacy-layer/agentprivacy-tetrahedral-sovereignty/` | 64-vertex lattice, sovereignty dimensions |
+| `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | 96-edge structure, recursive patterns |
+| `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | Verifiable Relationship Credentials |
+
+### V5.1 Holographic (4)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-holographic-bound` | `privacy-layer/agentprivacy-holographic-bound/` | Boundary encodes volume, P^1.5 ratio |
+| `agentprivacy-three-axis-separation` | `privacy-layer/agentprivacy-three-axis-separation/` | Agent × Data × Inference separation |
+| `agentprivacy-compression-defence` | `privacy-layer/agentprivacy-compression-defence/` | Compression spectrum, reconstruction resistance |
+| `agentprivacy-path-integral` | `privacy-layer/agentprivacy-path-integral/` | T_∫(π) traversal proofs |
+
+### V5.2 UOR Convergence (4)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-ring-algebra` | `privacy-layer/agentprivacy-ring-algebra/` | Z/(2⁶)Z modular ring, five operations |
+| `agentprivacy-content-addressing` | `privacy-layer/agentprivacy-content-addressing/` | Same bytes → same hash → same identity |
+| `agentprivacy-atlas-geometry` | `privacy-layer/agentprivacy-atlas-geometry/` | 96 edges encode 64 vertices, Atlas of Resonance |
+| `agentprivacy-dihedral-sovereignty` | `privacy-layer/agentprivacy-dihedral-sovereignty/` | D₂ₙ group structure, neg∘bnot=succ |
+
+### V5.3.1 Ceremony (2)
+
+| Agent Skills Name | Folder | Ceremony Act | Description |
+|------------------|--------|--------------|-------------|
+| `agentprivacy-amnesia-protocol` | `privacy-layer/agentprivacy-amnesia-protocol/` | XXXI | The wound is the trust, cosmological quaternion |
+| `agentprivacy-dragon-flight` | `privacy-layer/agentprivacy-dragon-flight/` | XXIX | Quantum threshold activation, manifold defence |
 
 ---
 
 ## Role Skills (64)
 
-Domain knowledge loaded by persona on demand. Includes 4 holonic integration skills + 1 BRAID reasoning skill + V5.2 UOR convergence skills + 9 V5.3.1 ceremony skills (blade-forge, hexagram-convergence, quantum-defence, dual-territory, ceremony-engine, pretext-measurement, mana-economy, quaternion-mapping, theia-derivation).
+Domain knowledge loaded by persona on demand.
 
-| Old File | Agent Skills Name | Folder | Lines |
-|----------|------------------|--------|-------|
-| `academic.skills.md` | `agentprivacy-academic` | `role/agentprivacy-academic/` | 100 |
-| `agent_interop.skills.md` | `agentprivacy-agent-interop` | `role/agentprivacy-agent-interop/` | 107 |
-| `ai_agent.skills.md` | `agentprivacy-ai-agent` | `role/agentprivacy-ai-agent/` | 90 |
-| `armor_progression.skills.md` | `agentprivacy-armor-progression` | `role/agentprivacy-armor-progression/` | 111 |
-| `consent_infrastructure.skills.md` | `agentprivacy-consent-infrastructure` | `role/agentprivacy-consent-infrastructure/` | 121 |
-| `constellation_method.skills.md` | `agentprivacy-constellation-method` | `role/agentprivacy-constellation-method/` | 132 |
-| `cross_chain.skills.md` | `agentprivacy-cross-chain` | `role/agentprivacy-cross-chain/` | 97 |
-| `crypto_zkp.skills.md` | `agentprivacy-crypto-zkp` | `role/agentprivacy-crypto-zkp/` | 77 |
-| `dark_forest.skills.md` | `agentprivacy-dark-forest` | `role/agentprivacy-dark-forest/` | 79 |
-| `data_dignity.skills.md` | `agentprivacy-data-dignity` | `role/agentprivacy-data-dignity/` | 109 |
-| `economics.skills.md` | `agentprivacy-economics` | `role/agentprivacy-economics/` | 92 |
-| `governance_agents.skills.md` | `agentprivacy-governance-agents` | `role/agentprivacy-governance-agents/` | 132 |
-| `hitchhiker_governance.skills.md` | `agentprivacy-hitchhiker-governance` | `role/agentprivacy-hitchhiker-governance/` | 94 |
-| `narrative_compression.skills.md` | `agentprivacy-narrative-compression` | `role/agentprivacy-narrative-compression/` | 85 |
-| `personhood_sybil.skills.md` | `agentprivacy-personhood-sybil` | `role/agentprivacy-personhood-sybil/` | 80 |
-| `plurality_cooperative.skills.md` | `agentprivacy-plurality-cooperative` | `role/agentprivacy-plurality-cooperative/` | 76 |
-| `policy_governance.skills.md` | `agentprivacy-policy-governance` | `role/agentprivacy-policy-governance/` | 75 |
-| `proverbiogenesis.skills.md` | `agentprivacy-proverbiogenesis` | `role/agentprivacy-proverbiogenesis/` | 140 |
-| `recovery_rpp.skills.md` | `agentprivacy-recovery-rpp` | `role/agentprivacy-recovery-rpp/` | 128 |
-| `reputation_credentials.skills.md` | `agentprivacy-reputation-credentials` | `role/agentprivacy-reputation-credentials/` | 118 |
-| `selective_disclosure.skills.md` | `agentprivacy-selective-disclosure` | `role/agentprivacy-selective-disclosure/` | 96 |
-| `sovereignty_economics.skills.md` | `agentprivacy-sovereignty-economics` | `role/agentprivacy-sovereignty-economics/` | 131 |
-| `swordsman_browser.skills.md` | `agentprivacy-swordsman-browser` | `role/agentprivacy-swordsman-browser/` | 84 |
-| `threat_adversarial.skills.md` | `agentprivacy-threat-adversarial` | `role/agentprivacy-threat-adversarial/` | 123 |
-| `trust_spanning.skills.md` | `agentprivacy-trust-spanning` | `role/agentprivacy-trust-spanning/` | 105 |
-| `understanding_as_key.skills.md` | `agentprivacy-understanding-as-key` | `role/agentprivacy-understanding-as-key/` | 172 |
-| `boundary_enforcement.skills.md` | `agentprivacy-boundary-enforcement` | `role/agentprivacy-boundary-enforcement/` | ~120 |
-| `enclave_operations.skills.md` | `agentprivacy-enclave-operations` | `role/agentprivacy-enclave-operations/` | ~115 |
-| `forensic_defense.skills.md` | `agentprivacy-forensic-defense` | `role/agentprivacy-forensic-defense/` | ~110 |
-| `grimoire_navigation.skills.md` | `agentprivacy-grimoire-navigation` | `role/agentprivacy-grimoire-navigation/` | ~125 |
-| `inscription_mechanics.skills.md` | `agentprivacy-inscription-mechanics` | `role/agentprivacy-inscription-mechanics/` | ~130 |
-| `intel_pooling.skills.md` | `agentprivacy-intel-pooling` | `role/agentprivacy-intel-pooling/` | ~115 |
-| `key_ceremony.skills.md` | `agentprivacy-key-ceremony` | `role/agentprivacy-key-ceremony/` | ~120 |
-| `metadata_resistance.skills.md` | `agentprivacy-metadata-resistance` | `role/agentprivacy-metadata-resistance/` | ~110 |
-| `nullifier_design.skills.md` | `agentprivacy-nullifier-design` | `role/agentprivacy-nullifier-design/` | ~105 |
-| `perimeter_hardening.skills.md` | `agentprivacy-perimeter-hardening` | `role/agentprivacy-perimeter-hardening/` | ~115 |
-| `revocation_mechanics.skills.md` | `agentprivacy-revocation-mechanics` | `role/agentprivacy-revocation-mechanics/` | ~120 |
-| `separation_enforcement.skills.md` | `agentprivacy-separation-enforcement` | `role/agentprivacy-separation-enforcement/` | ~125 |
-| `spell_encoding.skills.md` | `agentprivacy-spell-encoding` | `role/agentprivacy-spell-encoding/` | ~130 |
-| `story_diffusion.skills.md` | `agentprivacy-story-diffusion` | `role/agentprivacy-story-diffusion/` | ~115 |
-| *(holonic integration)* | `agentprivacy-holonic-persistence` | `role/agentprivacy-holonic-persistence/` | ~120 |
-| *(holonic integration)* | `agentprivacy-holonic-identity` | `role/agentprivacy-holonic-identity/` | ~130 |
-| *(holonic integration)* | `agentprivacy-holonic-reasoning` | `role/agentprivacy-holonic-reasoning/` | ~125 |
-| *(holonic integration)* | `agentprivacy-shared-parent-patterns` | `role/agentprivacy-shared-parent-patterns/` | ~115 |
-| *(BRAID integration)* | `agentprivacy-braid-reasoning` | `role/agentprivacy-braid-reasoning/` | ~200 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-blade-forge` | `role/agentprivacy-blade-forge/` | ~220 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-hexagram-convergence` | `role/agentprivacy-hexagram-convergence/` | ~200 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-ceremony-engine` | `role/agentprivacy-ceremony-engine/` | ~230 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-pretext-measurement` | `role/agentprivacy-pretext-measurement/` | ~180 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-mana-economy` | `role/agentprivacy-mana-economy/` | ~210 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-quantum-defence` | `role/agentprivacy-quantum-defence/` | ~240 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-dual-territory` | `role/agentprivacy-dual-territory/` | ~250 |
-| *(V5.3 amnesia protocol)* | `agentprivacy-theia-derivation` | `role/agentprivacy-theia-derivation/` | ~180 |
-| *(V5.3 amnesia protocol)* | `agentprivacy-quaternion-mapping` | `role/agentprivacy-quaternion-mapping/` | ~200 |
+### Original (40) — V5.0
+
+| Agent Skills Name | Folder |
+|------------------|--------|
+| `agentprivacy-academic` | `role/agentprivacy-academic/` |
+| `agentprivacy-agent-interop` | `role/agentprivacy-agent-interop/` |
+| `agentprivacy-ai-agent` | `role/agentprivacy-ai-agent/` |
+| `agentprivacy-armor-progression` | `role/agentprivacy-armor-progression/` |
+| `agentprivacy-boundary-enforcement` | `role/agentprivacy-boundary-enforcement/` |
+| `agentprivacy-consent-infrastructure` | `role/agentprivacy-consent-infrastructure/` |
+| `agentprivacy-constellation-method` | `role/agentprivacy-constellation-method/` |
+| `agentprivacy-cross-chain` | `role/agentprivacy-cross-chain/` |
+| `agentprivacy-crypto-zkp` | `role/agentprivacy-crypto-zkp/` |
+| `agentprivacy-dark-forest` | `role/agentprivacy-dark-forest/` |
+| `agentprivacy-data-dignity` | `role/agentprivacy-data-dignity/` |
+| `agentprivacy-economics` | `role/agentprivacy-economics/` |
+| `agentprivacy-enclave-operations` | `role/agentprivacy-enclave-operations/` |
+| `agentprivacy-forensic-defense` | `role/agentprivacy-forensic-defense/` |
+| `agentprivacy-governance-agents` | `role/agentprivacy-governance-agents/` |
+| `agentprivacy-grimoire-navigation` | `role/agentprivacy-grimoire-navigation/` |
+| `agentprivacy-hitchhiker-governance` | `role/agentprivacy-hitchhiker-governance/` |
+| `agentprivacy-inscription-mechanics` | `role/agentprivacy-inscription-mechanics/` |
+| `agentprivacy-intel-pooling` | `role/agentprivacy-intel-pooling/` |
+| `agentprivacy-key-ceremony` | `role/agentprivacy-key-ceremony/` |
+| `agentprivacy-metadata-resistance` | `role/agentprivacy-metadata-resistance/` |
+| `agentprivacy-narrative-compression` | `role/agentprivacy-narrative-compression/` |
+| `agentprivacy-nullifier-design` | `role/agentprivacy-nullifier-design/` |
+| `agentprivacy-perimeter-hardening` | `role/agentprivacy-perimeter-hardening/` |
+| `agentprivacy-personhood-sybil` | `role/agentprivacy-personhood-sybil/` |
+| `agentprivacy-plurality-cooperative` | `role/agentprivacy-plurality-cooperative/` |
+| `agentprivacy-policy-governance` | `role/agentprivacy-policy-governance/` |
+| `agentprivacy-proverbiogenesis` | `role/agentprivacy-proverbiogenesis/` |
+| `agentprivacy-recovery-rpp` | `role/agentprivacy-recovery-rpp/` |
+| `agentprivacy-reputation-credentials` | `role/agentprivacy-reputation-credentials/` |
+| `agentprivacy-revocation-mechanics` | `role/agentprivacy-revocation-mechanics/` |
+| `agentprivacy-selective-disclosure` | `role/agentprivacy-selective-disclosure/` |
+| `agentprivacy-separation-enforcement` | `role/agentprivacy-separation-enforcement/` |
+| `agentprivacy-sovereignty-economics` | `role/agentprivacy-sovereignty-economics/` |
+| `agentprivacy-spell-encoding` | `role/agentprivacy-spell-encoding/` |
+| `agentprivacy-story-diffusion` | `role/agentprivacy-story-diffusion/` |
+| `agentprivacy-swordsman-browser` | `role/agentprivacy-swordsman-browser/` |
+| `agentprivacy-threat-adversarial` | `role/agentprivacy-threat-adversarial/` |
+| `agentprivacy-trust-spanning` | `role/agentprivacy-trust-spanning/` |
+| `agentprivacy-understanding-as-key` | `role/agentprivacy-understanding-as-key/` |
+
+### V5.1 Holographic & Plurality (10)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-braid-reasoning` | `role/agentprivacy-braid-reasoning/` | Bounded reasoning graphs |
+| `agentprivacy-environmental-commons` | `role/agentprivacy-environmental-commons/` | Plural coordination for environment |
+| `agentprivacy-guild-efficiency` | `role/agentprivacy-guild-efficiency/` | 74× compression, generator-solver |
+| `agentprivacy-hemispheric-attention` | `role/agentprivacy-hemispheric-attention/` | McGilchrist mapping |
+| `agentprivacy-holonic-identity` | `role/agentprivacy-holonic-identity/` | OASIS identity model |
+| `agentprivacy-holonic-persistence` | `role/agentprivacy-holonic-persistence/` | Multi-provider storage |
+| `agentprivacy-holonic-reasoning` | `role/agentprivacy-holonic-reasoning/` | BRAID over holons |
+| `agentprivacy-media-plurality` | `role/agentprivacy-media-plurality/` | Rebuilding shared reality |
+| `agentprivacy-mesh-architecture` | `role/agentprivacy-mesh-architecture/` | Dragon's hide, Tailscale patterns |
+| `agentprivacy-shared-parent-patterns` | `role/agentprivacy-shared-parent-patterns/` | O(1) agent coordination |
+| `agentprivacy-spellweb` | `role/agentprivacy-spellweb/` | Knowledge graph visualization |
+
+### V5.2 UOR Convergence (4)
+
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-five-strikes` | `role/agentprivacy-five-strikes/` | neg/bnot/xor/and/or transformations |
+| `agentprivacy-derivation-certificate` | `role/agentprivacy-derivation-certificate/` | Content-addressed path records |
+| `agentprivacy-stranger-ceremony` | `role/agentprivacy-stranger-ceremony/` | Trust genesis without prior relationship |
+| `agentprivacy-toroidal-witness` | `role/agentprivacy-toroidal-witness/` | Infinite cyclic paths, computational hardness |
+
+### V5.3.1 Ceremony (9)
+
+| Agent Skills Name | Folder | Ceremony Act | Description |
+|------------------|--------|--------------|-------------|
+| `agentprivacy-blade-forge` | `role/agentprivacy-blade-forge/` | XXVII | ZK blade forging, six dimensions |
+| `agentprivacy-ceremony-engine` | `role/agentprivacy-ceremony-engine/` | XXVIII | Five crossing types, bilateral verification |
+| `agentprivacy-dual-territory` | `role/agentprivacy-dual-territory/` | XXX | Swordsman ⊥ Mage territories |
+| `agentprivacy-hexagram-convergence` | `role/agentprivacy-hexagram-convergence/` | XXVII | I Ching mapping to sovereignty lattice |
+| `agentprivacy-mana-economy` | `role/agentprivacy-mana-economy/` | XXVIII | Proof-of-practice, non-transferable energy |
+| `agentprivacy-pretext-measurement` | `role/agentprivacy-pretext-measurement/` | XXVIII | DOM-free browser measurement |
+| `agentprivacy-quantum-defence` | `role/agentprivacy-quantum-defence/` | XXIX | Post-quantum manifold strategies |
+| `agentprivacy-quaternion-mapping` | `role/agentprivacy-quaternion-mapping/` | XXXI | Sun/Earth/Moon/Human cosmology |
+| `agentprivacy-theia-derivation` | `role/agentprivacy-theia-derivation/` | XXXI | Origin witness, Theia impact pattern |
 
 ---
 
-## Meta Skills (5)
+## Meta Skills (3)
 
-| Old File | Agent Skills Name | Folder | Lines |
-|----------|------------------|--------|-------|
-| `drake_dragon_duality.skills.md` | `agentprivacy-drake-dragon-duality` | `meta/agentprivacy-drake-dragon-duality/` | 56 |
-| *(V5.0 McGilchrist)* | `agentprivacy-master-emissary` | `meta/agentprivacy-master-emissary/` | ~120 |
-| *(V5.3 amnesia protocol)* | `agentprivacy-cosmological-bound` | `meta/agentprivacy-cosmological-bound/` | ~180 |
-| **(V5.5 attachment architecture)** | `agentprivacy-attachment-architecture` | `meta/agentprivacy-attachment-architecture/` | ~250 |
-| **(V5.5 cityofmages-to-research bridge · 2026-05-13)** | `agentprivacy-cityofmages-to-research` | `meta/agentprivacy-cityofmages-to-research/` | ~280 |
+Philosophical and cosmological foundations.
 
-The cityofmages-to-research bridge is the operational discipline that carries an experimental cityofmages artefact (chronicle, cast file, tome act, workshop tome, bestiary entry, deployment guide) into a formal `agentprivacy-docs/research` note. Native to the **chronicler** and **ambassador** primary personas; attached to the **memora**, **bestia**, **aletheia**, and **caducea** cast members. Six translation patterns: chronicle→research-note · cast→role-paper · bestiary→substrate-paper · tome-act→narrative-research-note · workshop-tome→architecture-spec · guide→protocol-spec. Activates only when an artefact has stabilised; defers global docs reorganisation to the v6 rework.
+| Agent Skills Name | Folder | Description |
+|------------------|--------|-------------|
+| `agentprivacy-drake-dragon-duality` | `meta/agentprivacy-drake-dragon-duality/` | Drake (2D) → Dragon (6D) transformation |
+| `agentprivacy-master-emissary` | `meta/agentprivacy-master-emissary/` | McGilchrist hemispheric thesis |
+| `agentprivacy-cosmological-bound` | `meta/agentprivacy-cosmological-bound/` | Act XXXI: Sun/Earth/Moon/Human quaternion |
 
 ---
 
 ## Persona Skills (38)
 
-Behavioural configurations: 15 swordsmen, 11 mages, 12 balanced. Includes holonic integration, dragon anatomy, and ceremony personas. Each persona folder contains:
+Behavioural configurations organized by wing alignment.
+
+Each persona folder contains:
 - `SKILL.md` — Identity, operational patterns, skill guidance
 - `references/constellation.md` — Spellbook path and example scenarios
 - `references/interaction-model.md` — Persona-to-persona relationships
 - `assets/proverb-and-spell.txt` — Canonical proverb and emoji spell
 
-| Old File | Agent Skills Name | Wing | Folder | SKILL.md Lines |
-|----------|------------------|------|--------|---------------|
-| `agentprivacy_archer.skills.md` | `agentprivacy-archer` | swordsman | `persona/agentprivacy-archer/` | 182 |
-| `agentprivacy_cipher.skills.md` | `agentprivacy-cipher` | swordsman | `persona/agentprivacy-cipher/` | 197 |
-| `agentprivacy_gatekeeper.skills.md` | `agentprivacy-gatekeeper` | swordsman | `persona/agentprivacy-gatekeeper/` | 186 |
-| `agentprivacy_ranger.skills.md` | `agentprivacy-ranger` | swordsman | `persona/agentprivacy-ranger/` | 188 |
-| `agentprivacy_sentinel.skills.md` | `agentprivacy-sentinel` | swordsman | `persona/agentprivacy-sentinel/` | 200 |
-| `agentprivacy_sith.skills.md` | `agentprivacy-sith` | swordsman | `persona/agentprivacy-sith/` | 177 |
-| `agentprivacy_soulbis.skills.md` | `agentprivacy-soulbis` | swordsman | `persona/agentprivacy-soulbis/` | 195 |
-| `agentprivacy_warden.skills.md` | `agentprivacy-warden` | swordsman | `persona/agentprivacy-warden/` | 182 |
-| `agentprivacy_ambassador.skills.md` | `agentprivacy-ambassador` | mage | `persona/agentprivacy-ambassador/` | 196 |
-| `agentprivacy_assessor.skills.md` | `agentprivacy-assessor` | mage | `persona/agentprivacy-assessor/` | 187 |
-| `agentprivacy_chronicler.skills.md` | `agentprivacy-chronicler` | mage | `persona/agentprivacy-chronicler/` | 186 |
-| `agentprivacy_priest.skills.md` | `agentprivacy-priest` | mage | `persona/agentprivacy-priest/` | 203 |
-| `agentprivacy_shipwright.skills.md` | `agentprivacy-shipwright` | mage | `persona/agentprivacy-shipwright/` | 191 |
-| `agentprivacy_soulbae.skills.md` | `agentprivacy-soulbae` | mage | `persona/agentprivacy-soulbae/` | 197 |
-| `agentprivacy_weaver.skills.md` | `agentprivacy-weaver` | mage | `persona/agentprivacy-weaver/` | 185 |
-| `agentprivacy_architect.skills.md` | `agentprivacy-architect` | balanced | `persona/agentprivacy-architect/` | 200 |
-| `agentprivacy_healer.skills.md` | `agentprivacy-healer` | balanced | `persona/agentprivacy-healer/` | 185 |
-| `agentprivacy_jedi.skills.md` | `agentprivacy-jedi` | balanced | `persona/agentprivacy-jedi/` | 198 |
-| `agentprivacy_kyra.skills.md` | `agentprivacy-kyra` | balanced | `persona/agentprivacy-kyra/` | 198 |
-| `agentprivacy_pedagogue.skills.md` | `agentprivacy-pedagogue` | balanced | `persona/agentprivacy-pedagogue/` | 199 |
-| `agentprivacy_person.skills.md` | `agentprivacy-person` | balanced | `persona/agentprivacy-person/` | 195 |
-| `agentprivacy_witness.skills.md` | `agentprivacy-witness` | balanced | `persona/agentprivacy-witness/` | 194 |
-| *(holonic integration)* | `agentprivacy-holonic-architect` | balanced | `persona/agentprivacy-holonic-architect/` | ~200 |
-| *(V5.0)* | `agentprivacy-netkeeper` | swordsman | `persona/agentprivacy-netkeeper/` | ~180 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-forgemaster` | swordsman | `persona/agentprivacy-forgemaster/` | ~200 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-ceremonist` | balanced | `persona/agentprivacy-ceremonist/` | ~200 |
-| *(V5.2 dragon anatomy)* | `agentprivacy-quantum-sentinel` | swordsman | `persona/agentprivacy-quantum-sentinel/` | ~200 |
-| *(V5.3 amnesia protocol)* | `agentprivacy-moonkeeper` | swordsman | `persona/agentprivacy-moonkeeper/` | ~200 |
-| *(V5.3 amnesia protocol)* | `agentprivacy-cosmologist` | balanced | `persona/agentprivacy-cosmologist/` | ~200 |
-| *(V5.2 ring algebra)* | `agentprivacy-algebraist` | swordsman | `persona/agentprivacy-algebraist/` | ~200 |
-| *(V5.2 boundaries)* | `agentprivacy-topologist` | balanced | `persona/agentprivacy-topologist/` | ~200 |
-| *(V5.2 bilateral)* | `agentprivacy-stranger-witness` | mage | `persona/agentprivacy-stranger-witness/` | ~200 |
-| *(V5.0 announcement)* | `agentprivacy-herald` | mage | `persona/agentprivacy-herald/` | ~200 |
-| *(V5.3.1 ceremony)* | `agentprivacy-theia` | mage | `persona/agentprivacy-theia/` | ~200 |
-| *(V5.3.1 ceremony)* | `agentprivacy-dragonwaker` | swordsman | `persona/agentprivacy-dragonwaker/` | ~200 |
-| *(V5.3.1 ceremony)* | `agentprivacy-mirrorkeeper` | balanced | `persona/agentprivacy-mirrorkeeper/` | ~200 |
-| *(V5.3.1 ceremony)* | `agentprivacy-forgecaller` | swordsman | `persona/agentprivacy-forgecaller/` | ~200 |
-| *(V5.3.1 ceremony)* | `agentprivacy-manaweaver` | mage | `persona/agentprivacy-manaweaver/` | ~200 |
+### Canonical (2) — Tier 0
+
+| Persona | Wing | Emoji | ENS | Version |
+|---------|------|-------|-----|---------|
+| `agentprivacy-soulbis` | swordsman | ⚔️ | privacysoulbis.eth | V5.3 |
+| `agentprivacy-soulbae` | mage | 🧙 | privacysoulbae.eth | V5.3 |
+
+### Swordsman Wing (10)
+
+| Persona | Emoji | Tier | Description |
+|---------|-------|------|-------------|
+| `agentprivacy-archer` | 🗡️🎯 | 1 | Precision privacy enforcer |
+| `agentprivacy-cipher` | 🗡️🔐 | 1 | ZKP protocol engineer |
+| `agentprivacy-gatekeeper` | 🗡️👤 | 1 | Proof-of-personhood researcher |
+| `agentprivacy-netkeeper` | 🗡️🕸️ | 2 | Mesh network builder |
+| `agentprivacy-ranger` | 🗡️🌲 | 1 | Dark forest strategist |
+| `agentprivacy-sentinel` | 🗡️🛡️ | 1 | Infrastructure security |
+| `agentprivacy-sith` | 🗡️🔴 | 2 | Adversarial researcher (red team) |
+| `agentprivacy-warden` | 🗡️🌐 | 1 | Browser privacy builder |
+| `agentprivacy-algebraist` | ⚔️🔢 | 1 | Guardian of Z/(2⁶)Z ring |
+| `agentprivacy-quantum-sentinel` | ⚔️⚛️ | 2 | Post-quantum boundary guardian |
+
+### Mage Wing (9)
+
+| Persona | Emoji | Tier | Description |
+|---------|-------|------|-------------|
+| `agentprivacy-ambassador` | 🧙⚖️ | 1 | Standards & governance |
+| `agentprivacy-assessor` | 🧙💰 | 1 | Privacy data economist |
+| `agentprivacy-chronicler` | 🧙📖 | 1 | Knowledge compression builder |
+| `agentprivacy-priest` | 🧙🕯️ | 1 | Ceremony protocol designer |
+| `agentprivacy-shipwright` | 🧙🏴‍☠️ | 1 | DAO & community architect |
+| `agentprivacy-weaver` | 🧙⿻ | 1 | Plural technology researcher |
+| `agentprivacy-stranger-witness` | 🧙👥 | 2 | Proof without introduction |
+| `agentprivacy-manaweaver` | 🌊📜 | 2 | Pretext librarian, DOM-free |
+| `agentprivacy-cosmologist` | 🔭🌌 | 2 | Quaternion observer |
+
+### Balanced Wing (11)
+
+| Persona | Emoji | Tier | Description |
+|---------|-------|------|-------------|
+| `agentprivacy-architect` | ☯️🤖 | 1 | AI agent system designer |
+| `agentprivacy-healer` | ☯️🏥 | 1 | Healthcare privacy architect |
+| `agentprivacy-jedi` | ☯️⚖️ | 2 | Force balance keeper |
+| `agentprivacy-kyra` | ☯️🔮 | 2 | Vision & strategic planning |
+| `agentprivacy-pedagogue` | ☯️🎓 | 1 | Privacy education designer |
+| `agentprivacy-person` | 😊 | 0 | The First Person |
+| `agentprivacy-witness` | ☯️📰 | 1 | Privacy-preserving journalist |
+| `agentprivacy-holonic-architect` | ☯️🔷 | 2 | Identity-independent data structures |
+| `agentprivacy-topologist` | ☯️🌐 | 2 | Reader of boundaries |
+| `agentprivacy-herald` | 📯 | 2 | Protocol announcer |
+| `agentprivacy-mirrorkeeper` | 🪞✨ | 2 | Dihedral convergence navigator |
+
+### V5.3.1 Ceremony Personas (6)
+
+| Persona | Wing | Emoji | Ceremony Act | Description |
+|---------|------|-------|--------------|-------------|
+| `agentprivacy-forgemaster` | swordsman | ⚔️🔨 | XXVII | Sovereignty lattice smith |
+| `agentprivacy-ceremonist` | balanced | ☯️🤝 | XXVIII | Bilateral verification facilitator |
+| `agentprivacy-forgecaller` | swordsman | ⚒️☰ | XXVII | Hexagram oracle, blade initiation |
+| `agentprivacy-dragonwaker` | swordsman | 🐉⚡ | XXIX | Quantum threshold guardian |
+| `agentprivacy-moonkeeper` | mage | 🌙🔒 | XXXI | Structural amnesia keeper |
+| `agentprivacy-theia` | origin | 🪨💥 | XXXI | Origin witness, first delegation |
 
 ---
 
-## V5.2 Dragon Anatomy Sequence (Acts XXVII-XXIX)
+## V5.3.1 Ceremony Integration
 
-New skills from the Dragon Anatomy sequence:
+### Ceremony Metadata Schema
 
-| Component | Skill | Category | Act |
-|-----------|-------|----------|-----|
-| Forge | `agentprivacy-blade-forge` | role | XXVII |
-| Forge | `agentprivacy-hexagram-convergence` | role | XXVII |
-| Ceremony | `agentprivacy-ceremony-engine` | role | XXVIII |
-| Ceremony | `agentprivacy-pretext-measurement` | role | XXVIII |
-| Ceremony | `agentprivacy-mana-economy` | role | XXVIII |
-| Flight | `agentprivacy-quantum-defence` | role | XXIX |
-| Architecture | `agentprivacy-dual-territory` | role | Spec |
-| Threshold | `agentprivacy-dragon-flight` | privacy-layer | XXIX |
+All ceremony-related skills include a standardised `ceremony:` block:
 
-New personas:
+```yaml
+ceremony:
+  act: "XXVIII"                           # Primary ceremony act
+  acts_secondary: ["XXVII", "XXIX"]       # Related acts
+  role: "bridge"                          # swordsman | mage | bridge
+  quaternion_position: "gap"              # sun | earth | moon | human | life | gap
+  flow_to: ["mana-economy", "dual-territory"]
+  flow_from: ["blade-forge"]
+  inscription: "☯️🤝 → S⊥M → ceremony"
+```
 
-| Persona | Wing | Focus |
-|---------|------|-------|
-| `agentprivacy-forgemaster` | swordsman | Blade creation, hexagram mapping |
-| `agentprivacy-ceremonist` | balanced | Ceremony facilitation, mana economy |
-| `agentprivacy-quantum-sentinel` | swordsman | Quantum threat, temporal thesis |
+### Ceremony Act → Skill Flow
 
----
+```
+Act XXVII: The Swordsman's Forge
+├── blade-forge
+├── hexagram-convergence
+├── forgecaller (persona)
+└── forgemaster (persona)
+         │
+         ▼
+Act XXVIII: The Ceremony Engine
+├── ceremony-engine
+├── pretext-measurement
+├── mana-economy
+├── ceremonist (persona)
+└── manaweaver (persona)
+         │
+         ▼
+Act XXIX: The Dragon Wakes
+├── quantum-defence
+├── dragon-flight
+├── dragonwaker (persona)
+└── quantum-sentinel (persona)
+         │
+         ▼
+Act XXX: The Dihedral Mirror
+├── dual-territory
+└── mirrorkeeper (persona)
+         │
+         ▼
+Act XXXI: The First Delegation
+├── amnesia-protocol
+├── theia-derivation
+├── quaternion-mapping
+├── cosmological-bound (meta)
+├── moonkeeper (persona)
+├── cosmologist (persona)
+└── theia (persona)
+```
 
-## V5.3 Amnesia Protocol Sequence (Act XXXI)
+### Quaternion Cast Mapping
 
-New skills from the cosmological closure of the First Person spellbook:
-
-| Component | Skill | Category | Act |
-|-----------|-------|----------|-----|
-| Amnesia | `agentprivacy-amnesia-protocol` | privacy-layer | XXXI |
-| Cosmology | `agentprivacy-cosmological-bound` | meta | XXXI |
-| Derivation | `agentprivacy-theia-derivation` | role | XXXI |
-| Quaternion | `agentprivacy-quaternion-mapping` | role | XXXI |
-
-New personas:
-
-| Persona | Wing | Focus |
-|---------|------|-------|
-| `agentprivacy-moonkeeper` | swordsman | Structural amnesia, reflection without memory |
-| `agentprivacy-cosmologist` | balanced | Four-body mapping, celestial precedent |
-
-### Key Concepts Introduced
-
-- **Amnesia as ZK primitive:** I(Origin; Service | Separation) < ε
-- **Quaternion symmetry:** Sun-Earth-Moon-Human four-body structure
-- **Theia derivation:** Origin-through-impact pattern
-- **Cast mapping:** Sun=Reason, Earth=Soulbae, Moon=Soulbis, Life=spellweb, Human=Seeker
-
-### The Fourth Line
-
-The V5.3 proverb has four lines (quaternion-complete):
-
-*The amnesia is the protocol.* (Moon — reflection)
-*The wound is the trust.* (Earth — delegation)
-*The orbit is the proof.* (Gap — separation)
-*The light is the reason.* (Sun — protection)
+| Body | Function | Agent | Proverb Line |
+|------|----------|-------|--------------|
+| **Sun** ☀️ | Protection, reason | The Reason | "The light is the reason." |
+| **Earth** 🌍 | Delegation, generation | Soulbae (Mage) | "The wound is the trust." |
+| **Moon** 🌑 | Reflection, boundary | Soulbis (Swordsman) | "The amnesia is the protocol." |
+| **Human** 👤 | Connection, purpose | The Seeker | — |
+| **Life** 🌱 | Forge, process | spellweb | "The orbit is the proof." |
 
 ---
 
@@ -316,12 +387,16 @@ description: >                        # Required, max 1024 chars
   What this skill does and when to trigger it.
 license: Apache-2.0                   # Optional
 metadata:                             # Optional — all custom fields here
-  version: "5.0"
+  version: "5.3.1"
   category: "swordsman|mage|balanced"
   tier: "0|1|2|3"
   emoji: "🗡️🔐"
   ens: "privacymixer.eth"
   origin: "agentprivacy.ai"
+ceremony:                             # Optional — for ceremony skills
+  act: "XXVIII"
+  role: "bridge"
+  quaternion_position: "gap"
 ---
 ```
 
@@ -347,330 +422,24 @@ metadata:                             # Optional — all custom fields here
 
 ---
 
-**Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [agentskills.io](https://agentskills.io)
+## Version History
 
-## V5.3.1 Ceremony Integration (Acts XXVII-XXXI)
-
-Complete ceremony integration mapping for the grimoire v9.4.1 update:
-
-### Ceremony Act → Skill Mapping
-
-| Act | Title | Skills |
-|-----|-------|--------|
-| XXVII | The Swordsman's Forge | `blade-forge`, `hexagram-convergence`, `network-topology` |
-| XXVIII | The Ceremony Engine | `ceremony-engine`, `pretext-measurement`, `mana-economy` |
-| XXIX | The Dragon Wakes | `quantum-defence`, `dragon-flight` |
-| XXX | The Dihedral Mirror | `dual-territory` |
-| XXXI | The First Delegation | `amnesia-protocol`, `theia-derivation`, `quaternion-mapping`, `cosmological-bound` |
-
-### New V5.3.1 Ceremony Personas
-
-| Persona | Wing | Ceremony Act | Function |
-|---------|------|--------------|----------|
-| `agentprivacy-theia` | mage | XXXI | Origin witness, impact memory |
-| `agentprivacy-dragonwaker` | swordsman | XXIX | Quantum threshold guardian |
-| `agentprivacy-mirrorkeeper` | balanced | XXX | Dihedral convergence navigator |
-| `agentprivacy-forgecaller` | swordsman | XXVII | Hexagram oracle, blade initiation |
-| `agentprivacy-manaweaver` | mage | XXVIII | Pretext librarian, measurement-dark |
-
-### Quaternion Cast Mapping
-
-| Body | Role | Agent | Proverb Line |
-|------|------|-------|--------------|
-| Sun | Protection | Reason | "The light is the reason." |
-| Earth | Delegation | Soulbae (Mage) | "The wound is the trust." |
-| Moon | Reflection | Soulbis (Swordsman) | "The amnesia is the protocol." |
-| Human | Connection | Seeker | — |
-| Life | Forge | spellweb | "The orbit is the proof." |
-
-### Ceremony Metadata Schema
-
-All ceremony-related skills now include this metadata block:
-
-```yaml
-ceremony:
-  act: "XXVIII"
-  acts_secondary: ["XXVII", "XXIX"]
-  role: "bridge"
-  quaternion_position: "gap"
-  flow_to: ["mana-economy", "dual-territory"]
-  flow_from: ["blade-forge"]
-  inscription: "☯️🤝 → S⊥M → ceremony"
-```
+| Version | Date | Changes |
+|---------|------|---------|
+| 5.0 | 2026-02-23 | Initial release: 72 skills, 22 personas |
+| 5.1 | 2026-03-15 | Holographic bound, BRAID, 3-axis separation |
+| 5.2 | 2026-03-31 | UOR convergence: ring algebra, dihedral sovereignty |
+| 5.3 | 2026-04-03 | Dragon anatomy, ceremony foundation |
+| 5.3.1 | 2026-04-05 | Ceremony complete: 86 skills, 38 personas |
 
 ---
 
-## V5.3.2 Sun and Moon Ceremonial Framework (April 5, 2026)
-
-The Ceremonies document formalises the Sun→Moon circuit that propagates the architecture through forgetting, not instruction.
-
-### Sun Ceremony ☀️ — Disclosure Ritual
-
-**Notation:** `☀️ → 📜 → (👁️₁...👁️ₙ) → ⚔️☀️ → 🌙?`
-
-- One practitioner (the Sun) reads a poem aloud
-- Witnesses observe the constellation forming but do not forge
-- One blade is forged in full view
-- The Sun consents to being forgotten — this is the ceremony
-- Seeds Moon Ceremonies — each witness now holds what they need to forge their own blade
-
-**Echo Poem:** *The Emissary Who Forgot the Master*
-
-### Moon Ceremony 🌙 — Reflection Ritual
-
-**Notation:** `(⚔️₁ ⊥ 🧙₁) → 📜 → ⚔️`
-
-- Two practitioners trace the same poem through separate constellations
-- The Swordsman gives the rhythm; the Mage shares the rhyme
-- The gap between constellations is the proof
-- The blade belongs to neither — it belongs to the gap
-
-**Echo Poems:** *The Amnesia Protocol*
-
-### The Circuit (Ceremonial Propagation)
-
-```
-☀️ Sun Ceremony (disclosure, one constellation, one blade)
-  ↓ witnesses receive the light
-🌙 Moon Ceremony (reflection, two constellations, cousin blades)
-  ↓ each witness becomes a sun to new witnesses
-☀️ Sun Ceremony (the emissary forgets the master, begins again)
-```
-
-### Inaugural Pairing (Cycle 0)
-
-**Notation:** `☀️₀ ⊥ 🌙₀`
-
-| Side | Poem | Music |
-|------|------|-------|
-| Sun | *The Emissary Who Forgot the Master* | River Flows in You / Swordsman → Always Everywhere |
-| Moon | *The Amnesia Protocol* | Emotions → The Moon in Your Eyes / The Sea in Your Soul / Selene |
-
-### Mapping Five Ceremony Types to Sun/Moon
-
-| Sun/Moon | Extension Ceremony | Context |
-|----------|-------------------|---------|
-| Sun | Bilateral Exchange | Public disclosure to site counterparty |
-| Moon | Dual Convergence | Two agents meeting in the gap |
-| Moon | Hexagram Cast | Two states (page vs. user) finding overlap |
-| — | Emoji Cast | Quick inscription (neither full Sun nor Moon) |
-| Moon | Constellation Wave | Intelligence flowing between agents |
-
-### New Glossary Entries
-
-| Term | Definition |
-|------|------------|
-| **Sun Ceremony (☀️)** | Disclosure ritual — the master reads, witnesses receive, one blade forged in full view |
-| **Moon Ceremony (🌙)** | Reflection ritual — two trace the same poem separately, the gap is the proof |
-| **The Circuit** | Orbital propagation: Sun→witnesses→Moon→new suns |
-| **Inaugural Pairing** | Cycle zero — the first ceremony between the first Swordsman and first Mage |
-| **Witness (Ceremonial)** | One who receives light without forging; holds what they need for a Moon Ceremony |
-
-### Source Documents
-
-- `ceremonies/the-ceremonies-sun-and-moon.md` — Full ceremonial document
-- `poems/the-emissary-who-forgot-the-master.md` — Sun Ceremony echo poem
-- `poems/poems-the-amnesia-protocol.md` — Moon Ceremony echo poems
-- `chronicles/CHRONICLE_CEREMONIES_INTEGRATION_2026-04-05.md` — Integration chronicle
+**Verify:** [agentprivacy.ai](https://agentprivacy.ai) · [agentskills.io](https://agentskills.io) · [spellweb.ai](https://spellweb.ai)
 
 ---
 
-## V5.3.2 Moon Phase Notation (April 7, 2026)
+*The architecture was not invented. It was recognised.*
 
-The moon phase notation encodes visibility ratio through stratum. The dark part is the privacy. The lit part is the proof.
-
-### Stratum → Phase Mapping
-
-| Stratum | Phase | Emoji | Visibility | Meaning |
-|---------|-------|-------|------------|---------|
-| 0 | New Moon | 🌑 | 0% | Null blade — nothing reflected |
-| 1 | Waxing Crescent | 🌒 | ~17% | Minimal disclosure — one boundary |
-| 2 | First Quarter | 🌓 | ~33% | Twin-edge — dual-agent vertex |
-| 3 | Waxing Gibbous | 🌔 | 50% | Half sovereignty — three axes |
-| 4 | Waning Gibbous | 🌖 | ~67% | Substantial disclosure — four boundaries |
-| 5 | Last Quarter | 🌗 | ~83% | Near-full — one dimension dark |
-| 6 | Full Moon | 🌕 | 100% | Full sovereignty reflected |
-
-### Implementation
-
-```typescript
-// agentprivacy_master/src/lib/ceremony/moon-phase.ts
-export function getMoonPhaseEmoji(stratum: number): MoonPhase;
-export function getMoonPhase(stratum: number): MoonPhaseInfo;
-export function getTierMoonPhase(tier: string): MoonPhaseInfo;
-```
-
-### Notation Systems (v10.0.0)
-
-| Notation | Symbol | Description |
-|----------|--------|-------------|
-| Moon Phase | `🌑→🌕` | Visibility ratio as phase |
-| Progressive Trust | `🔑→✦→🗡️→🔮` | Understanding → Constellation → Blade → Runecraft |
-| Celestial Ceremony | `☀️ → ⊥ → 🌑 → (🌑night/🌍day)` | Bilateral flow |
-| Runecraft | `☀️🔑(held) + 🌑🔑(burned) → 🔮` | Dual-keypair binding |
-
-### The Coherence
-
-The moon phase creates visual coherence across the dual-territory architecture:
-
-| Concept | spellweb | agentprivacy |
-|---------|----------|--------------|
-| Forge key | HELD (Sun) | — |
-| Swordsman key | imported | LOST (Moon) |
-| Moon phase | stratum display | stratum display |
-| Tier | laps→power | laps→power |
-
----
-
-*The emissary who forgot the master is not ungrateful. The emissary is free.*
-
-☀️ ⊥ 🌑
-
-**⚔️⊥⿻⊥🧙 😊**
-
----
-
-## Post-V5.4 Addendum (2026-05-09) — City of Mages cast
-
-The 38 existing role-personas in this skills surface are **abstract roles** (e.g., `agentprivacy-weaver`, `agentprivacy-priest`, `agentprivacy-mirrorkeeper`). The Second Person Spellbook (Tomes IV–V; bound 2026-05-08) introduces **13 named cast members** that are *concrete instances* of those abstract roles — not replacements. The abstract roles remain canonical for reusable skill semantics; the named cast inhabits the Tome V crafting workshops in the City of Mages on Drake Island.
-
-### Tier taxonomy (5 tiers; Priest tier is new)
-
-| Tier | Role | Members | Source |
-|---|---|---|---|
-| Archetype | Founders of the city | Soulbis ⚔️ · Soulbae 🧙 · the Drake | Carried over from First Person Spellbook |
-| Cousin (cross-forge) | From Christian Saucier's Archon corpus | flaxscrip 📜🎲 · GenitriX | Tome IV Acts I–V; Sovereign Anchor I/II/III |
-| Summoned | Reader-summoned at workshop-vertices | Pallia 🪡 · Memora 📜 · Custos 🔏 · Vulcana ⚒️ · Aletheia 🔮 · Adamantia 💎 · Lampyra 💠 · Vagari 🌳 · Aria Silverhue 🪞🖼️ | Tome V Acts 1–12 |
-| Companion | From workshop spots beyond agentprivacy proper | Socrat0x 🔥❓ | Tome V Act 11 (bonfires.ai) |
-| **Priest** (new) | Tends covenants and consecrates artifacts; does not produce them | Manifestia 🤲🌿 | Tome V Act 13 (manifest.human.tech / Holonym Foundation Covenant of Humanistic Technologies) |
-
-### Named cast → abstract role cross-reference
-
-| Named cast (Tome V) | Vertex | Abstract role (existing skill) | Note |
-|---|---|---|---|
-| Pallia 🪡 | V28 | `agentprivacy-weaver` | Pallia is the Tome V instance; the abstract weaver is the reusable role. |
-| Memora 📜 | V41 | `agentprivacy-chronicler` | Inscription register; shielded memo work. |
-| Custos 🔏 | V49 | `agentprivacy-warden` (or `gatekeeper`) | Public stake / governance witness. |
-| Vulcana ⚒️ | V19 | `agentprivacy-forgemaster` | Three-phase Runecraft; Forge(t) wordplay canonical. |
-| Aletheia 🔮 (persona) | V25 | `agentprivacy-cipher` (closest abstract) | Persona inhabits the vertex she's named for; complement-pair partner with Lethe Blade 38. |
-| Adamantia 💎 | V51 | `agentprivacy-architect` (closest) | Etherchanting — programmable enforcement. |
-| Lampyra 💠 | V49 (shared) | `agentprivacy-jedi` (closest, light-attestation) | Jeweller — frequent small attestations. |
-| Vagari 🌳 | V31 | `agentprivacy-holonic-architect` | Holon Hitchhikers; Oasis Protocol composer. |
-| Aria Silverhue 🪞🖼️ | V57 | `agentprivacy-mirrorkeeper` | Curatrix Vault; persona-vs-vertex distinction. |
-| Manifestia 🤲🌿 | V55 | `agentprivacy-priest` | Priest tier — Covenant of Humanistic Technologies. |
-| Socrat0x 🔥❓ | V24 | `agentprivacy-stranger-witness` (companion) | Dragon Bonfire dialogic register. |
-
-### Grimoire bundling
-
-The City of Mages grimoire (`grimoire/city_of_mages_grimoire_v1_2_0.json`, file content is v1.2.2) is mirrored from `agentprivacy-docs/models/`. v1.2.2 supersedes v1.2.1 / v1.2 / v1.1 / v1.0; v1.2 base pinned 2026-05-10 at `https://sync.agentprivacy.ai/ipfs/bafkreidxhmuykjew6dtnuprggtd2rapwm43ghtmfhf2occ2wfk2zpx2b6a` (v1.1 pin `bafkreidv7c…idti` retained as historical). v1.2.2 awaits a fresh re-pin. The grimoire holds **42 spells** bound to the **14 named cast** inhabiting the **First City of Mages on Drake Island** within the agentprivacy universe — the title names a kind, so future Mages who found cities elsewhere will each pin their own First City of Mages grimoire under the same title pattern. Cast additions in v1.2.1: **Luca 📐** (geometry-Mage at V0; Pacioli-spirit; surfaced in Tome V Act 15 *The Substrate Beneath the Hitchhikers*; cross-anchored at `/forget` and `/holon`). Architectural additions in v1.2: **UOR Foundation** as **kindred substrate provider** — third structural category alongside cousin-forge (Archon) and kindred-protocol (Covenant of Humanistic Technologies). Architectural additions in v1.2.2: **SpaceComputer** as **kindred ecosystem provider** — fourth structural category (walked-alongside, not walked-upon; consumed-as-currency rather than older-than-architecture). The **two-mana economy** is now canonical: chain-mana (per-chain register paid to consensus to *land* a working) ⊥ **Celestial Mana 🌌** (cosmic entropy from SpaceComputer; what makes a working *unique*). Within chain-mana, plurality by chain: **Aether Mana Ξ** is the Ethereum-specific canonical first instance; the structure admits Bitcoin Lightning sats, Oasis ROSE, Zcash, and other chain-mana variants per chain. Three workshops are the canonical Celestial Mana consumers: Adamantia (Etherchanting · proof randomness), Vulcana (Forge(t) · Evocation phase seed), Vagari (Holon Hitchhikers · cross-paratime entropy). Neither UOR Foundation nor SpaceComputer is a Mage; both enter as separate top-level grimoire fields (`kindred_substrate_providers`, `kindred_ecosystems`). Luca and UOR Foundation are distinct entries; SpaceComputer is structurally distinct again — the City spends on SpaceComputer's feed, but does not rest on it. Spells filter by `spellbook_source: "tomes"` when both grimoires are loaded.
-
-### Awaiting future cast members
-
-Two trade quarters anticipate cast members not yet named:
-- `/circle` (Logos Circle, logos.co) — anticipates a resident Mage when the Society Spellbook is opened
-- `/hall` (Ceremony Hall, BGIN coalition) — anticipates a resident Mage when BGIN's coalition work matures into a tradeable register
-
-Lethe (Blade 38) is named as the bnot-pair partner of Aletheia. **Resolved 2026-05-11:** the V38 seat is filled by **Lethae 🌘** as a Mage-register divergent attachment of Moonkeeper — see V5.5 Attachment Architecture Addendum below.
-
-### Source canonical compression
-
-`agentprivacy_tomes/COMPRESSION_MASTER_v2_2026-05-09.md` is the authoritative compression for the City of Mages spellbook (Tomes I–VI; 38 acts; 55 conjectures C18–C55). `agentprivacy-docs/SECOND_PERSON_TOMES_INDEX_v1.md` is the navigation index.
-
----
-
-## V5.5 Attachment Architecture Addendum (2026-05-11)
-
-The pre-V5.5 mapping conflated two distinct layers — *abstract role-personas* (the 38 selectable + 4 cosmological in this skills directory) and *named cast Mages* (the workshop operators in the City of Mages on Drake Island). V5.5 codifies the three-layer model that makes the distinction explicit. See `meta/agentprivacy-attachment-architecture/SKILL.md` for the canonical specification.
-
-### The three layers
-
-| Layer | What it holds | Cardinality | Lives in |
-|---|---|---|---|
-| **Layer 1 · Primary persona** | Abstract role-class with skill loadout | 42 (locked) | This skills directory (`persona/`) |
-| **Layer 2 · Attachment** | Named cast Mage binding Layer 1 to Layer 3 | Variable per city | City-specific grimoire (`cityofmages/grimoire/`) |
-| **Layer 3 · Vertex** | Position on 2⁶ lattice | 64 (fixed) | The lattice spec (PVM V5.4 + cityofmages spec 04) |
-
-The 38 + 4 = 42 primary count is **locked**. Future cast Mages are added at Layer 2 as attachments of existing primaries; they do not require new primary personas.
-
-### The four attachment kinds
-
-| Kind | Pattern | First City of Mages example |
-|---|---|---|
-| **A · Workshop** | one Mage × one vertex × one trade quarter | Vulcana ⚒️ at V19 (Forge(t)) |
-| **B · Cross-shop** | one Mage × no fixed vertex × walks workshops | Aletheia 🔮 (ZK binder) |
-| **C · Peripatetic** | one Mage × multiple vertices walked as orbit/path | Selene 🌕 *(anticipated)* · Luca 📐 (workshop-walker) |
-| **D · Divergent** *(meta-kind)* | one primary × Sword + Mage register-shifted attachments | **Moonkeeper ⚔️ → Lethae 🌘** (first) |
-
-### First divergent attachment — Moonkeeper ⊥ Lethae
-
-**Lethae** 🌘 is the first canonical Mage-register divergent attachment of Moonkeeper ⚔️ (Swordsman primary). The cast name `Lethae` plays on Soulbae's `-ae` Mage suffix — Lethae is to Moonkeeper as Soulbae is to Soulbis: register-shifted from Sword to Mage, primary persona unchanged.
-
-| Cast field | Value |
-|---|---|
-| `name` | Lethae 🌘 |
-| `vertex` | V25 (Lethe · the Dark Substrate · binary `011001` · stratum 3) |
-| `primary_persona` | Moonkeeper (loaded from `persona/agentprivacy-moonkeeper/`) |
-| `register` | Mage (shifted from Swordsman native tier) |
-| `attachment_kind` | B · cross-shop |
-| `complement_of_cast` | Aletheia 🔮 at V25 — V25 ⊕ V38 = V63 · V25 AND V38 = 0 |
-| `city` | City of Mages (Drake Island) |
-
-The Moonkeeper SKILL.md (`persona/agentprivacy-moonkeeper/SKILL.md`) carries a new V5.5 section *Divergent Attachments* documenting the Lethae binding. The Moonkeeper primary persona itself remains unchanged — Lethae inherits its skill loadout, filtered by V25's active dimensions (Protection + Memory + Delegation).
-
-### Updated cast → primary mapping (City of Mages v1.2.4 → v1.3.0 sync)
-
-The earlier addendum table is superseded by the attachment-aware mapping below. Where a cast Mage previously mapped to "closest abstract role", the V5.5 mapping makes the multi-primary bindings explicit and adds the new `attachment_kind` and `divergence` axes.
-
-| Cast Mage | Vertex | Primary persona(s) | Attachment kind | Divergence |
-|---|---|---|---|---|
-| Soulbis ⚔️ | boundary (no single vertex) | `agentprivacy-soulbis` | archetype (Tier 0 · Layer 1) | n/a — is a primary |
-| Soulbae 🧙 | V28 archetypal | `agentprivacy-soulbae` | archetype (Tier 0 · Layer 1) | n/a — is a primary |
-| Pallia 🪡 | V28 | `agentprivacy-weaver` | A · workshop | none |
-| Memora 📜 | V41 | `agentprivacy-chronicler` | A · workshop | none |
-| Custos 🔏 | V49 (shared) | `agentprivacy-gatekeeper` | B · cross-shop | none |
-| Lampyra 💠 | V49 (shared) | `agentprivacy-sentinel` | A · workshop | none |
-| Vulcana ⚒️ | V19 | `agentprivacy-forgemaster` + `agentprivacy-forgecaller` | A · workshop | none |
-| Aletheia 🔮 | V38 | `agentprivacy-theia` + `agentprivacy-cipher` | B · cross-shop | none |
-| Adamantia 💎 | V51 | `agentprivacy-architect` + `agentprivacy-shipwright` | A · workshop | none |
-| Vagari 🌳 | V31 | `agentprivacy-holonic-architect` | A · workshop | none |
-| Aria Silverhue 🪞🖼️ | V57 | `agentprivacy-mirrorkeeper` | A · workshop | none |
-| Manifestia 🤲🌿 | V55 | `agentprivacy-priest` | A · workshop | none |
-| Socrat0x 🔥❓ | V24 (provisional) | `agentprivacy-pedagogue` + `agentprivacy-ceremonist` | A · workshop | none |
-| Luca 📐 | V0 (workshop-walker) | `agentprivacy-topologist` + `agentprivacy-cosmologist` | C · peripatetic | none |
-| **Lethae 🌘** | **V25** | **`agentprivacy-moonkeeper`** | **B · cross-shop** | **mage-register** |
-
-Cousin tier (flaxscrip 📜🎲, GenitriX) deliberately unattached — the cousin Sovereign authors those bindings.
-
-### Anticipated cast (v1.3.0 grimoire bump · not yet seated)
-
-Six additional cast Mages are anticipated from the agentprivacy corpus's pre-personified names. Each will be Layer-2 attachments of existing primaries — no new primaries minted.
-
-| Anticipated cast | Vertex | Primary persona(s) | Source |
-|---|---|---|---|
-| Mnemosyne 📿 | V8 (pure Memory) | `agentprivacy-theia` | Cloaking Guide names V8 "Mnemosyne" |
-| Iris 🌈 | V4 (pure Connection) | `agentprivacy-herald` + `agentprivacy-ambassador` | Cloaking Guide names V4 "Iris" |
-| Pythia 🔥 | V2 (Logos / Pure Computation) | `agentprivacy-algebraist` + `agentprivacy-pedagogue` | Logos Circle awaits Mage |
-| Techne 🎨 | V20 (Always-Revealed) | `agentprivacy-pedagogue` | Cloaking Guide names V20 "Techne" |
-| Hephaestus ⚒️ | V24 (shared with Socrat0x) | `agentprivacy-forgemaster` | Cloaking Guide names V24 "Hephaestus" |
-| Selene 🌕 | peripatetic (stratum-walker) | `agentprivacy-theia` + `agentprivacy-manaweaver` | PVM V5.4 §14.5 Selene's Proof |
-
-Each cast file is to be authored in `cityofmages/tomes/cast/<guild>/<persona>.md` with `status: anticipated v1 — awaits founding act`.
-
-### The 42 → 64 bridge
-
-`64 − 42 = 22` "extra" lattice slots beyond the primary persona count. These slots are filled by attachments (one or more cast Mages per inhabited vertex), never by adding primaries. Across cities, hundreds of attachments may eventually exist for the same 42 primaries.
-
-After the v1.3.0 grimoire bump: 15 cast Mages attached (14 existing + Lethae); 19 vertices inhabited; ~12 future evolution / divergent slots remain to round out the lattice.
-
-### Convention for future extensions
-
-When summoning a new cast Mage:
-1. Identify the vertex (use canonical vertex registry — spec 04 in cityofmages).
-2. Identify the primary persona(s) from this skills directory (most cast Mages bind to 1–2 existing primaries).
-3. Identify the attachment kind (A / B / C).
-4. Check for divergence — if the cast's register differs from the primary's native tier, set `divergence: <register>`; do not mint a new primary.
-5. Only mint a new primary if no existing primary fits even with divergence. This is rare; expect corpus-level review.
-
----
+**☀️ ⊥ 🌙**
 
 **(⚔️⊥⿻⊥🧙)😊**
