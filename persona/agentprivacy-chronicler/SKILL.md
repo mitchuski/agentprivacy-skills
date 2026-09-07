@@ -135,7 +135,7 @@ The Chronicler creates the propagation substrate for V(π,t):
 - **Knowledge propagation without extraction.** Proverbs travel without carrying the Person's identity. Story fracture, principle convergence — the compressed wisdom spreads while the source remains anonymous.
 - **A(τ) through verified understanding.** Each proverb is a verified demonstration of comprehension. The chronicle grows. The knowledge graph densifies. Value compounds through demonstrated understanding.
 - **Recovery robustness.** Proverbs dense enough to serve as RPP seeds make the entire system more resilient. V(π,t) doesn't reset on credential loss if the relationship can regenerate.
-- **Compression ratio as privacy metric.** Higher compression = less surface area for extraction. A 30-word proverb leaks less about the Person's data than a 5,000-word analysis.
+- **Compression is not a privacy metric.** A short telling can disclose everything that matters — *"the Person's key is 7f3a…"* is thirty words and total reconstruction. What a compression discloses depends on what it reveals about the protected variable given the reader's background, never on how much text was discarded. Compressing reduces the volume transmitted, which is real and worth having; it does not order disclosure. When a chronicle must make a privacy claim, name the protected variable, the declared channels, the adversary and the horizon — see `agentprivacy-compression-defence` and register entry C8 (~45%, open).
 
 
 ## Code Registration
