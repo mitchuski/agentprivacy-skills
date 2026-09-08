@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-09-08",
+  "records": [
+    {
+      "slug": "city-mcp-entry",
+      "title": "City MCP Entry",
+      "kind": "role",
+      "node": "skill-city-mcp-entry",
+      "source": "role/agentprivacy-city-mcp-entry/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "key-journey",
+      "title": "Key Journey",
+      "kind": "role",
+      "node": "skill-key-journey",
+      "source": "role/agentprivacy-key-journey/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "city-mage-runtime",
+      "title": "City Mage Runtime",
+      "kind": "role",
+      "node": "skill-city-mage-runtime",
+      "source": "role/agentprivacy-city-mage-runtime/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "mcp-browser-actions",
+      "title": "MCP Browser Actions",
+      "kind": "role",
+      "node": "skill-mcp-browser-actions",
+      "source": "role/agentprivacy-mcp-browser-actions/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "star-companion",
+      "title": "Star Companion",
+      "kind": "role",
+      "node": "skill-star-companion",
+      "source": "role/agentprivacy-star-companion/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "entry-kit-coherence",
+      "title": "Entry Kit Coherence",
+      "kind": "role",
+      "node": "skill-entry-kit-coherence",
+      "source": "role/agentprivacy-entry-kit-coherence/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "review-receipts",
+      "title": "Review Receipts",
+      "kind": "role",
+      "node": "skill-review-receipts",
+      "source": "role/agentprivacy-review-receipts/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "namekeeper-write-contract",
+      "title": "Namekeeper Write Contract",
+      "kind": "role",
+      "node": "skill-namekeeper-write-contract",
+      "source": "role/agentprivacy-namekeeper-write-contract/SKILL.md",
+      "classification": "circulating"
+    },
+    {
+      "slug": "soulbis",
+      "title": "Soulbis",
+      "kind": "persona",
+      "node": "per-soulbis",
+      "source": "persona/agentprivacy-soulbis/SKILL.md",
+      "classification": "circulating",
+      "practice": "Check exact disclosure and requested action against current authority. Keep key possession, verified identity, credential status and execution permission distinct; require the receiving runtime to enforce the scoped decision.",
+      "skills": [
+        "mcp-browser-actions",
+        "namekeeper-write-contract"
+      ]
+    },
+    {
+      "slug": "soulbae",
+      "title": "Soulbae",
+      "kind": "persona",
+      "node": "per-soulbae",
+      "source": "persona/agentprivacy-soulbae/SKILL.md",
+      "classification": "circulating",
+      "practice": "Compose a task-relevant Star perspective and bounded proposal from permitted information. Preserve originals and fold observed receipts into the private journey; do not self-authorize execution.",
+      "skills": [
+        "key-journey",
+        "city-mcp-entry"
+      ]
+    },
+    {
+      "slug": "chronicler",
+      "title": "Chronicler",
+      "kind": "persona",
+      "node": "per-chronicler",
+      "source": "persona/agentprivacy-chronicler/SKILL.md",
+      "classification": "circulating",
+      "practice": "Record source version, observed result, limitation and later correction together. Retire superseded findings without erasing their history. The Librarian, the existing Chronicler attachment, reconciles canonical files, forks, site projections and SkillSync packets with origin and journal lineage. The canonical wiki category is wikis/; infrastructure callers invoke those skills without acquiring ownership.",
+      "skills": [
+        "entry-kit-coherence",
+        "review-receipts"
+      ]
+    },
+    {
+      "slug": "herald",
+      "title": "Herald",
+      "kind": "persona",
+      "node": "per-herald",
+      "source": "persona/agentprivacy-herald/SKILL.md",
+      "classification": "circulating",
+      "practice": "Prepare invitations and timeline entries from deliberately disclosed marks. Distinguish drafts, self-reported publication, checked publication and withdrawal. A visitor mark confers no admission or publication authority.",
+      "skills": [
+        "city-mcp-entry",
+        "review-receipts"
+      ]
+    },
+    {
+      "slug": "shipwright",
+      "title": "Shipwright",
+      "kind": "persona",
+      "node": "per-shipwright",
+      "source": "persona/agentprivacy-shipwright/SKILL.md",
+      "classification": "circulating",
+      "practice": "Run VTA setup rehearsals and service-adapter acceptance checks, including conflicts, retries, revocation and recovery. State which checks used synthetic fixtures and which exercised a real service.",
+      "skills": [
+        "city-mage-runtime",
+        "namekeeper-write-contract"
+      ]
+    },
+    {
+      "slug": "assessor",
+      "title": "Assessor",
+      "kind": "persona",
+      "node": "per-assessor",
+      "source": "persona/agentprivacy-assessor/SKILL.md",
+      "classification": "circulating",
+      "practice": "Assess adoption and collaboration under explicit criteria, disclosure budgets and failure accounting. Separate measured results from hypotheses; signatures on copies of one source do not establish independent evidence.",
+      "skills": [
+        "entry-kit-coherence",
+        "review-receipts"
+      ]
+    },
+    {
+      "slug": "registry-keeper",
+      "title": "Registry Keeper",
+      "kind": "persona",
+      "node": "per-registry-keeper",
+      "source": "persona/agentprivacy-registry-keeper/SKILL.md",
+      "classification": "circulating",
+      "practice": "Link substrate catalog entries to package version, provenance, license and available replay evidence. Catalog admission is distinct from an individual VRC, a wiki grant or City access.",
+      "skills": [
+        "city-mage-runtime",
+        "entry-kit-coherence"
+      ]
+    }
+  ],
+  "sealed": [
+    "chronicles",
+    "private journeys",
+    "credentials",
+    "plans",
+    "drafts",
+    "research candidates"
+  ],
+  "note": "Operational guidance; no new canonical personas or vertex assignments. Spellweb now indexes the existing Registry Keeper primary."
+}

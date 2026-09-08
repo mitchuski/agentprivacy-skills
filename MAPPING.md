@@ -443,3 +443,10 @@ ceremony:                             # Optional — for ceremony skills
 **☀️ ⊥ 🌙**
 
 **(⚔️⊥⿻⊥🧙)😊**
+
+
+## City / MCP operational cohort (2026-09-08)
+
+See [six new workflow skills and sync preparation](MAPPING_CITY_MCP_2026-09-08.md). These do not alter persona or vertex counts.
+
+[City and Star operating updates](MAPPING_CITY_STAR_2026-09-08.md) · [distribution manifest](CITY_STAR_DISTRIBUTION.json)
