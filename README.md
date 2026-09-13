@@ -115,7 +115,12 @@ See [meta/agentprivacy-attachment-architecture/SKILL.md](meta/agentprivacy-attac
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+Three sets of terms, split by the kind of work — see [LICENSE.md](LICENSE.md): the skills,
+personas, roles, ceremonies and grimoire (the corpus) under CC BY-NC-SA 4.0, with commercial
+licences by agreement ([COMMERCIAL.md](COMMERCIAL.md)); chronicles, mappings, plans and specs
+under CC BY 4.0; scripts under Apache-2.0 ([LICENSE](LICENSE)). Copies of the corpus obtained
+under Apache-2.0 before 13 September 2026 keep that licence for those versions. Names and
+sigils: [TRADEMARKS.md](TRADEMARKS.md).
 
 ---
 
