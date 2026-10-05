@@ -152,6 +152,7 @@ Domain knowledge loaded by persona on demand.
 | `agentprivacy-inscription-mechanics` | `role/agentprivacy-inscription-mechanics/` |
 | `agentprivacy-intel-pooling` | `role/agentprivacy-intel-pooling/` |
 | `agentprivacy-key-ceremony` | `role/agentprivacy-key-ceremony/` |
+| `agentprivacy-lane-chronicle` | `role/agentprivacy-lane-chronicle/` |
 | `agentprivacy-metadata-resistance` | `role/agentprivacy-metadata-resistance/` |
 | `agentprivacy-narrative-compression` | `role/agentprivacy-narrative-compression/` |
 | `agentprivacy-nullifier-design` | `role/agentprivacy-nullifier-design/` |
