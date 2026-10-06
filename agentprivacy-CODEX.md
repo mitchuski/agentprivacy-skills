@@ -10,6 +10,7 @@ meta_skills: 1
 total_skills: 78
 includes_holonic: true
 includes_braid: true
+braid_service_update: "2026-09-12 (SERV Reasoning read, not run; skill v5.1; 7 personas; 6 role/privacy-layer notes)"
 ---
 
 # The Codex of Spells
@@ -461,7 +462,7 @@ Every spell follows the pattern: **action → mechanism ∴ consequence → resu
 #### BRAID Reasoning (NEW)
 | Skill | Domain |
 |-------|--------|
-| `agentprivacy-braid-reasoning` | Generator/Solver split, PPD economics, Mermaid graph construction |
+| `agentprivacy-braid-reasoning` | Generator/Solver split, PPD economics, Mermaid graph construction; since 2026-09-12 BRAID as a service (SERV Reasoning), the one-seat rule, the raw-vs-SERV round for C8 |
 
 #### Enforcement & Infrastructure (EXTENDED)
 | Skill | Domain |
