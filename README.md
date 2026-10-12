@@ -19,7 +19,7 @@ Built on the [Privacy Value Model V5.4](https://agentprivacy.ai) and the [0xagen
 | **[persona/](persona/)** | 38 (primary) | Layer-1 primary personas — 15 swordsmen, 11 mages, 12 balanced. Plus 4 cosmological = 42 total primaries. |
 | **[role/](role/)** | 64 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, ceremonies, quaternion mapping. |
 | **[privacy-layer/](privacy-layer/)** | 19 | Foundational skills covering every term of the V(π,t) privacy value equation, plus dragon-flight and amnesia-protocol. |
-| **[meta/](meta/)** | 4 | Drake/Dragon duality, Master/Emissary hemispheric attention, cosmological bound, **attachment-architecture (V5.5)**. |
+| **[meta/](meta/)** | 5 | Drake/Dragon duality, Master/Emissary hemispheric attention, cosmological bound, **attachment-architecture (V5.5)**, **city-builder** (stand up a VTC on OpenVTC as your own core node; the 8–9 Oct 2026 walk with every gotcha). |
 | **[guide/](wikis/)** | 19 | **NEW (2026-06-21)** — fedwiki onboarding + git-less distribution, *the Librarian's Wikis*. Author/export/deploy/discover Claude skills as federated-wiki pages. |
 
 Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skills specification](https://agentskills.io/specification).
