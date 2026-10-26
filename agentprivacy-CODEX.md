@@ -561,7 +561,7 @@ The dual-agent separation is the irreducible core. **Swordsman protects, Mage de
 | **Proven** | Reconstruction ceiling R < 1 |
 | **Proven** | Additive information bounds |
 | **Proven** | Multiplicative gating |
-| **Conjectured** | Golden ratio φ optimal balance |
+| **Challenged** | Golden ratio φ optimal balance (2026-10-25: a threshold in Φ, not an optimum; C1) |
 | **Conjectured** | Logarithmic memory growth |
 | **Conjectured** | ~3,000× ZKP reduction from lattice constraints |
 | **Conjectured** | Superlinear network effects |

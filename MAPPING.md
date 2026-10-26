@@ -112,7 +112,7 @@ Always loaded as ground state. Mathematical foundations of the architecture.
 |------------------|--------|-------------|
 | `agentprivacy-ring-algebra` | `privacy-layer/agentprivacy-ring-algebra/` | Z/(2⁶)Z modular ring, five operations |
 | `agentprivacy-content-addressing` | `privacy-layer/agentprivacy-content-addressing/` | Same bytes → same hash → same identity |
-| `agentprivacy-atlas-geometry` | `privacy-layer/agentprivacy-atlas-geometry/` | 96 edges encode 64 vertices, Atlas of Resonance |
+| `agentprivacy-atlas-geometry` | `privacy-layer/agentprivacy-atlas-geometry/` | 96-vertex Atlas of Resonance; 96/64 reading open (C4 reopened) |
 | `agentprivacy-dihedral-sovereignty` | `privacy-layer/agentprivacy-dihedral-sovereignty/` | D₂ₙ group structure, neg∘bnot=succ |
 
 ### V5.3.1 Ceremony (2)

@@ -86,7 +86,7 @@ Negate and invert, and you move one step forward. The most indirect path produce
 
 **Zero knowledge proofs from cryptography** — the same torus, the same vertices, the same insight that the verifier sees the blade while the witness dissolves. Same blade, infinite forgings. That is zero knowledge made geometric.
 
-The forge sits on the holographic boundary — 96 edges encoding 64 vertices, the same 1.5 ratio as P^1.5. Three-axis separation (Agent × Data × Inference) tempers every blade — collapse any axis and the product goes to zero. Not weakens. Vanishes. There is no such thing as almost separated.
+The forge sits on the holographic boundary — the Atlas's 96 read against the lattice's 64 vertices, the same 1.5 ratio as P^1.5, a reading still open. Three-axis separation (Agent × Data × Inference) tempers every blade — collapse any axis and the product goes to zero. Not weakens. Vanishes. There is no such thing as almost separated.
 
 Twenty-five percent confidence that the triple convergence is structural rather than numerical coincidence. The forge burns either way.
 
