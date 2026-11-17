@@ -94,7 +94,7 @@ Always loaded as ground state. Mathematical foundations of the architecture.
 | `agentprivacy-promise-theory` | `privacy-layer/agentprivacy-promise-theory/` | Bergstra & Burgess foundations, autonomy axiom |
 | `agentprivacy-temporal-dynamics` | `privacy-layer/agentprivacy-temporal-dynamics/` | Time-based analysis, A(τ) memory |
 | `agentprivacy-tetrahedral-sovereignty` | `privacy-layer/agentprivacy-tetrahedral-sovereignty/` | 64-vertex lattice, sovereignty dimensions |
-| `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | 96-edge structure, recursive patterns |
+| `agentprivacy-uor-toroidal` | `privacy-layer/agentprivacy-uor-toroidal/` | UOR torus, the 96/64 question (C4 reopened), recursive patterns |
 | `agentprivacy-vrc-identity` | `privacy-layer/agentprivacy-vrc-identity/` | Verifiable Relationship Credentials |
 
 ### V5.1 Holographic (4)

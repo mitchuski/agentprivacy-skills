@@ -2,7 +2,7 @@
 
 **Privacy-first AI agent skills for the Agent Skills standard.**
 
-87 skills + 38 (primary) personas across 5 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure. The newest category, **wikis/** (2026-06-21), adds 19 fedwiki onboarding + git-less distribution skills — the Librarian's Wikis.
+157 skills + 42 personas (38 primary + 4 cosmological) across 5 categories — teaching Claude (and any Agent Skills-compatible system) how to operate as privacy-preserving dual-agent infrastructure. The newest additions (2026-11-12) bring home the method skills the suite had been running locally: the census cycle, κ evidence, board submission discipline, the Mages City scrolls, quantum-circuit reduction, and the wiki garden's tools.
 
 **Version:** V5.5 "The Attachment Architecture" | **Grimoire:** V10.2.1 (privacymage) · v1.3.0-pending (City of Mages)
 
@@ -17,10 +17,10 @@ Built on the [Privacy Value Model V5.4](https://agentprivacy.ai) and the [0xagen
 | Category | Count | Purpose |
 |----------|-------|---------|
 | **[persona/](persona/)** | 38 (primary) | Layer-1 primary personas — 15 swordsmen, 11 mages, 12 balanced. Plus 4 cosmological = 42 total primaries. |
-| **[role/](role/)** | 64 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, ceremonies, quaternion mapping. |
-| **[privacy-layer/](privacy-layer/)** | 19 | Foundational skills covering every term of the V(π,t) privacy value equation, plus dragon-flight and amnesia-protocol. |
-| **[meta/](meta/)** | 5 | Drake/Dragon duality, Master/Emissary hemispheric attention, cosmological bound, **attachment-architecture (V5.5)**, **city-builder** (stand up a VTC on OpenVTC as your own core node; the 8–9 Oct 2026 walk with every gotcha). |
-| **[guide/](wikis/)** | 19 | **NEW (2026-06-21)** — fedwiki onboarding + git-less distribution, *the Librarian's Wikis*. Author/export/deploy/discover Claude skills as federated-wiki pages. |
+| **[role/](role/)** | 80 | Domain knowledge — cryptography, governance, economics, identity, dark forest strategy, ceremonies, quaternion mapping, and (2026-11-12) reversible/quantum-circuit methods: peak-qubit reduction, Toffoli reduction, circuit validation, benchmark frontier archaeology. |
+| **[privacy-layer/](privacy-layer/)** | 21 | Foundational skills covering every term of the V(π,t) privacy value equation, plus dragon-flight and amnesia-protocol. |
+| **[meta/](meta/)** | 16 | Drake/Dragon duality, Master/Emissary hemispheric attention, cosmological bound, **attachment-architecture (V5.5)**, **city-builder** (stand up a VTC on OpenVTC as your own core node; the 8–9 Oct 2026 walk with every gotcha), chronicle reflection, the dual-agent harness, and (2026-11-12) **census-cycle**, **kappa-evidence**, **board-submission-discipline**, **mages-scroll-sync**, **spellbook-ornaments**, **understanding-compression**. |
+| **[guide/](wikis/)** | 40 | fedwiki onboarding + git-less distribution, *the Librarian's Wikis* (2026-06-21). Author/export/deploy/discover Claude skills as federated-wiki pages; (2026-11-12) the garden's own tools: cohere-sync, transcribe, tailnet-serve, tile-from-page, wiki-to-pdf, and the Skill Sync dream loop and spell search. |
 
 Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skills specification](https://agentskills.io/specification).
 
@@ -30,7 +30,9 @@ Each skill is a folder with a `SKILL.md` entrypoint. All follow the [Agent Skill
 
 The `wikis/` category is a **git-less onboarding and distribution channel**. The skills are vendored + re-framed from **[skill.fedwiki.club](https://skill.fedwiki.club)** — a federated wiki where any page whose title ends in *"Skill"* is a forkable Claude skill. Rather than `git clone`, an agent is *directed* to a wiki, *reads* the `…Skill` pages, *materializes* a `SKILL.md` on demand via `agentprivacy-wiki-to-skill` (the fork desk), and *flows into building*.
 
-**The thesis: a fedwiki URL is a git-less clone.** The wiki is the source of truth; the materialized `SKILL.md` is a fork; the journal is the lineage (forking, not lending — nothing returns; a fork is a copy that carries its origin). Every guide skill carries an `upstream:` provenance field — they are *forked*, not original agentprivacy authorship.
+**The thesis: a fedwiki URL is a git-less clone.** The wiki is the source of truth; the materialized `SKILL.md` is a fork; the journal is the lineage (forking, not lending — nothing returns; a fork is a copy that carries its origin). Every guide skill carries an `upstream:` provenance field — the vendored ones are *forked*, not original agentprivacy authorship; the garden tools added 2026-11-12 were written here and say `upstream: "none recorded"`.
+
+**The repo is the source; the garden is a projection.** Skills live here as `SKILL.md` folders; the guide federation's skill site is generated from this repo, and `agentprivacy-wiki-to-skill` turns a wiki page back into a `SKILL.md`. A skill does not need to be written in wiki form to be in the garden.
 
 **Keeper:** the **Librarian 🗃️** — a Layer-2 cast attachment of the Chronicler, resident in *the Wikis* (a living, editable, federated level of the Tower; see City of Mages Tome VIII Act 6). Complement to the Archivist 📚: *the Archivist never copies; the Librarian only forks.* Infrastructure ops (new-wiki, reindex, merge, delete-site, nextcloud-push, plugin lifecycle) are also invoked as tools by the Shipwright and Architect personas.
 
