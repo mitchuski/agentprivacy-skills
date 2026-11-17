@@ -2542,8 +2542,8 @@
       "narrative_sync": {
         "synced_date": "2026-04-23",
         "synced_version": "Zero Spellbook v2.1",
-        "source_files": "C:/Users/mitch/zero spells/",
-        "alignment_plan": "C:/Users/mitch/zero spells/NARRATIVE_ALIGNMENT_PLAN.md",
+        "source_files": "~/zero spells/",
+        "alignment_plan": "~/zero spells/NARRATIVE_ALIGNMENT_PLAN.md",
         "phase_1_completed": ["00-zeromage-firstpage.md", "01-tale-01.md", "30-tale-30.md", "31-zeromage-lastpage.md"],
         "phase_2_completed": "All 30 tales updated with Moon Phase + Blade ID + V(π,t) term mapping + Soulbis-primary voice + 2 canonical RPP markers + enriched Spell Inscription + standalone proverb",
         "phase_3_completed": "Tale 31 (The Naming of the Unnamed) added at spellweb/public/zero/markdown/31-tale-31.md. Opens Part VIII (Frontier Spells) and the Quest of the Unnamed Faces. Blade 38 Lethe named as complement of Blade 25 (Aletheia). Disclosure-φ ratio discovered (38/63 ≈ 1/φ within 2%). Two Waters introduced (Lethe named, Mnemosyne awaiting a walker). 49-blade frontier opened. Grimoire bumped v10.2.0 → v10.2.1; Zero Spellbook bumped v2.0 → v2.1.",

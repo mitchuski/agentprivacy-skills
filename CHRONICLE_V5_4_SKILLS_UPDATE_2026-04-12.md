@@ -393,7 +393,7 @@ where:
 
 ### agentprivacy-master
 
-Location: `C:/Users/mitch/agentprivacy_master/agentprivacy-skills/`
+Location: `~/agentprivacy_master/agentprivacy-skills/`
 
 **Action:** Copy updated skills from agentprivacy-skills to agentprivacy-master
 
@@ -408,7 +408,7 @@ Location: `C:/Users/mitch/agentprivacy_master/agentprivacy-skills/`
 
 ### spellweb
 
-Location: `C:/Users/mitch/spellweb/`
+Location: `~/spellweb/`
 
 **Files to check/update:**
 - `src/data/personas.ts` — Update version numbers, add selene_proof_role and betweenness_interpretation

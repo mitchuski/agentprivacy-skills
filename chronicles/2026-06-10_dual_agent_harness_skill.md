@@ -26,7 +26,7 @@ nothing until it survives an un-tuneable held-out gate). The new skill composes 
 
 The worked target is **ecdsa.fail** (quantum resource estimation — durability signal, not an
 attack), and the runnable form lives in the PQC-competition kit at
-`C:/Users/mitch/shor_mage/harness/` (`swordsman_mage_harness.mjs` + `SKILL.md`). Per the
+`~/shor_mage/harness/` (`swordsman_mage_harness.mjs` + `SKILL.md`). Per the
 coherence rule, the kit stays PQC-only and the skill **links** to it rather than importing it;
 this chronicle and the meta-skill are the canonical reflection back into the plugin. Registered
 conjectures: C67–C71 (Horizon District), C82/C83 (moving ceiling + non-collusion), C9

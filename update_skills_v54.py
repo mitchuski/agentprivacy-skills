@@ -3,7 +3,7 @@
 
 import os
 
-SKILLS_BASE = "C:/Users/mitch/agentprivacy-skills/agentprivacy-skills-v5"
+SKILLS_BASE = os.path.expanduser("~/agentprivacy-skills/agentprivacy-skills-v5")
 
 # Moonkeeper v5.4
 MOONKEEPER = '''---

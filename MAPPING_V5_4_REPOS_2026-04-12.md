@@ -31,7 +31,7 @@ This document maps the V5.4 skills updates from `agentprivacy-skills` to downstr
 
 ## Target 1: agentprivacy-master
 
-**Location:** `C:/Users/mitch/agentprivacy_master/agentprivacy-skills/`
+**Location:** `~/agentprivacy_master/agentprivacy-skills/`
 
 ### Sync Commands
 
@@ -74,7 +74,7 @@ From agentprivacy-skills:
 
 ## Target 2: spellweb
 
-**Location:** `C:/Users/mitch/spellweb/`
+**Location:** `~/spellweb/`
 
 ### File: src/data/nodes.ts
 

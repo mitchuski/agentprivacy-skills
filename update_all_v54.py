@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """V5.4 Skills Update Script - All Skills"""
 
-SKILLS_BASE = "C:/Users/mitch/agentprivacy-skills/agentprivacy-skills-v5"
+import os
+SKILLS_BASE = os.path.expanduser("~/agentprivacy-skills/agentprivacy-skills-v5")
 
 def update_theia():
     content = open(f"{SKILLS_BASE}/persona/agentprivacy-theia/skill.md", 'r', encoding='utf-8').read()

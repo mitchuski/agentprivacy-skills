@@ -19,7 +19,7 @@ The skills live in one github repo with **two local clones**:
 - **Build clone** — `agentprivacy_master/agentprivacy-skills/agentprivacy-skills-v5/`.
   The website reads this via `master/scripts/sync-skills-to-public.mjs` →
   `public/skills/` (gitignored build artifact) → `next build` → `out/skills/` → live site.
-- **Standalone clone** — `C:/Users/mitch/agentprivacy-skills/`. The canonical github checkout;
+- **Standalone clone** — `~/agentprivacy-skills/`. The canonical github checkout;
   one commit ahead (`d6cb4d5 "V6 skills pass"`).
 
 The sync script already skips `.bak`/`.swp`/`.swo`, so backup litter never reached the website —
